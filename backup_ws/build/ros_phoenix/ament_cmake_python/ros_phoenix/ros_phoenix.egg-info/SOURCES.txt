@@ -1,0 +1,9 @@
+setup.py
+ros_phoenix/__init__.py
+ros_phoenix.egg-info/PKG-INFO
+ros_phoenix.egg-info/SOURCES.txt
+ros_phoenix.egg-info/dependency_links.txt
+ros_phoenix.egg-info/top_level.txt
+ros_phoenix/msg/__init__.py
+ros_phoenix/msg/_motor_control.py
+ros_phoenix/msg/_motor_status.py
