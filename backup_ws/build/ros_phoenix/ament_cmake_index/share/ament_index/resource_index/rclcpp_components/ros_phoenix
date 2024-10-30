@@ -1,0 +1,3 @@
+ros_phoenix::TalonFX;lib/libros_phoenix_components.so
+ros_phoenix::TalonSRX;lib/libros_phoenix_components.so
+ros_phoenix::VictorSPX;lib/libros_phoenix_components.so
