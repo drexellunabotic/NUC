@@ -1,4 +1,0 @@
-Invoking command in '/home/luna/backup_ws/build/ros_phoenix': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/backup_ws/build/ros_phoenix -- -j8 -l8
-Invoked command in '/home/luna/backup_ws/build/ros_phoenix' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/backup_ws/build/ros_phoenix -- -j8 -l8
-Invoking command in '/home/luna/backup_ws/build/ros_phoenix': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luna/backup_ws/build/ros_phoenix
-Invoked command in '/home/luna/backup_ws/build/ros_phoenix' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luna/backup_ws/build/ros_phoenix
