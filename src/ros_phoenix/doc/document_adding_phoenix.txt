@@ -1,3 +1,0 @@
-Author		Date		Description
-				- copied diffdrive_arduino package to ros_phoenix package
-
