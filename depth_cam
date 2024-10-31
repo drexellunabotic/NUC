@@ -1,0 +1,3 @@
+cd backup_ws
+source install/setup.bash
+ros2 launch ros_phoenix rs_launch.py 

@@ -1,0 +1,3 @@
+cd backup_ws2
+source install/setup.bash
+ros2 launch ros_phoenix diffbot.launch.py use_container:=true
