@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/example.dir/example.cpp.o -o ../bin/example  -Wl,-rpath,/home/luna/Phoenix-Linux-SocketCAN-Example/lib/x86-64 ../lib/x86-64/libCTRE_Phoenix.so ../lib/x86-64/libCTRE_PhoenixCCI.so ../lib/x86-64/libCTRE_PhoenixTools.so -L/usr/lib/x86_64-linux-gnu  -lSDL2 
