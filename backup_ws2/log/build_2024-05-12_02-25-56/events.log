@@ -1,0 +1,1149 @@
+[0.000000] (-) TimerEvent: {}
+[0.000132] (csm) JobQueued: {'identifier': 'csm', 'dependencies': OrderedDict()}
+[0.000153] (ros_phoenix) JobQueued: {'identifier': 'ros_phoenix', 'dependencies': OrderedDict()}
+[0.000173] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.000184] (csm) JobStarted: {'identifier': 'csm'}
+[0.004445] (ros_phoenix) JobStarted: {'identifier': 'ros_phoenix'}
+[0.006340] (serial) JobStarted: {'identifier': 'serial'}
+[0.009627] (csm) JobProgress: {'identifier': 'csm', 'progress': 'cmake'}
+[0.009765] (csm) Command: {'cmd': ['/usr/bin/cmake', '/home/luna/backup_ws2/src/csm', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/luna/backup_ws2/install/csm'], 'cwd': '/home/luna/backup_ws2/build/csm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luna'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna/backup_ws2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1538'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0873860a9aa2ee0185771d3166405c29'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luna'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotic:@/tmp/.ICE-unix/1538,unix/lunabotic:/tmp/.ICE-unix/1538'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e9e18a0_6acf_42f1_9b20_d7f9209101f8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OLPVN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.159'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luna/backup_ws2/build/csm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0873860a9aa2ee0185771d3166405c29'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.011649] (ros_phoenix) JobProgress: {'identifier': 'ros_phoenix', 'progress': 'cmake'}
+[0.011971] (ros_phoenix) Command: {'cmd': ['/usr/bin/cmake', '/home/luna/backup_ws2/src/ros_phoenix', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/luna/backup_ws2/install/ros_phoenix'], 'cwd': '/home/luna/backup_ws2/build/ros_phoenix', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luna'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna/backup_ws2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1538'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0873860a9aa2ee0185771d3166405c29'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luna'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotic:@/tmp/.ICE-unix/1538,unix/lunabotic:/tmp/.ICE-unix/1538'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e9e18a0_6acf_42f1_9b20_d7f9209101f8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OLPVN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.159'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luna/backup_ws2/build/ros_phoenix'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0873860a9aa2ee0185771d3166405c29'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.015308] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.015542] (serial) Command: {'cmd': ['/usr/bin/cmake', '/home/luna/backup_ws2/src/serial', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/luna/backup_ws2/install/serial'], 'cwd': '/home/luna/backup_ws2/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luna'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna/backup_ws2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1538'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0873860a9aa2ee0185771d3166405c29'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luna'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotic:@/tmp/.ICE-unix/1538,unix/lunabotic:/tmp/.ICE-unix/1538'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e9e18a0_6acf_42f1_9b20_d7f9209101f8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OLPVN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.159'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luna/backup_ws2/build/serial'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0873860a9aa2ee0185771d3166405c29'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.049206] (csm) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.053649] (serial) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.067611] (ros_phoenix) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.093546] (serial) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.098788] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099645] (-) TimerEvent: {}
+[0.108104] (ros_phoenix) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.110379] (csm) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.115088] (ros_phoenix) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.118472] (csm) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.165990] (csm) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.167840] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.168104] (ros_phoenix) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.175466] (csm) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.175804] (csm) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.176349] (csm) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.178267] (ros_phoenix) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.178503] (ros_phoenix) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.178979] (ros_phoenix) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.179370] (serial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.179530] (csm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.179623] (serial) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.180212] (serial) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.182673] (ros_phoenix) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.183492] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199778] (-) TimerEvent: {}
+[0.238696] (csm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.244618] (csm) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.244830] (csm) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.245113] (csm) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.246200] (ros_phoenix) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.246846] (csm) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.256271] (ros_phoenix) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.256828] (ros_phoenix) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.257640] (ros_phoenix) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.260391] (ros_phoenix) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.260771] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.266455] (serial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.266588] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.266907] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.268662] (serial) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299866] (-) TimerEvent: {}
+[0.317430] (ros_phoenix) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.317621] (ros_phoenix) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.358470] (csm) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.369117] (ros_phoenix) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.369666] (ros_phoenix) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.370963] (ros_phoenix) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399993] (-) TimerEvent: {}
+[0.404858] (csm) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.424530] (csm) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.450345] (serial) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.457480] (csm) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.461150] (csm) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.467901] (csm) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.478319] (csm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.492852] (csm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.495292] (serial) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.500087] (-) TimerEvent: {}
+[0.516886] (serial) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[0.518623] (ros_phoenix) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.522081] (serial) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[0.523735] (serial) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.525079] (serial) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.547838] (csm) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.549734] (csm) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.564470] (ros_phoenix) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.591788] (serial) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.592108] (serial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.595377] (ros_phoenix) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.600222] (-) TimerEvent: {}
+[0.633706] (ros_phoenix) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.637586] (ros_phoenix) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.644526] (ros_phoenix) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.649126] (csm) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.651191] (serial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.652022] (serial) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.661101] (ros_phoenix) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.680502] (csm) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.684097] (ros_phoenix) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700308] (-) TimerEvent: {}
+[0.702865] (serial) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.709488] (serial) StdoutLine: {'line': b'-- Generating done\n'}
+[0.710245] (serial) StdoutLine: {'line': b'-- Build files have been written to: /home/luna/backup_ws2/build/serial\n'}
+[0.713863] (serial) CommandEnded: {'returncode': 0}
+[0.715517] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[0.715600] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luna/backup_ws2/build/serial', '--', '-j8', '-l8'], 'cwd': '/home/luna/backup_ws2/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luna'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna/backup_ws2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1538'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0873860a9aa2ee0185771d3166405c29'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luna'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotic:@/tmp/.ICE-unix/1538,unix/lunabotic:/tmp/.ICE-unix/1538'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e9e18a0_6acf_42f1_9b20_d7f9209101f8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OLPVN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.159'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luna/backup_ws2/build/serial'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0873860a9aa2ee0185771d3166405c29'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.736867] (csm) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.748208] (csm) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.752722] (serial) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o\x1b[0m\n'}
+[0.753029] (serial) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[0.753242] (serial) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o\x1b[0m\n'}
+[0.753721] (serial) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o\x1b[0m\n'}
+[0.761698] (serial) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[0.769440] (ros_phoenix) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.771434] (ros_phoenix) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800431] (-) TimerEvent: {}
+[0.824001] (csm) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.824837] (csm) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.864094] (ros_phoenix) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.893874] (ros_phoenix) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.899118] (csm) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.900529] (-) TimerEvent: {}
+[0.901010] (csm) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.932527] (ros_phoenix) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.000670] (-) TimerEvent: {}
+[1.063454] (ros_phoenix) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[1.100795] (-) TimerEvent: {}
+[1.116280] (ros_phoenix) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.123384] (ros_phoenix) StdoutLine: {'line': b'-- Found hardware_interface: 2.40.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[1.200926] (-) TimerEvent: {}
+[1.301531] (-) TimerEvent: {}
+[1.321305] (csm) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.345387] (csm) StdoutLine: {'line': b'-- Generating done\n'}
+[1.349638] (csm) StdoutLine: {'line': b'-- Build files have been written to: /home/luna/backup_ws2/build/csm\n'}
+[1.379310] (csm) CommandEnded: {'returncode': 0}
+[1.379948] (csm) JobProgress: {'identifier': 'csm', 'progress': 'build'}
+[1.380394] (csm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luna/backup_ws2/build/csm', '--', '-j8', '-l8'], 'cwd': '/home/luna/backup_ws2/build/csm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luna'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna/backup_ws2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1538'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0873860a9aa2ee0185771d3166405c29'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luna'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotic:@/tmp/.ICE-unix/1538,unix/lunabotic:/tmp/.ICE-unix/1538'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e9e18a0_6acf_42f1_9b20_d7f9209101f8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OLPVN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.159'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luna/backup_ws2/build/csm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0873860a9aa2ee0185771d3166405c29'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.401669] (-) TimerEvent: {}
+[1.488229] (csm) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/math_utils.cpp.o\x1b[0m\n'}
+[1.488443] (csm) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/laser_data.cpp.o\x1b[0m\n'}
+[1.489708] (csm) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/math_utils_gsl.cpp.o\x1b[0m\n'}
+[1.490862] (csm) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/sm_options.cpp.o\x1b[0m\n'}
+[1.494863] (csm) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/utils.cpp.o\x1b[0m\n'}
+[1.500339] (csm) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/orientation.cpp.o\x1b[0m\n'}
+[1.501811] (-) TimerEvent: {}
+[1.502144] (csm) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/logging.cpp.o\x1b[0m\n'}
+[1.582016] (csm) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/clustering.cpp.o\x1b[0m\n'}
+[1.601960] (-) TimerEvent: {}
+[1.702406] (-) TimerEvent: {}
+[1.740611] (serial) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX static library libserial.a\x1b[0m\n'}
+[1.763416] (serial) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[1.802564] (-) TimerEvent: {}
+[1.847449] (serial) StdoutLine: {'line': b'[ 50%] Built target serial\n'}
+[1.891619] (serial) StdoutLine: {'line': b'[ 50%] Built target gtest_main\n'}
+[1.902713] (-) TimerEvent: {}
+[2.003079] (-) TimerEvent: {}
+[2.007475] (serial) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o\x1b[0m\n'}
+[2.103235] (-) TimerEvent: {}
+[2.203607] (-) TimerEvent: {}
+[2.303920] (-) TimerEvent: {}
+[2.404242] (-) TimerEvent: {}
+[2.488621] (ros_phoenix) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.504368] (-) TimerEvent: {}
+[2.604738] (-) TimerEvent: {}
+[2.705110] (-) TimerEvent: {}
+[2.805468] (-) TimerEvent: {}
+[2.812754] (serial) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable serial_example\x1b[0m\n'}
+[2.905605] (-) TimerEvent: {}
+[3.006352] (-) TimerEvent: {}
+[3.106805] (-) TimerEvent: {}
+[3.134663] (serial) StdoutLine: {'line': b'[ 64%] Built target serial_example\n'}
+[3.206941] (-) TimerEvent: {}
+[3.207240] (csm) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl.cpp.o\x1b[0m\n'}
+[3.235542] (ros_phoenix) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.307094] (-) TimerEvent: {}
+[3.318902] (csm) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_conversions.cpp.o\x1b[0m\n'}
+[3.383119] (ros_phoenix) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.407261] (-) TimerEvent: {}
+[3.408375] (ros_phoenix) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.410289] (ros_phoenix) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.428693] (csm) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_misc.cpp.o\x1b[0m\n'}
+[3.442842] (ros_phoenix) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.443310] (ros_phoenix) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.443475] (ros_phoenix) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.443607] (ros_phoenix) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.468464] (ros_phoenix) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.479841] (csm) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_ops.cpp.o\x1b[0m\n'}
+[3.483581] (csm) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/gpc/gpc.cpp.o\x1b[0m\n'}
+[3.494626] (csm) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/gpc/gpc_utils.cpp.o\x1b[0m\n'}
+[3.507417] (-) TimerEvent: {}
+[3.508591] (ros_phoenix) StdoutLine: {'line': b'-- Downloading CTRE_Phoenix from http://devsite.ctr-electronics.com/maven/release/com/ctre/phoenix/api-cpp/5.21.2/api-cpp-5.21.2-linuxx86-64.zip\n'}
+[3.607636] (-) TimerEvent: {}
+[3.682885] (csm) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp.cpp.o\x1b[0m\n'}
+[3.707749] (-) TimerEvent: {}
+[3.808109] (-) TimerEvent: {}
+[3.908463] (-) TimerEvent: {}
+[4.008843] (-) TimerEvent: {}
+[4.109212] (-) TimerEvent: {}
+[4.200043] (csm) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_corr_dumb.cpp.o\x1b[0m\n'}
+[4.209341] (-) TimerEvent: {}
+[4.246399] (ros_phoenix) StdoutLine: {'line': b'-- Downloading headers for CTRE_Phoenix from http://devsite.ctr-electronics.com/maven/release/com/ctre/phoenix/api-cpp/5.21.2/api-cpp-5.21.2-linuxx86-64.zip\n'}
+[4.309475] (-) TimerEvent: {}
+[4.409853] (-) TimerEvent: {}
+[4.510299] (-) TimerEvent: {}
+[4.610683] (-) TimerEvent: {}
+[4.654904] (ros_phoenix) StdoutLine: {'line': b'-- Downloading CTRE_PhoenixCCI from http://devsite.ctr-electronics.com/maven/release/com/ctre/phoenix/cci/5.21.2/cci-5.21.2-linuxx86-64.zip\n'}
+[4.710832] (-) TimerEvent: {}
+[4.811283] (-) TimerEvent: {}
+[4.818281] (csm) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_corr_tricks.cpp.o\x1b[0m\n'}
+[4.911437] (-) TimerEvent: {}
+[5.011771] (-) TimerEvent: {}
+[5.023978] (csm) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_covariance.cpp.o\x1b[0m\n'}
+[5.100728] (serial) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[5.111162] (ros_phoenix) StdoutLine: {'line': b'-- Downloading headers for CTRE_PhoenixCCI from http://devsite.ctr-electronics.com/maven/release/com/ctre/phoenix/cci/5.21.2/cci-5.21.2-linuxx86-64.zip\n'}
+[5.111858] (-) TimerEvent: {}
+[5.188982] (serial) StdoutLine: {'line': b'[ 71%] Built target gtest\n'}
+[5.197702] (csm) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_debug.cpp.o\x1b[0m\n'}
+[5.211980] (-) TimerEvent: {}
+[5.291201] (serial) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o\x1b[0m\n'}
+[5.309377] (serial) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o\x1b[0m\n'}
+[5.312092] (-) TimerEvent: {}
+[5.412523] (-) TimerEvent: {}
+[5.512901] (-) TimerEvent: {}
+[5.613263] (-) TimerEvent: {}
+[5.623075] (ros_phoenix) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.680300] (ros_phoenix) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.686419] (ros_phoenix) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.688589] (ros_phoenix) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/luna/backup_ws2/src/ros_phoenix/include\n'}
+[5.688848] (ros_phoenix) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.694590] (ros_phoenix) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[5.694910] (ros_phoenix) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[5.696446] (ros_phoenix) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.698535] (ros_phoenix) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.700056] (ros_phoenix) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[5.705699] (ros_phoenix) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.706008] (ros_phoenix) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.707508] (ros_phoenix) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.711159] (csm) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_loop.cpp.o\x1b[0m\n'}
+[5.712369] (ros_phoenix) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.713342] (-) TimerEvent: {}
+[5.780476] (ros_phoenix) StdoutLine: {'line': b'-- Generating done\n'}
+[5.784871] (ros_phoenix) StdoutLine: {'line': b'-- Build files have been written to: /home/luna/backup_ws2/build/ros_phoenix\n'}
+[5.807842] (ros_phoenix) CommandEnded: {'returncode': 0}
+[5.808479] (ros_phoenix) JobProgress: {'identifier': 'ros_phoenix', 'progress': 'build'}
+[5.808515] (ros_phoenix) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luna/backup_ws2/build/ros_phoenix', '--', '-j8', '-l8'], 'cwd': '/home/luna/backup_ws2/build/ros_phoenix', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luna'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna/backup_ws2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1538'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0873860a9aa2ee0185771d3166405c29'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luna'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotic:@/tmp/.ICE-unix/1538,unix/lunabotic:/tmp/.ICE-unix/1538'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e9e18a0_6acf_42f1_9b20_d7f9209101f8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OLPVN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.159'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luna/backup_ws2/build/ros_phoenix'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0873860a9aa2ee0185771d3166405c29'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.813479] (-) TimerEvent: {}
+[5.828376] (csm) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_outliers.cpp.o\x1b[0m\n'}
+[5.913613] (-) TimerEvent: {}
+[5.967688] (ros_phoenix) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.013740] (-) TimerEvent: {}
+[6.025052] (ros_phoenix) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.083116] (ros_phoenix) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_symlink_ros_phoenix\n'}
+[6.099770] (ros_phoenix) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mUnpacking CTRE_Phoenix\x1b[0m\n'}
+[6.107519] (ros_phoenix) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mUnpacking CTRE_PhoenixCCI\x1b[0m\n'}
+[6.113856] (-) TimerEvent: {}
+[6.214279] (-) TimerEvent: {}
+[6.288154] (ros_phoenix) StdoutLine: {'line': b'[  7%] Built target CTRE_Phoenix-unzip\n'}
+[6.314407] (-) TimerEvent: {}
+[6.326198] (ros_phoenix) StdoutLine: {'line': b'[  7%] Built target CTRE_PhoenixCCI-unzip\n'}
+[6.414533] (-) TimerEvent: {}
+[6.514886] (-) TimerEvent: {}
+[6.615247] (-) TimerEvent: {}
+[6.675655] (csm) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/options/options.cpp.o\x1b[0m\n'}
+[6.703932] (csm) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/options/options_interface.cpp.o\x1b[0m\n'}
+[6.715386] (-) TimerEvent: {}
+[6.770153] (ros_phoenix) StdoutLine: {'line': b'running egg_info\n'}
+[6.779891] (ros_phoenix) StdoutLine: {'line': b'creating ros_phoenix.egg-info\n'}
+[6.780474] (ros_phoenix) StdoutLine: {'line': b'writing ros_phoenix.egg-info/PKG-INFO\n'}
+[6.780904] (ros_phoenix) StdoutLine: {'line': b'writing dependency_links to ros_phoenix.egg-info/dependency_links.txt\n'}
+[6.781252] (ros_phoenix) StdoutLine: {'line': b'writing top-level names to ros_phoenix.egg-info/top_level.txt\n'}
+[6.781669] (ros_phoenix) StdoutLine: {'line': b"writing manifest file 'ros_phoenix.egg-info/SOURCES.txt'\n"}
+[6.784934] (ros_phoenix) StdoutLine: {'line': b"reading manifest file 'ros_phoenix.egg-info/SOURCES.txt'\n"}
+[6.785877] (ros_phoenix) StdoutLine: {'line': b"writing manifest file 'ros_phoenix.egg-info/SOURCES.txt'\n"}
+[6.815530] (-) TimerEvent: {}
+[6.856925] (ros_phoenix) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_build_ros_phoenix_egg\n'}
+[6.915640] (-) TimerEvent: {}
+[6.930954] (ros_phoenix) StdoutLine: {'line': b'[  7%] Built target ros_phoenix__cpp\n'}
+[6.945045] (ros_phoenix) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.992424] (ros_phoenix) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.999015] (ros_phoenix) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.015740] (-) TimerEvent: {}
+[7.116075] (-) TimerEvent: {}
+[7.183666] (serial) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/bind.hpp:30\x1b[m\x1b[K,\n'}
+[7.183939] (serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/serial/tests/unix_serial_tests.cc:23\x1b[m\x1b[K:\n'}
+[7.184025] (serial) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.184099] (serial) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[7.184165] (serial) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.216184] (-) TimerEvent: {}
+[7.316495] (-) TimerEvent: {}
+[7.399123] (ros_phoenix) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/ros_phoenix__rosidl_generator_c.dir/rosidl_generator_c/ros_phoenix/msg/detail/motor_status__functions.c.o\x1b[0m\n'}
+[7.400143] (ros_phoenix) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/ros_phoenix__rosidl_generator_c.dir/rosidl_generator_c/ros_phoenix/msg/detail/motor_control__functions.c.o\x1b[0m\n'}
+[7.416609] (-) TimerEvent: {}
+[7.503541] (serial) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable serial-test-timer\x1b[0m\n'}
+[7.514753] (serial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable serial-test\x1b[0m\n'}
+[7.516714] (-) TimerEvent: {}
+[7.523504] (ros_phoenix) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/ros_phoenix__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_phoenix/msg/detail/dds_fastrtps/motor_control__type_support.cpp.o\x1b[0m\n'}
+[7.524333] (ros_phoenix) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/ros_phoenix__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_phoenix/msg/detail/dds_fastrtps/motor_status__type_support.cpp.o\x1b[0m\n'}
+[7.526949] (ros_phoenix) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking C shared library libros_phoenix__rosidl_generator_c.so\x1b[0m\n'}
+[7.616835] (-) TimerEvent: {}
+[7.639760] (ros_phoenix) StdoutLine: {'line': b'[ 23%] Built target ros_phoenix__rosidl_generator_c\n'}
+[7.687391] (ros_phoenix) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.690216] (serial) StdoutLine: {'line': b'[100%] Built target serial-test-timer\n'}
+[7.700334] (ros_phoenix) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.716948] (-) TimerEvent: {}
+[7.717759] (ros_phoenix) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/ros_phoenix__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_phoenix/msg/motor_control__type_support.cpp.o\x1b[0m\n'}
+[7.723209] (ros_phoenix) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.727648] (ros_phoenix) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ros_phoenix__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_phoenix/msg/motor_status__type_support.cpp.o\x1b[0m\n'}
+[7.817070] (-) TimerEvent: {}
+[7.828737] (serial) StdoutLine: {'line': b'[100%] Built target serial-test\n'}
+[7.852643] (serial) CommandEnded: {'returncode': 0}
+[7.917462] (-) TimerEvent: {}
+[8.017935] (-) TimerEvent: {}
+[8.088317] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[8.107757] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/luna/backup_ws2/build/serial'], 'cwd': '/home/luna/backup_ws2/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luna'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna/backup_ws2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1538'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0873860a9aa2ee0185771d3166405c29'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luna'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotic:@/tmp/.ICE-unix/1538,unix/lunabotic:/tmp/.ICE-unix/1538'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e9e18a0_6acf_42f1_9b20_d7f9209101f8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OLPVN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.159'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luna/backup_ws2/build/serial'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0873860a9aa2ee0185771d3166405c29'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.108356] (ros_phoenix) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/ros_phoenix__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_phoenix/msg/detail/motor_control__type_support.cpp.o\x1b[0m\n'}
+[8.118054] (-) TimerEvent: {}
+[8.118743] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.118891] (serial) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.118955] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/serial/lib/libserial.a\n'}
+[8.138697] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/serial/include/serial/serial.h\n'}
+[8.154458] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/serial/include/serial/v8stdint.h\n'}
+[8.156889] (ros_phoenix) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ros_phoenix__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_phoenix/msg/detail/motor_status__type_support.cpp.o\x1b[0m\n'}
+[8.182016] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/serial/share/serial/environment/library_path.sh\n'}
+[8.208534] (ros_phoenix) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/ros_phoenix__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_phoenix/msg/motor_control__type_support.cpp.o\x1b[0m\n'}
+[8.215834] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/serial/share/serial/environment/library_path.dsv\n'}
+[8.217723] (ros_phoenix) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libros_phoenix__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.218123] (-) TimerEvent: {}
+[8.237252] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[8.253691] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[8.253875] (ros_phoenix) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/ros_phoenix__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_phoenix/msg/motor_status__type_support.cpp.o\x1b[0m\n'}
+[8.278097] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[8.289031] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[8.302900] (ros_phoenix) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libros_phoenix__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.304919] (ros_phoenix) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libros_phoenix__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.318270] (-) TimerEvent: {}
+[8.320494] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/serial/share/serial/environment/path.sh\n'}
+[8.326569] (ros_phoenix) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/ros_phoenix__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_phoenix/msg/detail/motor_status__type_support.c.o\x1b[0m\n'}
+[8.330271] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/serial/share/serial/environment/path.dsv\n'}
+[8.341363] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/serial/share/serial/local_setup.bash\n'}
+[8.345933] (ros_phoenix) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/ros_phoenix__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_phoenix/msg/detail/motor_control__type_support.c.o\x1b[0m\n'}
+[8.352710] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/serial/share/serial/local_setup.sh\n'}
+[8.354425] (ros_phoenix) StdoutLine: {'line': b'[ 50%] Built target ros_phoenix__rosidl_typesupport_fastrtps_cpp\n'}
+[8.373275] (ros_phoenix) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/ros_phoenix__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_phoenix/msg/detail/motor_control__type_support_c.cpp.o\x1b[0m\n'}
+[8.380140] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/serial/share/serial/local_setup.zsh\n'}
+[8.383933] (ros_phoenix) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/ros_phoenix__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_phoenix/msg/detail/motor_status__type_support_c.cpp.o\x1b[0m\n'}
+[8.398560] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/serial/share/serial/local_setup.dsv\n'}
+[8.406440] (ros_phoenix) StdoutLine: {'line': b'[ 54%] Built target ros_phoenix__rosidl_typesupport_cpp\n'}
+[8.414804] (ros_phoenix) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C shared library libros_phoenix__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.418404] (-) TimerEvent: {}
+[8.425776] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/serial/share/serial/package.dsv\n'}
+[8.435199] (ros_phoenix) StdoutLine: {'line': b'[ 56%] Built target ros_phoenix__rosidl_typesupport_c\n'}
+[8.435462] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[8.446539] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.456823] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.467420] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[8.468409] (ros_phoenix) StdoutLine: {'line': b'[ 56%] Built target ros_phoenix__rosidl_typesupport_introspection_c\n'}
+[8.476876] (ros_phoenix) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/ros_phoenix_components.dir/src/phoenix_nodes.cpp.o\x1b[0m\n'}
+[8.479940] (ros_phoenix) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/ros_phoenix_components.dir/src/base_node.cpp.o\x1b[0m\n'}
+[8.485827] (ros_phoenix) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/ros_phoenix_components.dir/src/phoenix_components.cpp.o\x1b[0m\n'}
+[8.487452] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[8.496081] (ros_phoenix) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/ros_phoenix_components.dir/src/phoenix_manager.cpp.o\x1b[0m\n'}
+[8.499106] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/serial/share/serial/package.xml\n'}
+[8.523940] (serial) CommandEnded: {'returncode': 0}
+[8.524316] (-) TimerEvent: {}
+[8.624600] (-) TimerEvent: {}
+[8.661142] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[8.668882] (ros_phoenix) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libros_phoenix__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.724715] (-) TimerEvent: {}
+[8.797204] (ros_phoenix) StdoutLine: {'line': b'[ 66%] Built target ros_phoenix__rosidl_typesupport_introspection_cpp\n'}
+[8.824849] (-) TimerEvent: {}
+[8.925192] (-) TimerEvent: {}
+[9.025608] (-) TimerEvent: {}
+[9.125956] (-) TimerEvent: {}
+[9.226308] (-) TimerEvent: {}
+[9.296652] (ros_phoenix) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libros_phoenix__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.326443] (-) TimerEvent: {}
+[9.401489] (ros_phoenix) StdoutLine: {'line': b'[ 68%] Built target ros_phoenix__rosidl_typesupport_fastrtps_c\n'}
+[9.425438] (ros_phoenix) StdoutLine: {'line': b'[ 68%] Built target ros_phoenix\n'}
+[9.426537] (-) TimerEvent: {}
+[9.451220] (ros_phoenix) StdoutLine: {'line': b'[ 70%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.526667] (-) TimerEvent: {}
+[9.626987] (-) TimerEvent: {}
+[9.727361] (-) TimerEvent: {}
+[9.827780] (-) TimerEvent: {}
+[9.928173] (-) TimerEvent: {}
+[10.028582] (-) TimerEvent: {}
+[10.129035] (-) TimerEvent: {}
+[10.145544] (ros_phoenix) StdoutLine: {'line': b'[ 70%] Built target ros_phoenix__py\n'}
+[10.170460] (ros_phoenix) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/ros_phoenix__rosidl_generator_py.dir/rosidl_generator_py/ros_phoenix/msg/_motor_control_s.c.o\x1b[0m\n'}
+[10.170744] (ros_phoenix) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/ros_phoenix__rosidl_generator_py.dir/rosidl_generator_py/ros_phoenix/msg/_motor_status_s.c.o\x1b[0m\n'}
+[10.229161] (-) TimerEvent: {}
+[10.298239] (ros_phoenix) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_phoenix/libros_phoenix__rosidl_generator_py.so\x1b[0m\n'}
+[10.329284] (-) TimerEvent: {}
+[10.344292] (ros_phoenix) StdoutLine: {'line': b'[ 76%] Built target ros_phoenix__rosidl_generator_py\n'}
+[10.366437] (ros_phoenix) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/ros_phoenix__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros_phoenix/_ros_phoenix_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.366723] (ros_phoenix) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/ros_phoenix__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros_phoenix/_ros_phoenix_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.372391] (ros_phoenix) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/ros_phoenix__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros_phoenix/_ros_phoenix_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.429406] (-) TimerEvent: {}
+[10.487326] (ros_phoenix) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_phoenix/ros_phoenix_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.514506] (ros_phoenix) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_phoenix/ros_phoenix_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.525251] (ros_phoenix) StdoutLine: {'line': b'[ 86%] Built target ros_phoenix__rosidl_typesupport_c__pyext\n'}
+[10.529536] (-) TimerEvent: {}
+[10.532101] (ros_phoenix) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_phoenix/ros_phoenix_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.552371] (ros_phoenix) StdoutLine: {'line': b'[ 88%] Built target ros_phoenix__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.577003] (ros_phoenix) StdoutLine: {'line': b'[ 88%] Built target ros_phoenix__rosidl_typesupport_introspection_c__pyext\n'}
+[10.629669] (-) TimerEvent: {}
+[10.730026] (-) TimerEvent: {}
+[10.830377] (-) TimerEvent: {}
+[10.930719] (-) TimerEvent: {}
+[11.031064] (-) TimerEvent: {}
+[11.131416] (-) TimerEvent: {}
+[11.231761] (-) TimerEvent: {}
+[11.332171] (-) TimerEvent: {}
+[11.432521] (-) TimerEvent: {}
+[11.532899] (-) TimerEvent: {}
+[11.633271] (-) TimerEvent: {}
+[11.733668] (-) TimerEvent: {}
+[11.833995] (-) TimerEvent: {}
+[11.924726] (ros_phoenix) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[11.924945] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[11.925032] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[11.925105] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[11.925174] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[11.925235] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[11.925298] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[11.925369] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[11.925430] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[11.925489] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[11.925543] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[11.925594] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7\x1b[m\x1b[K,\n'}
+[11.925644] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:4\x1b[m\x1b[K,\n'}
+[11.925694] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4\x1b[m\x1b[K,\n'}
+[11.925744] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_nodes.cpp:1\x1b[m\x1b[K:\n'}
+[11.925799] (ros_phoenix) StderrLine: {'line': b'/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::VictorSPX; Configuration = ctre::phoenix::motorcontrol::can::VictorSPXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::FeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::VictorSPXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.925858] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:\x1b[m\x1b[K   required from here\n'}
+[11.925910] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kctre::phoenix::motorcontrol::VictorSPXControlMode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.925965] (ros_phoenix) StderrLine: {'line': b'   75 |             RCLCPP_WARN(this->get_logger(), \x1b[01;35m\x1b[K"Invalid control mode: %d"\x1b[m\x1b[K, \x1b[32m\x1b[Kmode\x1b[m\x1b[K);\n'}
+[11.926020] (ros_phoenix) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[11.926076] (ros_phoenix) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[11.926133] (ros_phoenix) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[Kctre::phoenix::motorcontrol::VictorSPXControlMode\x1b[m\x1b[K\n'}
+[11.926191] (ros_phoenix) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4\x1b[m\x1b[K,\n'}
+[11.926249] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_nodes.cpp:1\x1b[m\x1b[K:\n'}
+[11.926316] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.926381] (ros_phoenix) StderrLine: {'line': b'   75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", mode);\n'}
+[11.926446] (ros_phoenix) StderrLine: {'line': b'      |                                                                    \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[11.926510] (ros_phoenix) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[11.926575] (ros_phoenix) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[11.927481] (ros_phoenix) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[11.927642] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[11.927724] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[11.927788] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[11.927842] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[11.927892] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[11.927942] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[11.927999] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[11.928061] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[11.928126] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[11.928190] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[11.928261] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7\x1b[m\x1b[K,\n'}
+[11.928327] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:4\x1b[m\x1b[K,\n'}
+[11.928393] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4\x1b[m\x1b[K,\n'}
+[11.928459] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_nodes.cpp:1\x1b[m\x1b[K:\n'}
+[11.928525] (ros_phoenix) StderrLine: {'line': b'/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::TalonSRX; Configuration = ctre::phoenix::motorcontrol::can::TalonSRXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::TalonSRXFeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::TalonSRXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.928598] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:\x1b[m\x1b[K   required from here\n'}
+[11.928672] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kctre::phoenix::motorcontrol::TalonSRXControlMode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.928744] (ros_phoenix) StderrLine: {'line': b'   75 |             RCLCPP_WARN(this->get_logger(), \x1b[01;35m\x1b[K"Invalid control mode: %d"\x1b[m\x1b[K, \x1b[32m\x1b[Kmode\x1b[m\x1b[K);\n'}
+[11.928807] (ros_phoenix) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[11.928866] (ros_phoenix) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[11.928932] (ros_phoenix) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[Kctre::phoenix::motorcontrol::TalonSRXControlMode\x1b[m\x1b[K\n'}
+[11.928999] (ros_phoenix) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4\x1b[m\x1b[K,\n'}
+[11.929065] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_nodes.cpp:1\x1b[m\x1b[K:\n'}
+[11.929132] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.929198] (ros_phoenix) StderrLine: {'line': b'   75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", mode);\n'}
+[11.929266] (ros_phoenix) StderrLine: {'line': b'      |                                                                    \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[11.929332] (ros_phoenix) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[11.929402] (ros_phoenix) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[11.930091] (ros_phoenix) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[11.930232] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[11.930306] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[11.930372] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[11.930446] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[11.930508] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[11.930574] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[11.930640] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[11.930706] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[11.930776] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[11.930841] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[11.930902] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7\x1b[m\x1b[K,\n'}
+[11.930970] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:4\x1b[m\x1b[K,\n'}
+[11.931035] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4\x1b[m\x1b[K,\n'}
+[11.931100] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_nodes.cpp:1\x1b[m\x1b[K:\n'}
+[11.931164] (ros_phoenix) StderrLine: {'line': b'/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::TalonFX; Configuration = ctre::phoenix::motorcontrol::can::TalonFXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::TalonFXFeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::TalonFXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.931236] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:\x1b[m\x1b[K   required from here\n'}
+[11.931299] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kctre::phoenix::motorcontrol::TalonFXControlMode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.931372] (ros_phoenix) StderrLine: {'line': b'   75 |             RCLCPP_WARN(this->get_logger(), \x1b[01;35m\x1b[K"Invalid control mode: %d"\x1b[m\x1b[K, \x1b[32m\x1b[Kmode\x1b[m\x1b[K);\n'}
+[11.931439] (ros_phoenix) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[11.931503] (ros_phoenix) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[11.931582] (ros_phoenix) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[Kctre::phoenix::motorcontrol::TalonFXControlMode\x1b[m\x1b[K\n'}
+[11.931648] (ros_phoenix) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4\x1b[m\x1b[K,\n'}
+[11.931715] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_nodes.cpp:1\x1b[m\x1b[K:\n'}
+[11.931779] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.931844] (ros_phoenix) StderrLine: {'line': b'   75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", mode);\n'}
+[11.931913] (ros_phoenix) StderrLine: {'line': b'      |                                                                    \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[11.931975] (ros_phoenix) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[11.932041] (ros_phoenix) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[11.934100] (-) TimerEvent: {}
+[12.034460] (-) TimerEvent: {}
+[12.134787] (-) TimerEvent: {}
+[12.235119] (-) TimerEvent: {}
+[12.335445] (-) TimerEvent: {}
+[12.435809] (-) TimerEvent: {}
+[12.536128] (-) TimerEvent: {}
+[12.636432] (-) TimerEvent: {}
+[12.736746] (-) TimerEvent: {}
+[12.837063] (-) TimerEvent: {}
+[12.937391] (-) TimerEvent: {}
+[12.968443] (ros_phoenix) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[12.968617] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[12.968693] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[12.968755] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[12.968818] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[12.968891] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[12.968948] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[12.969005] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[12.969065] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[12.969124] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[12.969185] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[12.969245] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7\x1b[m\x1b[K,\n'}
+[12.969306] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:4\x1b[m\x1b[K,\n'}
+[12.969375] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4\x1b[m\x1b[K,\n'}
+[12.969436] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_components.hpp:4\x1b[m\x1b[K,\n'}
+[12.969498] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_components.cpp:1\x1b[m\x1b[K:\n'}
+[12.969561] (ros_phoenix) StderrLine: {'line': b'/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::VictorSPX; Configuration = ctre::phoenix::motorcontrol::can::VictorSPXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::FeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::VictorSPXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.969632] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:\x1b[m\x1b[K   required from here\n'}
+[12.969698] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kctre::phoenix::motorcontrol::VictorSPXControlMode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.969764] (ros_phoenix) StderrLine: {'line': b'   75 |             RCLCPP_WARN(this->get_logger(), \x1b[01;35m\x1b[K"Invalid control mode: %d"\x1b[m\x1b[K, \x1b[32m\x1b[Kmode\x1b[m\x1b[K);\n'}
+[12.969825] (ros_phoenix) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[12.969885] (ros_phoenix) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[12.969946] (ros_phoenix) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[Kctre::phoenix::motorcontrol::VictorSPXControlMode\x1b[m\x1b[K\n'}
+[12.970008] (ros_phoenix) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4\x1b[m\x1b[K,\n'}
+[12.970069] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_components.hpp:4\x1b[m\x1b[K,\n'}
+[12.970128] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_components.cpp:1\x1b[m\x1b[K:\n'}
+[12.970188] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[12.970250] (ros_phoenix) StderrLine: {'line': b'   75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", mode);\n'}
+[12.970314] (ros_phoenix) StderrLine: {'line': b'      |                                                                    \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[12.970376] (ros_phoenix) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[12.970437] (ros_phoenix) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[12.972185] (ros_phoenix) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[12.972344] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[12.972416] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[12.972481] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[12.972550] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[12.972609] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[12.972674] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[12.972734] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[12.972796] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[12.972858] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[12.972920] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[12.972979] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7\x1b[m\x1b[K,\n'}
+[12.973039] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:4\x1b[m\x1b[K,\n'}
+[12.973106] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4\x1b[m\x1b[K,\n'}
+[12.973168] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_components.hpp:4\x1b[m\x1b[K,\n'}
+[12.973228] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_components.cpp:1\x1b[m\x1b[K:\n'}
+[12.973289] (ros_phoenix) StderrLine: {'line': b'/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::TalonSRX; Configuration = ctre::phoenix::motorcontrol::can::TalonSRXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::TalonSRXFeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::TalonSRXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.973363] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:\x1b[m\x1b[K   required from here\n'}
+[12.973424] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kctre::phoenix::motorcontrol::TalonSRXControlMode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.973491] (ros_phoenix) StderrLine: {'line': b'   75 |             RCLCPP_WARN(this->get_logger(), \x1b[01;35m\x1b[K"Invalid control mode: %d"\x1b[m\x1b[K, \x1b[32m\x1b[Kmode\x1b[m\x1b[K);\n'}
+[12.973555] (ros_phoenix) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[12.973618] (ros_phoenix) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[12.973680] (ros_phoenix) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[Kctre::phoenix::motorcontrol::TalonSRXControlMode\x1b[m\x1b[K\n'}
+[12.973746] (ros_phoenix) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4\x1b[m\x1b[K,\n'}
+[12.973808] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_components.hpp:4\x1b[m\x1b[K,\n'}
+[12.973870] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_components.cpp:1\x1b[m\x1b[K:\n'}
+[12.973933] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[12.973995] (ros_phoenix) StderrLine: {'line': b'   75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", mode);\n'}
+[12.974057] (ros_phoenix) StderrLine: {'line': b'      |                                                                    \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[12.974119] (ros_phoenix) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[12.974180] (ros_phoenix) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[12.975620] (ros_phoenix) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[12.975771] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[12.975843] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[12.975916] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[12.975976] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[12.976034] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[12.976094] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[12.976156] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[12.976220] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[12.976282] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[12.976344] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[12.976405] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7\x1b[m\x1b[K,\n'}
+[12.976472] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:4\x1b[m\x1b[K,\n'}
+[12.976534] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4\x1b[m\x1b[K,\n'}
+[12.976593] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_components.hpp:4\x1b[m\x1b[K,\n'}
+[12.976653] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_components.cpp:1\x1b[m\x1b[K:\n'}
+[12.976722] (ros_phoenix) StderrLine: {'line': b'/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::TalonFX; Configuration = ctre::phoenix::motorcontrol::can::TalonFXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::TalonFXFeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::TalonFXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.976790] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:\x1b[m\x1b[K   required from here\n'}
+[12.976851] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kctre::phoenix::motorcontrol::TalonFXControlMode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.976918] (ros_phoenix) StderrLine: {'line': b'   75 |             RCLCPP_WARN(this->get_logger(), \x1b[01;35m\x1b[K"Invalid control mode: %d"\x1b[m\x1b[K, \x1b[32m\x1b[Kmode\x1b[m\x1b[K);\n'}
+[12.976979] (ros_phoenix) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[12.977040] (ros_phoenix) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[12.977101] (ros_phoenix) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[Kctre::phoenix::motorcontrol::TalonFXControlMode\x1b[m\x1b[K\n'}
+[12.977162] (ros_phoenix) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4\x1b[m\x1b[K,\n'}
+[12.977225] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_components.hpp:4\x1b[m\x1b[K,\n'}
+[12.977288] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_components.cpp:1\x1b[m\x1b[K:\n'}
+[12.977351] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[12.977413] (ros_phoenix) StderrLine: {'line': b'   75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", mode);\n'}
+[12.977476] (ros_phoenix) StderrLine: {'line': b'      |                                                                    \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[12.977537] (ros_phoenix) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[12.977599] (ros_phoenix) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[13.037505] (-) TimerEvent: {}
+[13.137823] (-) TimerEvent: {}
+[13.238150] (-) TimerEvent: {}
+[13.338459] (-) TimerEvent: {}
+[13.438795] (-) TimerEvent: {}
+[13.539131] (-) TimerEvent: {}
+[13.639467] (-) TimerEvent: {}
+[13.739806] (-) TimerEvent: {}
+[13.840115] (-) TimerEvent: {}
+[13.940420] (-) TimerEvent: {}
+[14.040729] (-) TimerEvent: {}
+[14.141034] (-) TimerEvent: {}
+[14.241357] (-) TimerEvent: {}
+[14.341734] (-) TimerEvent: {}
+[14.442047] (-) TimerEvent: {}
+[14.542369] (-) TimerEvent: {}
+[14.642681] (-) TimerEvent: {}
+[14.743012] (-) TimerEvent: {}
+[14.843343] (-) TimerEvent: {}
+[14.943692] (-) TimerEvent: {}
+[15.044017] (-) TimerEvent: {}
+[15.144350] (-) TimerEvent: {}
+[15.244688] (-) TimerEvent: {}
+[15.345022] (-) TimerEvent: {}
+[15.445333] (-) TimerEvent: {}
+[15.545643] (-) TimerEvent: {}
+[15.645975] (-) TimerEvent: {}
+[15.746303] (-) TimerEvent: {}
+[15.846645] (-) TimerEvent: {}
+[15.946976] (-) TimerEvent: {}
+[16.047287] (-) TimerEvent: {}
+[16.147624] (-) TimerEvent: {}
+[16.247875] (-) TimerEvent: {}
+[16.348256] (-) TimerEvent: {}
+[16.448560] (-) TimerEvent: {}
+[16.526195] (ros_phoenix) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX shared library libros_phoenix_components.so\x1b[0m\n'}
+[16.548742] (-) TimerEvent: {}
+[16.649095] (-) TimerEvent: {}
+[16.749445] (-) TimerEvent: {}
+[16.849833] (-) TimerEvent: {}
+[16.935719] (ros_phoenix) StdoutLine: {'line': b'[ 90%] Built target ros_phoenix_components\n'}
+[16.949954] (-) TimerEvent: {}
+[16.950694] (ros_phoenix) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object CMakeFiles/phoenix_container.dir/src/phoenix_container.cpp.o\x1b[0m\n'}
+[16.950874] (ros_phoenix) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object CMakeFiles/ros_phoenix_control.dir/src/phoenix_bridge.cpp.o\x1b[0m\n'}
+[16.954110] (ros_phoenix) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object CMakeFiles/ros_phoenix_control.dir/src/phoenix_system.cpp.o\x1b[0m\n'}
+[17.050072] (-) TimerEvent: {}
+[17.150385] (-) TimerEvent: {}
+[17.250714] (-) TimerEvent: {}
+[17.351036] (-) TimerEvent: {}
+[17.451356] (-) TimerEvent: {}
+[17.551682] (-) TimerEvent: {}
+[17.652006] (-) TimerEvent: {}
+[17.752320] (-) TimerEvent: {}
+[17.852634] (-) TimerEvent: {}
+[17.952958] (-) TimerEvent: {}
+[18.053282] (-) TimerEvent: {}
+[18.153611] (-) TimerEvent: {}
+[18.253937] (-) TimerEvent: {}
+[18.354257] (-) TimerEvent: {}
+[18.454593] (-) TimerEvent: {}
+[18.554933] (-) TimerEvent: {}
+[18.655269] (-) TimerEvent: {}
+[18.755586] (-) TimerEvent: {}
+[18.796425] (ros_phoenix) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[18.796613] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[18.796705] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[18.796776] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[18.796846] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[18.796915] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[18.796986] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[18.797060] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[18.797130] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[18.797205] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[18.797276] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[18.797344] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_bridge.hpp:31\x1b[m\x1b[K,\n'}
+[18.797412] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:19\x1b[m\x1b[K:\n'}
+[18.797616] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn ros_phoenix::PhoenixBridge::on_init(const hardware_interface::HardwareInfo&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.797688] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:79:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.797762] (ros_phoenix) StderrLine: {'line': b'   79 |             RCLCPP_FATAL(this->logger_, \x1b[01;35m\x1b[K"Joint \'%s\' has an invalid command interface: %s"\x1b[m\x1b[K,\n'}
+[18.797829] (ros_phoenix) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.797892] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:79:88:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[18.797960] (ros_phoenix) StderrLine: {'line': b'   79 | FATAL(this->logger_, "Joint \'%s\' has an invalid command interface: \x1b[01;36m\x1b[K%s\x1b[m\x1b[K",\n'}
+[18.798027] (ros_phoenix) StderrLine: {'line': b'      |                                                                    \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[18.798095] (ros_phoenix) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[18.798162] (ros_phoenix) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[18.798228] (ros_phoenix) StderrLine: {'line': b'\n'}
+[18.798294] (ros_phoenix) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[18.798361] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[18.798429] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[18.798493] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[18.798559] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[18.798626] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[18.798690] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[18.798756] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[18.798821] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[18.798886] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[18.798949] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[18.799023] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_bridge.hpp:31\x1b[m\x1b[K,\n'}
+[18.799090] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:19\x1b[m\x1b[K:\n'}
+[18.799158] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:88:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.799241] (ros_phoenix) StderrLine: {'line': b'   88 |                 RCLCPP_FATAL(this->logger_, \x1b[01;35m\x1b[K"Joint \'%s\' has an invalid state interface: %s"\x1b[m\x1b[K,\n'}
+[18.799312] (ros_phoenix) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.799385] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:88:90:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[18.799458] (ros_phoenix) StderrLine: {'line': b'   88 | P_FATAL(this->logger_, "Joint \'%s\' has an invalid state interface: \x1b[01;36m\x1b[K%s\x1b[m\x1b[K",\n'}
+[18.799541] (ros_phoenix) StderrLine: {'line': b'      |                                                                    \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[18.799610] (ros_phoenix) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[18.799678] (ros_phoenix) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[18.799744] (ros_phoenix) StderrLine: {'line': b'\n'}
+[18.818425] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn ros_phoenix::PhoenixBridge::on_activate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.818710] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:137:95:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.818798] (ros_phoenix) StderrLine: {'line': b'  137 |  PhoenixBridge::on_activate(\x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State & previous_state\x1b[m\x1b[K)\n'}
+[18.818870] (ros_phoenix) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.819007] (ros_phoenix) StderrLine: {'line': b'\n'}
+[18.819078] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn ros_phoenix::PhoenixBridge::on_deactivate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.819149] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:163:97:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.819236] (ros_phoenix) StderrLine: {'line': b'  163 | hoenixBridge::on_deactivate(\x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State & previous_state\x1b[m\x1b[K)\n'}
+[18.819299] (ros_phoenix) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.819361] (ros_phoenix) StderrLine: {'line': b'\n'}
+[18.819419] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type ros_phoenix::PhoenixBridge::read(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.819485] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:178:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.819567] (ros_phoenix) StderrLine: {'line': b'  178 | rface::return_type PhoenixBridge::read(\x1b[01;35m\x1b[Kconst rclcpp::Time & time\x1b[m\x1b[K, const rclcpp::Duration & period)\n'}
+[18.819636] (ros_phoenix) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[18.819705] (ros_phoenix) StderrLine: {'line': b'\n'}
+[18.819769] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:178:105:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.819836] (ros_phoenix) StderrLine: {'line': b'  178 | ridge::read(const rclcpp::Time & time, \x1b[01;35m\x1b[Kconst rclcpp::Duration & period\x1b[m\x1b[K)\n'}
+[18.819900] (ros_phoenix) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[18.819964] (ros_phoenix) StderrLine: {'line': b'\n'}
+[18.820029] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type ros_phoenix::PhoenixBridge::write(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.820099] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:186:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.820169] (ros_phoenix) StderrLine: {'line': b'  186 | face::return_type PhoenixBridge::write(\x1b[01;35m\x1b[Kconst rclcpp::Time & time\x1b[m\x1b[K, const rclcpp::Duration & period)\n'}
+[18.820247] (ros_phoenix) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[18.820314] (ros_phoenix) StderrLine: {'line': b'\n'}
+[18.820381] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:186:106:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.820458] (ros_phoenix) StderrLine: {'line': b'  186 | idge::write(const rclcpp::Time & time, \x1b[01;35m\x1b[Kconst rclcpp::Duration & period\x1b[m\x1b[K)\n'}
+[18.820530] (ros_phoenix) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[18.820597] (ros_phoenix) StderrLine: {'line': b'\n'}
+[18.855695] (-) TimerEvent: {}
+[18.956007] (-) TimerEvent: {}
+[19.056324] (-) TimerEvent: {}
+[19.156628] (-) TimerEvent: {}
+[19.162568] (ros_phoenix) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable phoenix_container\x1b[0m\n'}
+[19.256755] (-) TimerEvent: {}
+[19.320473] (ros_phoenix) StdoutLine: {'line': b'[ 98%] Built target phoenix_container\n'}
+[19.356868] (-) TimerEvent: {}
+[19.457212] (-) TimerEvent: {}
+[19.557559] (-) TimerEvent: {}
+[19.559731] (csm) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libcsm.so\x1b[0m\n'}
+[19.657771] (-) TimerEvent: {}
+[19.758149] (-) TimerEvent: {}
+[19.858502] (-) TimerEvent: {}
+[19.910945] (csm) StdoutLine: {'line': b'[100%] Built target csm\n'}
+[19.919293] (csm) CommandEnded: {'returncode': 0}
+[19.958606] (-) TimerEvent: {}
+[19.968351] (csm) JobProgress: {'identifier': 'csm', 'progress': 'install'}
+[19.968586] (csm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/luna/backup_ws2/build/csm'], 'cwd': '/home/luna/backup_ws2/build/csm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luna'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna/backup_ws2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1538'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0873860a9aa2ee0185771d3166405c29'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luna'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotic:@/tmp/.ICE-unix/1538,unix/lunabotic:/tmp/.ICE-unix/1538'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e9e18a0_6acf_42f1_9b20_d7f9209101f8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OLPVN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.159'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luna/backup_ws2/build/csm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0873860a9aa2ee0185771d3166405c29'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[19.973434] (csm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.973701] (csm) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[19.973934] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/lib/libcsm.so\n'}
+[19.980869] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/include/..//include/csm/algos.h\n'}
+[19.987728] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/include/..//include/csm/csm.h\n'}
+[19.993919] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/include/..//include/csm/laser_data.h\n'}
+[20.000541] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/include/..//include/csm/laser_data_inline.h\n'}
+[20.006858] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/include/..//include/csm/restrict.h\n'}
+[20.013520] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/include/..//include/gsl_eigen/gsl_eigen.h\n'}
+[20.019949] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/share/csm/resource/csm\n'}
+[20.026571] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/include/../gsl_eigen/gsl_eigen.h\n'}
+[20.033126] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/share/csm/environment/library_path.sh\n'}
+[20.039383] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/share/csm/environment/library_path.dsv\n'}
+[20.045923] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/share/ament_index/resource_index/package_run_dependencies/csm\n'}
+[20.052256] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/share/ament_index/resource_index/parent_prefix_path/csm\n'}
+[20.058647] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/share/csm/environment/ament_prefix_path.sh\n'}
+[20.058774] (-) TimerEvent: {}
+[20.065225] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/share/csm/environment/ament_prefix_path.dsv\n'}
+[20.071765] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/share/csm/environment/path.sh\n'}
+[20.078081] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/share/csm/environment/path.dsv\n'}
+[20.084587] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/share/csm/local_setup.bash\n'}
+[20.091263] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/share/csm/local_setup.sh\n'}
+[20.097706] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/share/csm/local_setup.zsh\n'}
+[20.104580] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/share/csm/local_setup.dsv\n'}
+[20.111016] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/share/csm/package.dsv\n'}
+[20.117858] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/share/ament_index/resource_index/packages/csm\n'}
+[20.124591] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/share/csm/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.131106] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/share/csm/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.137918] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/share/csm/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[20.144365] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/share/csm/cmake/csmConfig.cmake\n'}
+[20.150969] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/share/csm/cmake/csmConfig-version.cmake\n'}
+[20.157665] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/csm/share/csm/package.xml\n'}
+[20.158899] (-) TimerEvent: {}
+[20.165699] (csm) CommandEnded: {'returncode': 0}
+[20.224274] (csm) JobEnded: {'identifier': 'csm', 'rc': 0}
+[20.259112] (-) TimerEvent: {}
+[20.359457] (-) TimerEvent: {}
+[20.459714] (-) TimerEvent: {}
+[20.559977] (-) TimerEvent: {}
+[20.656806] (ros_phoenix) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[20.656940] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[20.656987] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[20.657030] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[20.657071] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[20.657111] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[20.657149] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[20.657188] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[20.657227] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[20.657266] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[20.657305] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[20.657342] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7\x1b[m\x1b[K,\n'}
+[20.657377] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_system.hpp:18\x1b[m\x1b[K,\n'}
+[20.657412] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:19\x1b[m\x1b[K:\n'}
+[20.657447] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn ros_phoenix::PhoenixSystem::on_init(const hardware_interface::HardwareInfo&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.657484] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:171:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<hardware_interface::InterfaceInfo>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.657536] (ros_phoenix) StderrLine: {'line': b'  171 |             RCLCPP_FATAL(this->logger_, \x1b[01;35m\x1b[K"Joint \'%s\' has %d command interfaces. Expected 1."\x1b[m\x1b[K,\n'}
+[20.657573] (ros_phoenix) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.657609] (ros_phoenix) StderrLine: {'line': b'  172 |                 joint.name.c_str(), \x1b[32m\x1b[Kjoint.command_interfaces.size()\x1b[m\x1b[K);\n'}
+[20.657645] (ros_phoenix) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.657680] (ros_phoenix) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[20.657715] (ros_phoenix) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[Kstd::vector<hardware_interface::InterfaceInfo>::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[20.657752] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:171:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[20.657788] (ros_phoenix) StderrLine: {'line': b'  171 |             RCLCPP_FATAL(this->logger_, "Joint \'%s\' has \x1b[01;36m\x1b[K%d\x1b[m\x1b[K command interfaces. Expected 1.",\n'}
+[20.657824] (ros_phoenix) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[20.657859] (ros_phoenix) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[20.657897] (ros_phoenix) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[20.657931] (ros_phoenix) StderrLine: {'line': b'      |                                                         \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[20.660061] (-) TimerEvent: {}
+[20.672701] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn ros_phoenix::PhoenixSystem::on_activate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.672844] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:240:95:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.672896] (ros_phoenix) StderrLine: {'line': b'  240 | hardware_interface::CallbackReturn PhoenixSystem::on_activate(\x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State & previous_state\x1b[m\x1b[K)\n'}
+[20.672936] (ros_phoenix) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.672973] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn ros_phoenix::PhoenixSystem::on_deactivate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.673013] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:250:97:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.673056] (ros_phoenix) StderrLine: {'line': b'  250 | hardware_interface::CallbackReturn PhoenixSystem::on_deactivate(\x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State & previous_state\x1b[m\x1b[K)\n'}
+[20.673097] (ros_phoenix) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.673241] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type ros_phoenix::PhoenixSystem::read(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.673316] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:261:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.673361] (ros_phoenix) StderrLine: {'line': b'  261 | hardware_interface::return_type PhoenixSystem::read(\x1b[01;35m\x1b[Kconst rclcpp::Time & time\x1b[m\x1b[K, const rclcpp::Duration & period)\n'}
+[20.673400] (ros_phoenix) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[20.673438] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:261:105:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.673476] (ros_phoenix) StderrLine: {'line': b'  261 | hardware_interface::return_type PhoenixSystem::read(const rclcpp::Time & time, \x1b[01;35m\x1b[Kconst rclcpp::Duration & period\x1b[m\x1b[K)\n'}
+[20.673513] (ros_phoenix) StderrLine: {'line': b'      |                                                                                \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[20.673637] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type ros_phoenix::PhoenixSystem::write(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.673710] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:271:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.673755] (ros_phoenix) StderrLine: {'line': b'  271 | hardware_interface::return_type PhoenixSystem::write(\x1b[01;35m\x1b[Kconst rclcpp::Time & time\x1b[m\x1b[K, const rclcpp::Duration & period)\n'}
+[20.673794] (ros_phoenix) StderrLine: {'line': b'      |                                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[20.673835] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:271:106:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.673877] (ros_phoenix) StderrLine: {'line': b'  271 | hardware_interface::return_type PhoenixSystem::write(const rclcpp::Time & time, \x1b[01;35m\x1b[Kconst rclcpp::Duration & period\x1b[m\x1b[K)\n'}
+[20.673914] (ros_phoenix) StderrLine: {'line': b'      |                                                                                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[20.760182] (-) TimerEvent: {}
+[20.860451] (-) TimerEvent: {}
+[20.960741] (-) TimerEvent: {}
+[21.061018] (-) TimerEvent: {}
+[21.161360] (-) TimerEvent: {}
+[21.261694] (-) TimerEvent: {}
+[21.362039] (-) TimerEvent: {}
+[21.380675] (ros_phoenix) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[21.380809] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[21.380854] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[21.380893] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[21.380933] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[21.380970] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[21.381008] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[21.381044] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[21.381080] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[21.381117] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[21.381153] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[21.381188] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7\x1b[m\x1b[K,\n'}
+[21.381225] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_system.hpp:18\x1b[m\x1b[K,\n'}
+[21.381260] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:19\x1b[m\x1b[K:\n'}
+[21.381296] (ros_phoenix) StderrLine: {'line': b'/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::VictorSPX; Configuration = ctre::phoenix::motorcontrol::can::VictorSPXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::FeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::VictorSPXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.381336] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:\x1b[m\x1b[K   required from here\n'}
+[21.381376] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kctre::phoenix::motorcontrol::VictorSPXControlMode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.381416] (ros_phoenix) StderrLine: {'line': b'   75 |             RCLCPP_WARN(this->get_logger(), \x1b[01;35m\x1b[K"Invalid control mode: %d"\x1b[m\x1b[K, \x1b[32m\x1b[Kmode\x1b[m\x1b[K);\n'}
+[21.381452] (ros_phoenix) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[21.381487] (ros_phoenix) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[21.381523] (ros_phoenix) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[Kctre::phoenix::motorcontrol::VictorSPXControlMode\x1b[m\x1b[K\n'}
+[21.381559] (ros_phoenix) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4\x1b[m\x1b[K,\n'}
+[21.381594] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:21\x1b[m\x1b[K:\n'}
+[21.381632] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[21.381668] (ros_phoenix) StderrLine: {'line': b'   75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", mode);\n'}
+[21.381704] (ros_phoenix) StderrLine: {'line': b'      |                                                                    \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[21.381739] (ros_phoenix) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[21.381774] (ros_phoenix) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[21.385440] (ros_phoenix) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[21.385559] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[21.385609] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[21.385651] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[21.385698] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[21.385736] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[21.385772] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[21.385813] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[21.385849] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[21.385884] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[21.385921] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[21.385957] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7\x1b[m\x1b[K,\n'}
+[21.385992] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_system.hpp:18\x1b[m\x1b[K,\n'}
+[21.386027] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:19\x1b[m\x1b[K:\n'}
+[21.386062] (ros_phoenix) StderrLine: {'line': b'/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::TalonSRX; Configuration = ctre::phoenix::motorcontrol::can::TalonSRXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::TalonSRXFeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::TalonSRXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.386102] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:\x1b[m\x1b[K   required from here\n'}
+[21.386138] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kctre::phoenix::motorcontrol::TalonSRXControlMode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.386179] (ros_phoenix) StderrLine: {'line': b'   75 |             RCLCPP_WARN(this->get_logger(), \x1b[01;35m\x1b[K"Invalid control mode: %d"\x1b[m\x1b[K, \x1b[32m\x1b[Kmode\x1b[m\x1b[K);\n'}
+[21.386216] (ros_phoenix) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[21.386251] (ros_phoenix) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[21.386286] (ros_phoenix) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[Kctre::phoenix::motorcontrol::TalonSRXControlMode\x1b[m\x1b[K\n'}
+[21.386322] (ros_phoenix) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4\x1b[m\x1b[K,\n'}
+[21.386358] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:21\x1b[m\x1b[K:\n'}
+[21.386395] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[21.386431] (ros_phoenix) StderrLine: {'line': b'   75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", mode);\n'}
+[21.386467] (ros_phoenix) StderrLine: {'line': b'      |                                                                    \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[21.386502] (ros_phoenix) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[21.386540] (ros_phoenix) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[21.389919] (ros_phoenix) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[21.390035] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[21.390078] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[21.390117] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[21.390155] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[21.390192] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[21.390237] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[21.390274] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[21.390309] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[21.390348] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[21.390383] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[21.390419] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7\x1b[m\x1b[K,\n'}
+[21.390454] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_system.hpp:18\x1b[m\x1b[K,\n'}
+[21.390490] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:19\x1b[m\x1b[K:\n'}
+[21.390524] (ros_phoenix) StderrLine: {'line': b'/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::TalonFX; Configuration = ctre::phoenix::motorcontrol::can::TalonFXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::TalonFXFeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::TalonFXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.390565] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:\x1b[m\x1b[K   required from here\n'}
+[21.390601] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kctre::phoenix::motorcontrol::TalonFXControlMode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.390643] (ros_phoenix) StderrLine: {'line': b'   75 |             RCLCPP_WARN(this->get_logger(), \x1b[01;35m\x1b[K"Invalid control mode: %d"\x1b[m\x1b[K, \x1b[32m\x1b[Kmode\x1b[m\x1b[K);\n'}
+[21.390680] (ros_phoenix) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[21.390716] (ros_phoenix) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[21.390752] (ros_phoenix) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[Kctre::phoenix::motorcontrol::TalonFXControlMode\x1b[m\x1b[K\n'}
+[21.390788] (ros_phoenix) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4\x1b[m\x1b[K,\n'}
+[21.390823] (ros_phoenix) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:21\x1b[m\x1b[K:\n'}
+[21.390860] (ros_phoenix) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[21.390896] (ros_phoenix) StderrLine: {'line': b'   75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", mode);\n'}
+[21.390932] (ros_phoenix) StderrLine: {'line': b'      |                                                                    \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[21.390967] (ros_phoenix) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[21.391002] (ros_phoenix) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[21.462237] (-) TimerEvent: {}
+[21.562572] (-) TimerEvent: {}
+[21.662821] (-) TimerEvent: {}
+[21.763060] (-) TimerEvent: {}
+[21.863328] (-) TimerEvent: {}
+[21.963646] (-) TimerEvent: {}
+[22.063871] (-) TimerEvent: {}
+[22.164118] (-) TimerEvent: {}
+[22.264344] (-) TimerEvent: {}
+[22.364572] (-) TimerEvent: {}
+[22.464825] (-) TimerEvent: {}
+[22.565164] (-) TimerEvent: {}
+[22.665493] (-) TimerEvent: {}
+[22.765816] (-) TimerEvent: {}
+[22.866147] (-) TimerEvent: {}
+[22.966478] (-) TimerEvent: {}
+[23.066802] (-) TimerEvent: {}
+[23.167154] (-) TimerEvent: {}
+[23.267414] (-) TimerEvent: {}
+[23.367649] (-) TimerEvent: {}
+[23.467900] (-) TimerEvent: {}
+[23.568152] (-) TimerEvent: {}
+[23.639624] (ros_phoenix) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libros_phoenix_control.so\x1b[0m\n'}
+[23.668266] (-) TimerEvent: {}
+[23.768540] (-) TimerEvent: {}
+[23.868831] (-) TimerEvent: {}
+[23.969108] (-) TimerEvent: {}
+[24.069368] (-) TimerEvent: {}
+[24.110896] (ros_phoenix) StdoutLine: {'line': b'[100%] Built target ros_phoenix_control\n'}
+[24.118396] (ros_phoenix) CommandEnded: {'returncode': 0}
+[24.169445] (-) TimerEvent: {}
+[24.179706] (ros_phoenix) JobProgress: {'identifier': 'ros_phoenix', 'progress': 'install'}
+[24.179962] (ros_phoenix) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/luna/backup_ws2/build/ros_phoenix'], 'cwd': '/home/luna/backup_ws2/build/ros_phoenix', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luna'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna/backup_ws2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1538'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0873860a9aa2ee0185771d3166405c29'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luna'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotic:@/tmp/.ICE-unix/1538,unix/lunabotic:/tmp/.ICE-unix/1538'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e9e18a0_6acf_42f1_9b20_d7f9209101f8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OLPVN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.159'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luna/backup_ws2/build/ros_phoenix'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0873860a9aa2ee0185771d3166405c29'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[24.185813] (ros_phoenix) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.186260] (ros_phoenix) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[24.186394] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ament_index/resource_index/rosidl_interfaces/ros_phoenix\n'}
+[24.192877] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__functions.h\n'}
+[24.198674] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__struct.h\n'}
+[24.204779] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__type_support.h\n'}
+[24.210822] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__functions.h\n'}
+[24.216451] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__struct.h\n'}
+[24.222118] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__type_support.h\n'}
+[24.227701] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/motor_control.h\n'}
+[24.233293] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/motor_status.h\n'}
+[24.238954] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/rosidl_generator_c__visibility_control.h\n'}
+[24.252033] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/environment/library_path.sh\n'}
+[24.257692] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/environment/library_path.dsv\n'}
+[24.263523] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__rosidl_typesupport_fastrtps_c.h\n'}
+[24.269052] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__rosidl_typesupport_fastrtps_c.h\n'}
+[24.269611] (-) TimerEvent: {}
+[24.274829] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[24.280658] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__builder.hpp\n'}
+[24.286325] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__struct.hpp\n'}
+[24.292077] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__traits.hpp\n'}
+[24.297880] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__builder.hpp\n'}
+[24.304622] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__struct.hpp\n'}
+[24.310440] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__traits.hpp\n'}
+[24.315953] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/motor_control.hpp\n'}
+[24.321880] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/motor_status.hpp\n'}
+[24.328066] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.333652] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.345139] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[24.350727] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__rosidl_typesupport_introspection_c.h\n'}
+[24.363632] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__rosidl_typesupport_introspection_c.h\n'}
+[24.369346] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[24.369780] (-) TimerEvent: {}
+[24.375260] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.380906] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.386803] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/environment/pythonpath.sh\n'}
+[24.392507] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/environment/pythonpath.dsv\n'}
+[24.398475] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[24.404585] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[24.410084] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[24.415816] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[24.421985] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/__init__.py\n'}
+[24.427798] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/_ros_phoenix_s.ep.rosidl_typesupport_c.c\n'}
+[24.433468] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/_ros_phoenix_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[24.439342] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/_ros_phoenix_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[24.445058] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/libros_phoenix__rosidl_generator_py.so\n'}
+[24.450475] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg/__init__.py\n'}
+[24.456449] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg/_motor_control.py\n'}
+[24.462212] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg/_motor_control_s.c\n'}
+[24.468066] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg/_motor_status.py\n'}
+[24.469872] (-) TimerEvent: {}
+[24.473993] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg/_motor_status_s.c\n'}
+[24.479581] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/ros_phoenix_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.485888] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/ros_phoenix_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.492031] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/ros_phoenix_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.498897] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/ros_phoenix_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.499107] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/ros_phoenix_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.499532] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/ros_phoenix_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.499874] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/msg/MotorControl.idl\n'}
+[24.506642] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/msg/MotorStatus.idl\n'}
+[24.512812] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/msg/MotorControl.msg\n'}
+[24.518381] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/msg/MotorStatus.msg\n'}
+[24.524187] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/lib/libCTRE_Phoenix.so\n'}
+[24.529798] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/lib/libCTRE_PhoenixCCI.so\n'}
+[24.535746] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix//ros_phoenix_hardware.xml\n'}
+[24.541721] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix_components.so\n'}
+[24.547286] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/lib/ros_phoenix/phoenix_container\n'}
+[24.553489] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix_control.so\n'}
+[24.559557] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/base_node.hpp\n'}
+[24.565058] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/phoenix_bridge.hpp\n'}
+[24.570069] (-) TimerEvent: {}
+[24.570419] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/phoenix_components.hpp\n'}
+[24.576255] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/phoenix_manager.hpp\n'}
+[24.581748] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/phoenix_node.hpp\n'}
+[24.587615] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp\n'}
+[24.593258] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/phoenix_system.hpp\n'}
+[24.599658] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/launch/view_robot.launch.py\n'}
+[24.606023] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/ros2_control/diffbot.ros2_control.xacro\n'}
+[24.612672] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/urdf/brackets.xacro\n'}
+[24.618878] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/urdf/depth_camera.xacro\n'}
+[24.624565] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/urdf/diffbot.materials.xacro\n'}
+[24.630235] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/urdf/diffbot.urdf.xacro\n'}
+[24.636312] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/urdf/diffbot_description.urdf.xacro\n'}
+[24.641812] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/urdf/gazebo_control.xacro\n'}
+[24.647500] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/urdf/inertial_macros.xacro\n'}
+[24.653178] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/urdf/lidar.xacro\n'}
+[24.659111] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/urdf/robot_core.urdf.xacro\n'}
+[24.664969] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/urdf/robot_core.xacro\n'}
+[24.670261] (-) TimerEvent: {}
+[24.670837] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/rviz/diffbot.rviz\n'}
+[24.676957] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/rviz/diffbot_view.rviz\n'}
+[24.682648] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/rviz/gz_simulation.rviz\n'}
+[24.688456] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/rviz/nav2_slam_config.rviz\n'}
+[24.694145] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/launch/diffbot.launch.py\n'}
+[24.700705] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/config/diffbot_controllers.yaml\n'}
+[24.706616] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[24.712301] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/config/gazebo_params.yaml\n'}
+[24.718199] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/config/joystick.yaml\n'}
+[24.723679] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/config/localization.yaml\n'}
+[24.729383] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/config/mapper_params_online_async.yaml\n'}
+[24.734890] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/config/twist_mux.yaml\n'}
+[24.741063] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/launch/demo.launch.py\n'}
+[24.746471] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/launch/joystick.launch.py\n'}
+[24.752803] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/launch/launch_robot.launch.py\n'}
+[24.758403] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/launch/launch_sim.launch.py\n'}
+[24.764323] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/launch/rplidar.launch.py\n'}
+[24.770437] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/launch/rsp.launch.py\n'}
+[24.770553] (-) TimerEvent: {}
+[24.779313] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/launch/test_ekf.launch.py\n'}
+[24.785499] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ament_index/resource_index/package_run_dependencies/ros_phoenix\n'}
+[24.791242] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ament_index/resource_index/parent_prefix_path/ros_phoenix\n'}
+[24.796953] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/environment/ament_prefix_path.sh\n'}
+[24.803444] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/environment/ament_prefix_path.dsv\n'}
+[24.809293] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/environment/path.sh\n'}
+[24.814872] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/environment/path.dsv\n'}
+[24.820932] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/local_setup.bash\n'}
+[24.826946] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/local_setup.sh\n'}
+[24.832807] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/local_setup.zsh\n'}
+[24.838679] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/local_setup.dsv\n'}
+[24.844399] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/package.dsv\n'}
+[24.850025] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ament_index/resource_index/packages/ros_phoenix\n'}
+[24.856036] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros_phoenix\n'}
+[24.861771] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ament_index/resource_index/rclcpp_components/ros_phoenix\n'}
+[24.867365] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/rosidl_cmake-extras.cmake\n'}
+[24.870669] (-) TimerEvent: {}
+[24.873421] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[24.878977] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[24.884920] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[24.890539] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[24.896634] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[24.902585] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[24.908591] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenixConfig.cmake\n'}
+[24.914327] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenixConfig-version.cmake\n'}
+[24.920539] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/package.xml\n'}
+[24.926045] (ros_phoenix) StdoutLine: {'line': b'-- Installing: /home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_generator_c.so\n'}
+[24.926189] (ros_phoenix) StdoutLine: {'line': b'-- Set runtime path of "/home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_generator_c.so" to ""\n'}
+[24.926236] (ros_phoenix) StdoutLine: {'line': b'-- Installing: /home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_fastrtps_c.so\n'}
+[24.926329] (ros_phoenix) StdoutLine: {'line': b'-- Set runtime path of "/home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[24.926388] (ros_phoenix) StdoutLine: {'line': b'-- Installing: /home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_fastrtps_cpp.so\n'}
+[24.926538] (ros_phoenix) StdoutLine: {'line': b'-- Set runtime path of "/home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[24.926600] (ros_phoenix) StdoutLine: {'line': b'-- Installing: /home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_introspection_c.so\n'}
+[24.926840] (ros_phoenix) StdoutLine: {'line': b'-- Set runtime path of "/home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_introspection_c.so" to ""\n'}
+[24.926901] (ros_phoenix) StdoutLine: {'line': b'-- Installing: /home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_c.so\n'}
+[24.927024] (ros_phoenix) StdoutLine: {'line': b'-- Set runtime path of "/home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_c.so" to ""\n'}
+[24.927084] (ros_phoenix) StdoutLine: {'line': b'-- Installing: /home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_introspection_cpp.so\n'}
+[24.927216] (ros_phoenix) StdoutLine: {'line': b'-- Set runtime path of "/home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[24.927275] (ros_phoenix) StdoutLine: {'line': b'-- Installing: /home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_cpp.so\n'}
+[24.927401] (ros_phoenix) StdoutLine: {'line': b'-- Set runtime path of "/home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_cpp.so" to ""\n'}
+[24.950038] (ros_phoenix) StdoutLine: {'line': b"Listing '/home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix'...\n"}
+[24.950153] (ros_phoenix) StdoutLine: {'line': b"Compiling '/home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/__init__.py'...\n"}
+[24.950196] (ros_phoenix) StdoutLine: {'line': b"Listing '/home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg'...\n"}
+[24.950241] (ros_phoenix) StdoutLine: {'line': b"Compiling '/home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg/__init__.py'...\n"}
+[24.950279] (ros_phoenix) StdoutLine: {'line': b"Compiling '/home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg/_motor_control.py'...\n"}
+[24.950317] (ros_phoenix) StdoutLine: {'line': b"Compiling '/home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg/_motor_status.py'...\n"}
+[24.953672] (ros_phoenix) StdoutLine: {'line': b'-- Installing: /home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_generator_py.so\n'}
+[24.953819] (ros_phoenix) StdoutLine: {'line': b'-- Set runtime path of "/home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_generator_py.so" to ""\n'}
+[24.953879] (ros_phoenix) StdoutLine: {'line': b'-- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_generator_cExport.cmake\n'}
+[24.953953] (ros_phoenix) StdoutLine: {'line': b'-- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_generator_cExport-noconfig.cmake\n'}
+[24.953992] (ros_phoenix) StdoutLine: {'line': b'-- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[24.954041] (ros_phoenix) StdoutLine: {'line': b'-- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[24.954092] (ros_phoenix) StdoutLine: {'line': b'-- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_generator_cppExport.cmake\n'}
+[24.954162] (ros_phoenix) StdoutLine: {'line': b'-- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[24.954235] (ros_phoenix) StdoutLine: {'line': b'-- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[24.954317] (ros_phoenix) StdoutLine: {'line': b'-- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_introspection_cExport.cmake\n'}
+[24.954387] (ros_phoenix) StdoutLine: {'line': b'-- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[24.954462] (ros_phoenix) StdoutLine: {'line': b'-- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_cExport.cmake\n'}
+[24.954532] (ros_phoenix) StdoutLine: {'line': b'-- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[24.954606] (ros_phoenix) StdoutLine: {'line': b'-- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[24.954678] (ros_phoenix) StdoutLine: {'line': b'-- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[24.954755] (ros_phoenix) StdoutLine: {'line': b'-- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_cppExport.cmake\n'}
+[24.954825] (ros_phoenix) StdoutLine: {'line': b'-- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[24.954898] (ros_phoenix) StdoutLine: {'line': b'-- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_generator_pyExport.cmake\n'}
+[24.954972] (ros_phoenix) StdoutLine: {'line': b'-- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_generator_pyExport-noconfig.cmake\n'}
+[24.956512] (ros_phoenix) CommandEnded: {'returncode': 0}
+[24.970764] (-) TimerEvent: {}
+[25.031667] (ros_phoenix) JobEnded: {'identifier': 'ros_phoenix', 'rc': 0}
+[25.032653] (-) EventReactorShutdown: {}

@@ -1,0 +1,156 @@
+[0.014s] Invoking command in '/home/luna/backup_ws2/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/luna/backup_ws2/install/ros_phoenix:/home/luna/backup_ws2/install/serial:/home/luna/backup_ws2/install/cpp_pubsub:/home/luna/backup_ws2/install/ros2_laser_scan_matcher:/home/luna/backup_ws2/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/home/luna/backup_ws2/install/ros_phoenix/lib:/home/luna/backup_ws2/install/serial/lib:/home/luna/backup_ws2/install/cpp_pubsub/lib:/home/luna/backup_ws2/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/luna/backup_ws2/build/cpp_pubsub -- -j8 -l8
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target cpp_pubsub__rosidl_generator_c[0m
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target rover[0m
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target commander[0m
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target serial_com[0m
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.072s] [  2%] Built target cpp_pubsub__cpp
+[0.074s] [  8%] Built target cpp_pubsub__rosidl_generator_c
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target motors[0m
+[0.086s] [ 13%] Built target serial_com
+[0.086s] [ 17%] Built target listener
+[0.086s] [ 20%] [32mBuilding CXX object CMakeFiles/commander.dir/src/pubsub_node.cpp.o[0m
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target today[0m
+[0.092s] [ 24%] Built target talker
+[0.094s] [ 24%] Built target ament_cmake_python_symlink_cpp_pubsub
+[0.098s] [ 28%] Built target rover
+[0.098s] [35m[1mConsolidate compiler generated dependencies of target cpp_pubsub__rosidl_typesupport_cpp[0m
+[0.103s] [35m[1mConsolidate compiler generated dependencies of target cpp_pubsub__rosidl_typesupport_fastrtps_c[0m
+[0.106s] [35m[1mConsolidate compiler generated dependencies of target cpp_pubsub__rosidl_typesupport_introspection_c[0m
+[0.106s] [ 33%] Built target motors
+[0.108s] [ 35%] [32mBuilding CXX object CMakeFiles/today.dir/src/today.cpp.o[0m
+[0.110s] [35m[1mConsolidate compiler generated dependencies of target cpp_pubsub__rosidl_typesupport_fastrtps_cpp[0m
+[0.114s] [ 42%] Built target cpp_pubsub__rosidl_typesupport_cpp
+[0.115s] [35m[1mConsolidate compiler generated dependencies of target cpp_pubsub__rosidl_typesupport_c[0m
+[0.119s] [35m[1mConsolidate compiler generated dependencies of target cpp_pubsub__rosidl_typesupport_introspection_cpp[0m
+[0.120s] [ 48%] Built target cpp_pubsub__rosidl_typesupport_introspection_c
+[0.121s] [ 55%] Built target cpp_pubsub__rosidl_typesupport_fastrtps_c
+[0.126s] [ 62%] Built target cpp_pubsub__rosidl_typesupport_c
+[0.129s] [ 68%] Built target cpp_pubsub__rosidl_typesupport_fastrtps_cpp
+[0.134s] [ 75%] Built target cpp_pubsub__rosidl_typesupport_introspection_cpp
+[0.150s] [ 75%] Built target cpp_pubsub
+[0.172s] [ 77%] Built target cpp_pubsub__py
+[0.181s] [35m[1mConsolidate compiler generated dependencies of target cpp_pubsub__rosidl_generator_py[0m
+[0.190s] [ 82%] Built target cpp_pubsub__rosidl_generator_py
+[0.199s] [35m[1mConsolidate compiler generated dependencies of target cpp_pubsub__rosidl_typesupport_c__pyext[0m
+[0.202s] [35m[1mConsolidate compiler generated dependencies of target cpp_pubsub__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.206s] [35m[1mConsolidate compiler generated dependencies of target cpp_pubsub__rosidl_typesupport_introspection_c__pyext[0m
+[0.211s] [ 86%] Built target cpp_pubsub__rosidl_typesupport_c__pyext
+[0.214s] [ 91%] Built target cpp_pubsub__rosidl_typesupport_fastrtps_c__pyext
+[0.219s] [ 95%] Built target cpp_pubsub__rosidl_typesupport_introspection_c__pyext
+[0.330s] running egg_info
+[0.331s] writing cpp_pubsub.egg-info/PKG-INFO
+[0.331s] writing dependency_links to cpp_pubsub.egg-info/dependency_links.txt
+[0.331s] writing top-level names to cpp_pubsub.egg-info/top_level.txt
+[0.333s] reading manifest file 'cpp_pubsub.egg-info/SOURCES.txt'
+[0.334s] writing manifest file 'cpp_pubsub.egg-info/SOURCES.txt'
+[0.354s] [ 95%] Built target ament_cmake_python_build_cpp_pubsub_egg
+[6.464s] [ 97%] [32m[1mLinking CXX executable today[0m
+[6.514s] [100%] [32m[1mLinking CXX executable commander[0m
+[6.830s] [100%] Built target today
+[6.855s] [100%] Built target commander
+[6.863s] Invoked command in '/home/luna/backup_ws2/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/luna/backup_ws2/install/ros_phoenix:/home/luna/backup_ws2/install/serial:/home/luna/backup_ws2/install/cpp_pubsub:/home/luna/backup_ws2/install/ros2_laser_scan_matcher:/home/luna/backup_ws2/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/home/luna/backup_ws2/install/ros_phoenix/lib:/home/luna/backup_ws2/install/serial/lib:/home/luna/backup_ws2/install/cpp_pubsub/lib:/home/luna/backup_ws2/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/luna/backup_ws2/build/cpp_pubsub -- -j8 -l8
+[6.941s] Invoking command in '/home/luna/backup_ws2/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/luna/backup_ws2/install/ros_phoenix:/home/luna/backup_ws2/install/serial:/home/luna/backup_ws2/install/cpp_pubsub:/home/luna/backup_ws2/install/ros2_laser_scan_matcher:/home/luna/backup_ws2/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/home/luna/backup_ws2/install/ros_phoenix/lib:/home/luna/backup_ws2/install/serial/lib:/home/luna/backup_ws2/install/cpp_pubsub/lib:/home/luna/backup_ws2/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/luna/backup_ws2/build/cpp_pubsub
+[6.947s] -- Install configuration: ""
+[6.948s] -- Execute custom install script
+[6.948s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/ament_index/resource_index/rosidl_interfaces/cpp_pubsub
+[6.949s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/phoenix_control__functions.h
+[6.949s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/phoenix_control__struct.h
+[6.949s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/phoenix_control__type_support.h
+[6.949s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/phoenix_control.h
+[6.949s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/rosidl_generator_c__visibility_control.h
+[6.949s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/environment/library_path.sh
+[6.949s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/environment/library_path.dsv
+[6.950s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/phoenix_control__rosidl_typesupport_fastrtps_c.h
+[6.950s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.950s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/phoenix_control__builder.hpp
+[6.950s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/phoenix_control__struct.hpp
+[6.950s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/phoenix_control__traits.hpp
+[6.950s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/phoenix_control.hpp
+[6.951s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/phoenix_control__rosidl_typesupport_fastrtps_cpp.hpp
+[6.951s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.951s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/phoenix_control__rosidl_typesupport_introspection_c.h
+[6.951s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.951s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/phoenix_control__rosidl_typesupport_introspection_cpp.hpp
+[6.951s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/environment/pythonpath.sh
+[6.952s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/environment/pythonpath.dsv
+[6.952s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub-0.0.3-py3.10.egg-info/PKG-INFO
+[6.952s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub-0.0.3-py3.10.egg-info/SOURCES.txt
+[6.952s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub-0.0.3-py3.10.egg-info/dependency_links.txt
+[6.952s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub-0.0.3-py3.10.egg-info/top_level.txt
+[6.953s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/__init__.py
+[6.953s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/_cpp_pubsub_s.ep.rosidl_typesupport_c.c
+[6.953s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/_cpp_pubsub_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.953s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/_cpp_pubsub_s.ep.rosidl_typesupport_introspection_c.c
+[6.953s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/cpp_pubsub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.953s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/cpp_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.953s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/cpp_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.953s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/libcpp_pubsub__rosidl_generator_py.so
+[6.953s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/msg/__init__.py
+[6.954s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/msg/_phoenix_control.py
+[6.954s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/msg/_phoenix_control_s.c
+[6.954s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/cpp_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.954s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/cpp_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.954s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/cpp_pubsub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.955s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/msg/PhoenixControl.idl
+[6.955s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/msg/PhoenixControl.msg
+[6.955s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/lib/cpp_pubsub/serial_com
+[6.955s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/lib/cpp_pubsub/listener
+[6.955s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/lib/cpp_pubsub/talker
+[6.956s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/lib/cpp_pubsub/commander
+[6.956s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/lib/cpp_pubsub/rover
+[6.956s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/lib/cpp_pubsub/motors
+[6.956s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/lib/cpp_pubsub/today
+[6.956s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub//launch/commander.launch.py
+[6.957s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub//launch/motors.launch.py
+[6.957s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[6.957s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[6.957s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[6.957s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[6.957s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[6.957s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[6.957s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[6.958s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[6.958s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[6.958s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[6.958s] -- Symlinking: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[6.965s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[6.965s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/cmake/rosidl_cmake-extras.cmake
+[6.965s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.965s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.965s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_libraries-extras.cmake
+[6.965s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_targets-extras.cmake
+[6.966s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.966s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.966s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[6.966s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[6.966s] -- Up-to-date symlink: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[6.966s] -- Up-to-date: /home/luna/backup_ws2/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_generator_c.so
+[6.967s] -- Up-to-date: /home/luna/backup_ws2/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_fastrtps_c.so
+[6.967s] -- Up-to-date: /home/luna/backup_ws2/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_fastrtps_cpp.so
+[6.967s] -- Up-to-date: /home/luna/backup_ws2/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_introspection_c.so
+[6.968s] -- Up-to-date: /home/luna/backup_ws2/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_c.so
+[6.968s] -- Up-to-date: /home/luna/backup_ws2/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_introspection_cpp.so
+[6.968s] -- Up-to-date: /home/luna/backup_ws2/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_cpp.so
+[6.991s] Listing '/home/luna/backup_ws2/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub'...
+[6.991s] Listing '/home/luna/backup_ws2/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/msg'...
+[6.994s] -- Up-to-date: /home/luna/backup_ws2/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_generator_py.so
+[6.994s] -- Up-to-date: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_generator_cExport.cmake
+[6.994s] -- Up-to-date: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_generator_cExport-noconfig.cmake
+[6.994s] -- Up-to-date: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_typesupport_fastrtps_cExport.cmake
+[6.994s] -- Up-to-date: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.994s] -- Up-to-date: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_generator_cppExport.cmake
+[6.994s] -- Up-to-date: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.995s] -- Up-to-date: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.995s] -- Up-to-date: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_introspection_cExport.cmake
+[6.995s] -- Up-to-date: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.995s] -- Up-to-date: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_cExport.cmake
+[6.995s] -- Up-to-date: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_cExport-noconfig.cmake
+[6.995s] -- Up-to-date: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_introspection_cppExport.cmake
+[6.995s] -- Up-to-date: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.995s] -- Up-to-date: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_cppExport.cmake
+[6.995s] -- Up-to-date: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_cppExport-noconfig.cmake
+[6.996s] -- Up-to-date: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_generator_pyExport.cmake
+[6.996s] -- Up-to-date: /home/luna/backup_ws2/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_generator_pyExport-noconfig.cmake
+[6.998s] Invoked command in '/home/luna/backup_ws2/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/luna/backup_ws2/install/ros_phoenix:/home/luna/backup_ws2/install/serial:/home/luna/backup_ws2/install/cpp_pubsub:/home/luna/backup_ws2/install/ros2_laser_scan_matcher:/home/luna/backup_ws2/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/home/luna/backup_ws2/install/ros_phoenix/lib:/home/luna/backup_ws2/install/serial/lib:/home/luna/backup_ws2/install/cpp_pubsub/lib:/home/luna/backup_ws2/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/luna/backup_ws2/build/cpp_pubsub

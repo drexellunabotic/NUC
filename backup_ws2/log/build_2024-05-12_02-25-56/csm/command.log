@@ -1,0 +1,6 @@
+Invoking command in '/home/luna/backup_ws2/build/csm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luna/backup_ws2/src/csm -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luna/backup_ws2/install/csm
+Invoked command in '/home/luna/backup_ws2/build/csm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luna/backup_ws2/src/csm -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luna/backup_ws2/install/csm
+Invoking command in '/home/luna/backup_ws2/build/csm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/backup_ws2/build/csm -- -j8 -l8
+Invoked command in '/home/luna/backup_ws2/build/csm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/backup_ws2/build/csm -- -j8 -l8
+Invoking command in '/home/luna/backup_ws2/build/csm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luna/backup_ws2/build/csm
+Invoked command in '/home/luna/backup_ws2/build/csm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luna/backup_ws2/build/csm

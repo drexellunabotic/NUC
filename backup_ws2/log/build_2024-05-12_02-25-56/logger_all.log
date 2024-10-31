@@ -1,0 +1,310 @@
+[0.069s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-ignore', 'cpp_pubsub', 'ros2_laser_scan_matcher']
+[0.069s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=['cpp_pubsub', 'ros2_laser_scan_matcher'], packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x73dc52b48940>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73dc52b48400>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73dc52b48400>>)
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.180s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/luna/backup_ws2'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/csm) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/csm) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/csm) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/csm) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/csm) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/csm) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/csm) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/csm) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/csm) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/csm' with type 'ros.ament_cmake' and name 'csm'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_laser_scan_matcher' with type 'ros.ament_cmake' and name 'ros2_laser_scan_matcher'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_phoenix) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_phoenix) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_phoenix) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_phoenix) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_phoenix) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_phoenix) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_phoenix) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_phoenix) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_phoenix) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_phoenix' with type 'ros.ament_cmake' and name 'ros_phoenix'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.219s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 396 installed packages in /opt/ros/humble
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_target' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_clean_first' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_force_configure' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'ament_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.252s] DEBUG:colcon.colcon_core.verb:Building package 'csm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luna/backup_ws2/build/csm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luna/backup_ws2/install/csm', 'merge_install': False, 'path': '/home/luna/backup_ws2/src/csm', 'symlink_install': True, 'test_result_base': None}
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'ros_phoenix' build argument 'cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'ros_phoenix' build argument 'cmake_target' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'ros_phoenix' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'ros_phoenix' build argument 'cmake_clean_cache' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'ros_phoenix' build argument 'cmake_clean_first' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'ros_phoenix' build argument 'cmake_force_configure' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'ros_phoenix' build argument 'ament_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'ros_phoenix' build argument 'catkin_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'ros_phoenix' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.252s] DEBUG:colcon.colcon_core.verb:Building package 'ros_phoenix' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luna/backup_ws2/build/ros_phoenix', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luna/backup_ws2/install/ros_phoenix', 'merge_install': False, 'path': '/home/luna/backup_ws2/src/ros_phoenix', 'symlink_install': True, 'test_result_base': None}
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.253s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luna/backup_ws2/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luna/backup_ws2/install/serial', 'merge_install': False, 'path': '/home/luna/backup_ws2/src/serial', 'symlink_install': True, 'test_result_base': None}
+[0.253s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.254s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.254s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luna/backup_ws2/src/csm' with build type 'ament_cmake'
+[0.254s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luna/backup_ws2/src/csm'
+[0.255s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.255s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.258s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luna/backup_ws2/src/ros_phoenix' with build type 'ament_cmake'
+[0.258s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luna/backup_ws2/src/ros_phoenix'
+[0.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.260s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luna/backup_ws2/src/serial' with build type 'ament_cmake'
+[0.260s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luna/backup_ws2/src/serial'
+[0.260s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.260s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luna/backup_ws2/build/csm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luna/backup_ws2/src/csm -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luna/backup_ws2/install/csm
+[0.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luna/backup_ws2/build/ros_phoenix': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luna/backup_ws2/src/ros_phoenix -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luna/backup_ws2/install/ros_phoenix
+[0.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luna/backup_ws2/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luna/backup_ws2/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luna/backup_ws2/install/serial
+[0.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luna/backup_ws2/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luna/backup_ws2/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luna/backup_ws2/install/serial
+[0.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luna/backup_ws2/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/backup_ws2/build/serial -- -j8 -l8
+[1.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luna/backup_ws2/build/csm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luna/backup_ws2/src/csm -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luna/backup_ws2/install/csm
+[1.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luna/backup_ws2/build/csm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/backup_ws2/build/csm -- -j8 -l8
+[6.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luna/backup_ws2/build/ros_phoenix' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luna/backup_ws2/src/ros_phoenix -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luna/backup_ws2/install/ros_phoenix
+[6.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luna/backup_ws2/build/ros_phoenix': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/backup_ws2/build/ros_phoenix -- -j8 -l8
+[8.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luna/backup_ws2/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/backup_ws2/build/serial -- -j8 -l8
+[8.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luna/backup_ws2/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luna/backup_ws2/build/serial
+[8.768s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[8.771s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/serial' for CMake module files
+[8.772s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/serial' for CMake config files
+[8.772s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[8.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luna/backup_ws2/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[8.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luna/backup_ws2/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[8.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luna/backup_ws2/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[8.775s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/serial/lib'
+[8.775s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/serial/bin'
+[8.775s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/serial/lib/pkgconfig/serial.pc'
+[8.775s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/serial/lib/python3.10/site-packages'
+[8.776s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/serial/bin'
+[8.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/luna/backup_ws2/install/serial/share/serial/package.ps1'
+[8.777s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luna/backup_ws2/install/serial/share/serial/package.dsv'
+[8.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luna/backup_ws2/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luna/backup_ws2/build/serial
+[8.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/luna/backup_ws2/install/serial/share/serial/package.sh'
+[8.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/luna/backup_ws2/install/serial/share/serial/package.bash'
+[8.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/luna/backup_ws2/install/serial/share/serial/package.zsh'
+[8.781s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luna/backup_ws2/install/serial/share/colcon-core/packages/serial)
+[8.909s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[8.909s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/serial' for CMake module files
+[8.910s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/serial' for CMake config files
+[8.910s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[8.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luna/backup_ws2/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[8.911s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luna/backup_ws2/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[8.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luna/backup_ws2/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[8.912s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/serial/lib'
+[8.912s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/serial/bin'
+[8.912s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/serial/lib/pkgconfig/serial.pc'
+[8.912s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/serial/lib/python3.10/site-packages'
+[8.912s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/serial/bin'
+[8.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/luna/backup_ws2/install/serial/share/serial/package.ps1'
+[8.913s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luna/backup_ws2/install/serial/share/serial/package.dsv'
+[8.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/luna/backup_ws2/install/serial/share/serial/package.sh'
+[8.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/luna/backup_ws2/install/serial/share/serial/package.bash'
+[8.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/luna/backup_ws2/install/serial/share/serial/package.zsh'
+[8.915s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luna/backup_ws2/install/serial/share/colcon-core/packages/serial)
+[20.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luna/backup_ws2/build/csm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/backup_ws2/build/csm -- -j8 -l8
+[20.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luna/backup_ws2/build/csm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luna/backup_ws2/build/csm
+[20.419s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(csm)
+[20.420s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/csm' for CMake module files
+[20.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luna/backup_ws2/build/csm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luna/backup_ws2/build/csm
+[20.421s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/csm' for CMake config files
+[20.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('csm', 'cmake_prefix_path')
+[20.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luna/backup_ws2/install/csm/share/csm/hook/cmake_prefix_path.ps1'
+[20.422s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luna/backup_ws2/install/csm/share/csm/hook/cmake_prefix_path.dsv'
+[20.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luna/backup_ws2/install/csm/share/csm/hook/cmake_prefix_path.sh'
+[20.422s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/csm/lib'
+[20.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('csm', 'ld_library_path_lib')
+[20.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luna/backup_ws2/install/csm/share/csm/hook/ld_library_path_lib.ps1'
+[20.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luna/backup_ws2/install/csm/share/csm/hook/ld_library_path_lib.dsv'
+[20.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luna/backup_ws2/install/csm/share/csm/hook/ld_library_path_lib.sh'
+[20.423s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/csm/bin'
+[20.423s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/csm/lib/pkgconfig/csm.pc'
+[20.424s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/csm/lib/python3.10/site-packages'
+[20.424s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/csm/bin'
+[20.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/luna/backup_ws2/install/csm/share/csm/package.ps1'
+[20.425s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luna/backup_ws2/install/csm/share/csm/package.dsv'
+[20.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/luna/backup_ws2/install/csm/share/csm/package.sh'
+[20.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/luna/backup_ws2/install/csm/share/csm/package.bash'
+[20.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/luna/backup_ws2/install/csm/share/csm/package.zsh'
+[20.426s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luna/backup_ws2/install/csm/share/colcon-core/packages/csm)
+[20.473s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(csm)
+[20.473s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/csm' for CMake module files
+[20.474s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/csm' for CMake config files
+[20.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('csm', 'cmake_prefix_path')
+[20.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luna/backup_ws2/install/csm/share/csm/hook/cmake_prefix_path.ps1'
+[20.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luna/backup_ws2/install/csm/share/csm/hook/cmake_prefix_path.dsv'
+[20.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luna/backup_ws2/install/csm/share/csm/hook/cmake_prefix_path.sh'
+[20.475s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/csm/lib'
+[20.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('csm', 'ld_library_path_lib')
+[20.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luna/backup_ws2/install/csm/share/csm/hook/ld_library_path_lib.ps1'
+[20.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luna/backup_ws2/install/csm/share/csm/hook/ld_library_path_lib.dsv'
+[20.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luna/backup_ws2/install/csm/share/csm/hook/ld_library_path_lib.sh'
+[20.476s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/csm/bin'
+[20.476s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/csm/lib/pkgconfig/csm.pc'
+[20.476s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/csm/lib/python3.10/site-packages'
+[20.476s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/csm/bin'
+[20.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/luna/backup_ws2/install/csm/share/csm/package.ps1'
+[20.477s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luna/backup_ws2/install/csm/share/csm/package.dsv'
+[20.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/luna/backup_ws2/install/csm/share/csm/package.sh'
+[20.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/luna/backup_ws2/install/csm/share/csm/package.bash'
+[20.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/luna/backup_ws2/install/csm/share/csm/package.zsh'
+[20.478s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luna/backup_ws2/install/csm/share/colcon-core/packages/csm)
+[24.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luna/backup_ws2/build/ros_phoenix' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/backup_ws2/build/ros_phoenix -- -j8 -l8
+[24.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luna/backup_ws2/build/ros_phoenix': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luna/backup_ws2/build/ros_phoenix
+[25.210s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_phoenix)
+[25.210s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/ros_phoenix' for CMake module files
+[25.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luna/backup_ws2/build/ros_phoenix' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luna/backup_ws2/build/ros_phoenix
+[25.211s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/ros_phoenix' for CMake config files
+[25.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_phoenix', 'cmake_prefix_path')
+[25.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/hook/cmake_prefix_path.ps1'
+[25.212s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/hook/cmake_prefix_path.dsv'
+[25.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/hook/cmake_prefix_path.sh'
+[25.213s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/ros_phoenix/lib'
+[25.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_phoenix', 'ld_library_path_lib')
+[25.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/hook/ld_library_path_lib.ps1'
+[25.213s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/hook/ld_library_path_lib.dsv'
+[25.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/hook/ld_library_path_lib.sh'
+[25.213s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/ros_phoenix/bin'
+[25.213s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/ros_phoenix/lib/pkgconfig/ros_phoenix.pc'
+[25.213s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/ros_phoenix/lib/python3.10/site-packages'
+[25.214s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/ros_phoenix/bin'
+[25.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/package.ps1'
+[25.214s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/package.dsv'
+[25.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/package.sh'
+[25.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/package.bash'
+[25.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/package.zsh'
+[25.215s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luna/backup_ws2/install/ros_phoenix/share/colcon-core/packages/ros_phoenix)
+[25.281s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_phoenix)
+[25.281s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/ros_phoenix' for CMake module files
+[25.281s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/ros_phoenix' for CMake config files
+[25.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_phoenix', 'cmake_prefix_path')
+[25.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/hook/cmake_prefix_path.ps1'
+[25.282s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/hook/cmake_prefix_path.dsv'
+[25.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/hook/cmake_prefix_path.sh'
+[25.283s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/ros_phoenix/lib'
+[25.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_phoenix', 'ld_library_path_lib')
+[25.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/hook/ld_library_path_lib.ps1'
+[25.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/hook/ld_library_path_lib.dsv'
+[25.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/hook/ld_library_path_lib.sh'
+[25.283s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/ros_phoenix/bin'
+[25.283s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/ros_phoenix/lib/pkgconfig/ros_phoenix.pc'
+[25.284s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/ros_phoenix/lib/python3.10/site-packages'
+[25.284s] Level 1:colcon.colcon_core.environment:checking '/home/luna/backup_ws2/install/ros_phoenix/bin'
+[25.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/package.ps1'
+[25.284s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/package.dsv'
+[25.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/package.sh'
+[25.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/package.bash'
+[25.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/package.zsh'
+[25.285s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luna/backup_ws2/install/ros_phoenix/share/colcon-core/packages/ros_phoenix)
+[25.285s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[25.286s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[25.286s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[25.286s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[25.290s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[25.290s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[25.290s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[25.300s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[25.300s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luna/backup_ws2/install/local_setup.ps1'
+[25.301s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/luna/backup_ws2/install/_local_setup_util_ps1.py'
+[25.301s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luna/backup_ws2/install/setup.ps1'
+[25.302s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luna/backup_ws2/install/local_setup.sh'
+[25.302s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/luna/backup_ws2/install/_local_setup_util_sh.py'
+[25.303s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luna/backup_ws2/install/setup.sh'
+[25.303s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luna/backup_ws2/install/local_setup.bash'
+[25.304s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luna/backup_ws2/install/setup.bash'
+[25.304s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luna/backup_ws2/install/local_setup.zsh'
+[25.304s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luna/backup_ws2/install/setup.zsh'

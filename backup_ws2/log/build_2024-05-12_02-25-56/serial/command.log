@@ -1,0 +1,6 @@
+Invoking command in '/home/luna/backup_ws2/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luna/backup_ws2/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luna/backup_ws2/install/serial
+Invoked command in '/home/luna/backup_ws2/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luna/backup_ws2/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luna/backup_ws2/install/serial
+Invoking command in '/home/luna/backup_ws2/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/backup_ws2/build/serial -- -j8 -l8
+Invoked command in '/home/luna/backup_ws2/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/backup_ws2/build/serial -- -j8 -l8
+Invoking command in '/home/luna/backup_ws2/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luna/backup_ws2/build/serial
+Invoked command in '/home/luna/backup_ws2/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luna/backup_ws2/build/serial

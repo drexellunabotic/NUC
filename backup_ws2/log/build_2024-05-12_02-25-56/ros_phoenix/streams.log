@@ -1,0 +1,703 @@
+[0.009s] Invoking command in '/home/luna/backup_ws2/build/ros_phoenix': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luna/backup_ws2/src/ros_phoenix -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luna/backup_ws2/install/ros_phoenix
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.104s] -- The CXX compiler identification is GNU 11.4.0
+[0.111s] -- Detecting C compiler ABI info
+[0.164s] -- Detecting C compiler ABI info - done
+[0.174s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.174s] -- Detecting C compile features
+[0.174s] -- Detecting C compile features - done
+[0.178s] -- Detecting CXX compiler ABI info
+[0.242s] -- Detecting CXX compiler ABI info - done
+[0.252s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.252s] -- Detecting CXX compile features
+[0.253s] -- Detecting CXX compile features - done
+[0.256s] -- Looking for pthread.h
+[0.313s] -- Looking for pthread.h - found
+[0.313s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.365s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.365s] -- Found Threads: TRUE  
+[0.366s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.514s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.560s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.591s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.629s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.633s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.640s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.657s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.680s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.765s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.767s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.860s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.889s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.928s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.059s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.112s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.119s] -- Found hardware_interface: 2.40.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[2.484s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.231s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.379s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.404s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.406s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.438s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.439s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.439s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.439s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.464s] -- Found PythonExtra: .so  
+[3.504s] -- Downloading CTRE_Phoenix from http://devsite.ctr-electronics.com/maven/release/com/ctre/phoenix/api-cpp/5.21.2/api-cpp-5.21.2-linuxx86-64.zip
+[4.242s] -- Downloading headers for CTRE_Phoenix from http://devsite.ctr-electronics.com/maven/release/com/ctre/phoenix/api-cpp/5.21.2/api-cpp-5.21.2-linuxx86-64.zip
+[4.650s] -- Downloading CTRE_PhoenixCCI from http://devsite.ctr-electronics.com/maven/release/com/ctre/phoenix/cci/5.21.2/cci-5.21.2-linuxx86-64.zip
+[5.107s] -- Downloading headers for CTRE_PhoenixCCI from http://devsite.ctr-electronics.com/maven/release/com/ctre/phoenix/cci/5.21.2/cci-5.21.2-linuxx86-64.zip
+[5.619s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.676s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.682s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.684s] -- Configured cppcheck include dirs: /home/luna/backup_ws2/src/ros_phoenix/include
+[5.684s] -- Configured cppcheck exclude dirs and/or files: 
+[5.690s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.690s] -- Configured cpplint exclude dirs and/or files: 
+[5.692s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.694s] -- Added test 'lint_cmake' to check CMake code style
+[5.696s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.701s] -- Added test 'uncrustify' to check C / C++ code style
+[5.701s] -- Configured uncrustify additional arguments: 
+[5.703s] -- Added test 'xmllint' to check XML markup files
+[5.708s] -- Configuring done
+[5.776s] -- Generating done
+[5.780s] -- Build files have been written to: /home/luna/backup_ws2/build/ros_phoenix
+[5.804s] Invoked command in '/home/luna/backup_ws2/build/ros_phoenix' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luna/backup_ws2/src/ros_phoenix -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luna/backup_ws2/install/ros_phoenix
+[5.804s] Invoking command in '/home/luna/backup_ws2/build/ros_phoenix': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/backup_ws2/build/ros_phoenix -- -j8 -l8
+[5.963s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.021s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.079s] [  3%] Built target ament_cmake_python_symlink_ros_phoenix
+[6.095s] [  5%] [34m[1mUnpacking CTRE_Phoenix[0m
+[6.103s] [  7%] [34m[1mUnpacking CTRE_PhoenixCCI[0m
+[6.284s] [  7%] Built target CTRE_Phoenix-unzip
+[6.322s] [  7%] Built target CTRE_PhoenixCCI-unzip
+[6.766s] running egg_info
+[6.775s] creating ros_phoenix.egg-info
+[6.776s] writing ros_phoenix.egg-info/PKG-INFO
+[6.776s] writing dependency_links to ros_phoenix.egg-info/dependency_links.txt
+[6.777s] writing top-level names to ros_phoenix.egg-info/top_level.txt
+[6.777s] writing manifest file 'ros_phoenix.egg-info/SOURCES.txt'
+[6.780s] reading manifest file 'ros_phoenix.egg-info/SOURCES.txt'
+[6.781s] writing manifest file 'ros_phoenix.egg-info/SOURCES.txt'
+[6.852s] [  7%] Built target ament_cmake_python_build_ros_phoenix_egg
+[6.926s] [  7%] Built target ros_phoenix__cpp
+[6.941s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.988s] [ 11%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.995s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.395s] [ 15%] [32mBuilding C object CMakeFiles/ros_phoenix__rosidl_generator_c.dir/rosidl_generator_c/ros_phoenix/msg/detail/motor_status__functions.c.o[0m
+[7.396s] [ 17%] [32mBuilding C object CMakeFiles/ros_phoenix__rosidl_generator_c.dir/rosidl_generator_c/ros_phoenix/msg/detail/motor_control__functions.c.o[0m
+[7.519s] [ 19%] [32mBuilding CXX object CMakeFiles/ros_phoenix__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_phoenix/msg/detail/dds_fastrtps/motor_control__type_support.cpp.o[0m
+[7.520s] [ 21%] [32mBuilding CXX object CMakeFiles/ros_phoenix__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_phoenix/msg/detail/dds_fastrtps/motor_status__type_support.cpp.o[0m
+[7.522s] [ 23%] [32m[1mLinking C shared library libros_phoenix__rosidl_generator_c.so[0m
+[7.635s] [ 23%] Built target ros_phoenix__rosidl_generator_c
+[7.683s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.696s] [ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.713s] [ 29%] [32mBuilding CXX object CMakeFiles/ros_phoenix__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_phoenix/msg/motor_control__type_support.cpp.o[0m
+[7.719s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.723s] [ 33%] [32mBuilding CXX object CMakeFiles/ros_phoenix__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_phoenix/msg/motor_status__type_support.cpp.o[0m
+[8.104s] [ 35%] [32mBuilding CXX object CMakeFiles/ros_phoenix__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_phoenix/msg/detail/motor_control__type_support.cpp.o[0m
+[8.152s] [ 37%] [32mBuilding CXX object CMakeFiles/ros_phoenix__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_phoenix/msg/detail/motor_status__type_support.cpp.o[0m
+[8.204s] [ 39%] [32mBuilding CXX object CMakeFiles/ros_phoenix__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_phoenix/msg/motor_control__type_support.cpp.o[0m
+[8.213s] [ 41%] [32m[1mLinking CXX shared library libros_phoenix__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.249s] [ 43%] [32mBuilding CXX object CMakeFiles/ros_phoenix__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_phoenix/msg/motor_status__type_support.cpp.o[0m
+[8.298s] [ 45%] [32m[1mLinking CXX shared library libros_phoenix__rosidl_typesupport_cpp.so[0m
+[8.300s] [ 47%] [32m[1mLinking CXX shared library libros_phoenix__rosidl_typesupport_c.so[0m
+[8.322s] [ 49%] [32mBuilding C object CMakeFiles/ros_phoenix__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_phoenix/msg/detail/motor_status__type_support.c.o[0m
+[8.341s] [ 50%] [32mBuilding C object CMakeFiles/ros_phoenix__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_phoenix/msg/detail/motor_control__type_support.c.o[0m
+[8.350s] [ 50%] Built target ros_phoenix__rosidl_typesupport_fastrtps_cpp
+[8.369s] [ 52%] [32mBuilding CXX object CMakeFiles/ros_phoenix__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_phoenix/msg/detail/motor_control__type_support_c.cpp.o[0m
+[8.379s] [ 54%] [32mBuilding CXX object CMakeFiles/ros_phoenix__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_phoenix/msg/detail/motor_status__type_support_c.cpp.o[0m
+[8.402s] [ 54%] Built target ros_phoenix__rosidl_typesupport_cpp
+[8.410s] [ 56%] [32m[1mLinking C shared library libros_phoenix__rosidl_typesupport_introspection_c.so[0m
+[8.431s] [ 56%] Built target ros_phoenix__rosidl_typesupport_c
+[8.464s] [ 56%] Built target ros_phoenix__rosidl_typesupport_introspection_c
+[8.472s] [ 58%] [32mBuilding CXX object CMakeFiles/ros_phoenix_components.dir/src/phoenix_nodes.cpp.o[0m
+[8.475s] [ 60%] [32mBuilding CXX object CMakeFiles/ros_phoenix_components.dir/src/base_node.cpp.o[0m
+[8.481s] [ 62%] [32mBuilding CXX object CMakeFiles/ros_phoenix_components.dir/src/phoenix_components.cpp.o[0m
+[8.492s] [ 64%] [32mBuilding CXX object CMakeFiles/ros_phoenix_components.dir/src/phoenix_manager.cpp.o[0m
+[8.664s] [ 66%] [32m[1mLinking CXX shared library libros_phoenix__rosidl_typesupport_introspection_cpp.so[0m
+[8.793s] [ 66%] Built target ros_phoenix__rosidl_typesupport_introspection_cpp
+[9.292s] [ 68%] [32m[1mLinking CXX shared library libros_phoenix__rosidl_typesupport_fastrtps_c.so[0m
+[9.397s] [ 68%] Built target ros_phoenix__rosidl_typesupport_fastrtps_c
+[9.421s] [ 68%] Built target ros_phoenix
+[9.447s] [ 70%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.141s] [ 70%] Built target ros_phoenix__py
+[10.166s] [ 74%] [32mBuilding C object CMakeFiles/ros_phoenix__rosidl_generator_py.dir/rosidl_generator_py/ros_phoenix/msg/_motor_control_s.c.o[0m
+[10.166s] [ 74%] [32mBuilding C object CMakeFiles/ros_phoenix__rosidl_generator_py.dir/rosidl_generator_py/ros_phoenix/msg/_motor_status_s.c.o[0m
+[10.294s] [ 76%] [32m[1mLinking C shared library rosidl_generator_py/ros_phoenix/libros_phoenix__rosidl_generator_py.so[0m
+[10.340s] [ 76%] Built target ros_phoenix__rosidl_generator_py
+[10.362s] [ 80%] [32mBuilding C object CMakeFiles/ros_phoenix__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros_phoenix/_ros_phoenix_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.362s] [ 80%] [32mBuilding C object CMakeFiles/ros_phoenix__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros_phoenix/_ros_phoenix_s.ep.rosidl_typesupport_c.c.o[0m
+[10.368s] [ 82%] [32mBuilding C object CMakeFiles/ros_phoenix__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros_phoenix/_ros_phoenix_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.483s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/ros_phoenix/ros_phoenix_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.510s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/ros_phoenix/ros_phoenix_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.521s] [ 86%] Built target ros_phoenix__rosidl_typesupport_c__pyext
+[10.528s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/ros_phoenix/ros_phoenix_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.548s] [ 88%] Built target ros_phoenix__rosidl_typesupport_fastrtps_c__pyext
+[10.573s] [ 88%] Built target ros_phoenix__rosidl_typesupport_introspection_c__pyext
+[11.920s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[11.920s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[11.920s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[11.921s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[11.921s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[11.921s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[11.921s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[11.921s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[11.921s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[11.921s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[11.921s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[11.921s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7[m[K,
+[11.921s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:4[m[K,
+[11.921s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+[11.921s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_nodes.cpp:1[m[K:
+[11.921s] /home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of ‘[01m[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::VictorSPX; Configuration = ctre::phoenix::motorcontrol::can::VictorSPXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::FeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::VictorSPXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >][m[K’:
+[11.921s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:[m[K   required from here
+[11.921s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kctre::phoenix::motorcontrol::VictorSPXControlMode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[11.921s]    75 |             RCLCPP_WARN(this->get_logger(), [01;35m[K"Invalid control mode: %d"[m[K, [32m[Kmode[m[K);
+[11.921s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~[m[K
+[11.922s]       |                                                                         [32m[K|[m[K
+[11.922s]       |                                                                         [32m[Kctre::phoenix::motorcontrol::VictorSPXControlMode[m[K
+[11.922s] In file included from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+[11.922s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_nodes.cpp:1[m[K:
+[11.922s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[11.922s]    75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: [01;36m[K%d[m[K", mode);
+[11.922s]       |                                                                    [01;36m[K~^[m[K
+[11.922s]       |                                                                     [01;36m[K|[m[K
+[11.922s]       |                                                                     [01;36m[Kint[m[K
+[11.923s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[11.923s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[11.923s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[11.923s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[11.923s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[11.923s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[11.923s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[11.923s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[11.924s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[11.924s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[11.924s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[11.924s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7[m[K,
+[11.924s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:4[m[K,
+[11.924s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+[11.924s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_nodes.cpp:1[m[K:
+[11.924s] /home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of ‘[01m[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::TalonSRX; Configuration = ctre::phoenix::motorcontrol::can::TalonSRXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::TalonSRXFeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::TalonSRXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >][m[K’:
+[11.924s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:[m[K   required from here
+[11.924s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kctre::phoenix::motorcontrol::TalonSRXControlMode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[11.924s]    75 |             RCLCPP_WARN(this->get_logger(), [01;35m[K"Invalid control mode: %d"[m[K, [32m[Kmode[m[K);
+[11.924s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~[m[K
+[11.924s]       |                                                                         [32m[K|[m[K
+[11.924s]       |                                                                         [32m[Kctre::phoenix::motorcontrol::TalonSRXControlMode[m[K
+[11.924s] In file included from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+[11.925s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_nodes.cpp:1[m[K:
+[11.925s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[11.925s]    75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: [01;36m[K%d[m[K", mode);
+[11.925s]       |                                                                    [01;36m[K~^[m[K
+[11.925s]       |                                                                     [01;36m[K|[m[K
+[11.925s]       |                                                                     [01;36m[Kint[m[K
+[11.926s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[11.926s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[11.926s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[11.926s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[11.926s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[11.926s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[11.926s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[11.926s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[11.926s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[11.926s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[11.926s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[11.926s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7[m[K,
+[11.926s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:4[m[K,
+[11.926s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+[11.927s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_nodes.cpp:1[m[K:
+[11.927s] /home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of ‘[01m[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::TalonFX; Configuration = ctre::phoenix::motorcontrol::can::TalonFXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::TalonFXFeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::TalonFXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >][m[K’:
+[11.927s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:[m[K   required from here
+[11.927s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kctre::phoenix::motorcontrol::TalonFXControlMode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[11.927s]    75 |             RCLCPP_WARN(this->get_logger(), [01;35m[K"Invalid control mode: %d"[m[K, [32m[Kmode[m[K);
+[11.927s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~[m[K
+[11.927s]       |                                                                         [32m[K|[m[K
+[11.927s]       |                                                                         [32m[Kctre::phoenix::motorcontrol::TalonFXControlMode[m[K
+[11.927s] In file included from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+[11.927s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_nodes.cpp:1[m[K:
+[11.927s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[11.927s]    75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: [01;36m[K%d[m[K", mode);
+[11.927s]       |                                                                    [01;36m[K~^[m[K
+[11.927s]       |                                                                     [01;36m[K|[m[K
+[11.927s]       |                                                                     [01;36m[Kint[m[K
+[12.964s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[12.964s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.964s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.964s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.964s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.964s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.964s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.964s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.965s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.965s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.965s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.965s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7[m[K,
+[12.965s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:4[m[K,
+[12.965s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+[12.965s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_components.hpp:4[m[K,
+[12.965s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_components.cpp:1[m[K:
+[12.965s] /home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of ‘[01m[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::VictorSPX; Configuration = ctre::phoenix::motorcontrol::can::VictorSPXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::FeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::VictorSPXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >][m[K’:
+[12.965s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:[m[K   required from here
+[12.965s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kctre::phoenix::motorcontrol::VictorSPXControlMode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[12.965s]    75 |             RCLCPP_WARN(this->get_logger(), [01;35m[K"Invalid control mode: %d"[m[K, [32m[Kmode[m[K);
+[12.965s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~[m[K
+[12.965s]       |                                                                         [32m[K|[m[K
+[12.965s]       |                                                                         [32m[Kctre::phoenix::motorcontrol::VictorSPXControlMode[m[K
+[12.965s] In file included from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+[12.966s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_components.hpp:4[m[K,
+[12.966s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_components.cpp:1[m[K:
+[12.966s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[12.966s]    75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: [01;36m[K%d[m[K", mode);
+[12.966s]       |                                                                    [01;36m[K~^[m[K
+[12.966s]       |                                                                     [01;36m[K|[m[K
+[12.966s]       |                                                                     [01;36m[Kint[m[K
+[12.968s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[12.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.968s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7[m[K,
+[12.968s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:4[m[K,
+[12.969s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+[12.969s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_components.hpp:4[m[K,
+[12.969s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_components.cpp:1[m[K:
+[12.969s] /home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of ‘[01m[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::TalonSRX; Configuration = ctre::phoenix::motorcontrol::can::TalonSRXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::TalonSRXFeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::TalonSRXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >][m[K’:
+[12.969s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:[m[K   required from here
+[12.969s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kctre::phoenix::motorcontrol::TalonSRXControlMode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[12.969s]    75 |             RCLCPP_WARN(this->get_logger(), [01;35m[K"Invalid control mode: %d"[m[K, [32m[Kmode[m[K);
+[12.969s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~[m[K
+[12.969s]       |                                                                         [32m[K|[m[K
+[12.969s]       |                                                                         [32m[Kctre::phoenix::motorcontrol::TalonSRXControlMode[m[K
+[12.969s] In file included from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+[12.969s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_components.hpp:4[m[K,
+[12.969s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_components.cpp:1[m[K:
+[12.969s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[12.969s]    75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: [01;36m[K%d[m[K", mode);
+[12.970s]       |                                                                    [01;36m[K~^[m[K
+[12.970s]       |                                                                     [01;36m[K|[m[K
+[12.970s]       |                                                                     [01;36m[Kint[m[K
+[12.971s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[12.971s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.971s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.971s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.971s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.971s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.972s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.972s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.972s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.972s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.972s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.972s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7[m[K,
+[12.972s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:4[m[K,
+[12.972s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+[12.972s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_components.hpp:4[m[K,
+[12.972s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_components.cpp:1[m[K:
+[12.972s] /home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of ‘[01m[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::TalonFX; Configuration = ctre::phoenix::motorcontrol::can::TalonFXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::TalonFXFeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::TalonFXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >][m[K’:
+[12.972s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:[m[K   required from here
+[12.972s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kctre::phoenix::motorcontrol::TalonFXControlMode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[12.972s]    75 |             RCLCPP_WARN(this->get_logger(), [01;35m[K"Invalid control mode: %d"[m[K, [32m[Kmode[m[K);
+[12.972s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~[m[K
+[12.972s]       |                                                                         [32m[K|[m[K
+[12.973s]       |                                                                         [32m[Kctre::phoenix::motorcontrol::TalonFXControlMode[m[K
+[12.973s] In file included from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+[12.973s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_components.hpp:4[m[K,
+[12.973s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_components.cpp:1[m[K:
+[12.973s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[12.973s]    75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: [01;36m[K%d[m[K", mode);
+[12.973s]       |                                                                    [01;36m[K~^[m[K
+[12.973s]       |                                                                     [01;36m[K|[m[K
+[12.973s]       |                                                                     [01;36m[Kint[m[K
+[16.522s] [ 90%] [32m[1mLinking CXX shared library libros_phoenix_components.so[0m
+[16.931s] [ 90%] Built target ros_phoenix_components
+[16.946s] [ 94%] [32mBuilding CXX object CMakeFiles/phoenix_container.dir/src/phoenix_container.cpp.o[0m
+[16.946s] [ 94%] [32mBuilding CXX object CMakeFiles/ros_phoenix_control.dir/src/phoenix_bridge.cpp.o[0m
+[16.950s] [ 96%] [32mBuilding CXX object CMakeFiles/ros_phoenix_control.dir/src/phoenix_system.cpp.o[0m
+[18.792s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[18.792s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[18.792s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[18.792s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[18.792s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[18.792s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[18.792s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[18.793s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[18.793s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[18.793s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[18.793s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[18.793s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_bridge.hpp:31[m[K,
+[18.793s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:19[m[K:
+[18.793s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn ros_phoenix::PhoenixBridge::on_init(const hardware_interface::HardwareInfo&)[m[K’:
+[18.793s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:79:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 6 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[18.793s]    79 |             RCLCPP_FATAL(this->logger_, [01;35m[K"Joint '%s' has an invalid command interface: %s"[m[K,
+[18.793s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.793s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:79:88:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[18.793s]    79 | FATAL(this->logger_, "Joint '%s' has an invalid command interface: [01;36m[K%s[m[K",
+[18.793s]       |                                                                    [01;36m[K~^[m[K
+[18.794s]       |                                                                     [01;36m[K|[m[K
+[18.794s]       |                                                                     [01;36m[Kchar*[m[K
+[18.794s] 
+[18.794s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[18.794s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[18.794s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[18.794s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[18.794s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[18.794s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[18.794s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[18.794s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[18.794s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[18.794s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[18.794s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[18.794s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_bridge.hpp:31[m[K,
+[18.795s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:19[m[K:
+[18.795s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:88:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 6 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[18.795s]    88 |                 RCLCPP_FATAL(this->logger_, [01;35m[K"Joint '%s' has an invalid state interface: %s"[m[K,
+[18.795s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.795s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:88:90:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[18.795s]    88 | P_FATAL(this->logger_, "Joint '%s' has an invalid state interface: [01;36m[K%s[m[K",
+[18.795s]       |                                                                    [01;36m[K~^[m[K
+[18.795s]       |                                                                     [01;36m[K|[m[K
+[18.795s]       |                                                                     [01;36m[Kchar*[m[K
+[18.795s] 
+[18.814s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn ros_phoenix::PhoenixBridge::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[18.814s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:137:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[18.814s]   137 |  PhoenixBridge::on_activate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+[18.814s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[18.814s] 
+[18.815s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn ros_phoenix::PhoenixBridge::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[18.815s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:163:97:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[18.815s]   163 | hoenixBridge::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+[18.815s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[18.815s] 
+[18.815s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type ros_phoenix::PhoenixBridge::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[18.815s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:178:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[18.815s]   178 | rface::return_type PhoenixBridge::read([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[18.815s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[18.815s] 
+[18.815s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:178:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[18.815s]   178 | ridge::read(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[18.815s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[18.815s] 
+[18.815s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type ros_phoenix::PhoenixBridge::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[18.816s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:186:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[18.816s]   186 | face::return_type PhoenixBridge::write([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[18.816s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[18.816s] 
+[18.816s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_bridge.cpp:186:106:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[18.816s]   186 | idge::write(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[18.816s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[18.816s] 
+[19.158s] [ 98%] [32m[1mLinking CXX executable phoenix_container[0m
+[19.316s] [ 98%] Built target phoenix_container
+[20.652s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[20.652s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[20.652s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[20.652s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[20.653s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[20.653s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[20.653s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[20.653s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[20.653s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[20.653s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[20.653s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[20.653s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7[m[K,
+[20.653s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_system.hpp:18[m[K,
+[20.653s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:19[m[K:
+[20.653s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn ros_phoenix::PhoenixSystem::on_init(const hardware_interface::HardwareInfo&)[m[K’:
+[20.653s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:171:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::vector<hardware_interface::InterfaceInfo>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[20.653s]   171 |             RCLCPP_FATAL(this->logger_, [01;35m[K"Joint '%s' has %d command interfaces. Expected 1."[m[K,
+[20.653s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.653s]   172 |                 joint.name.c_str(), [32m[Kjoint.command_interfaces.size()[m[K);
+[20.653s]       |                                     [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.653s]       |                                                                  [32m[K|[m[K
+[20.653s]       |                                                                  [32m[Kstd::vector<hardware_interface::InterfaceInfo>::size_type {aka long unsigned int}[m[K
+[20.653s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:171:58:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[20.653s]   171 |             RCLCPP_FATAL(this->logger_, "Joint '%s' has [01;36m[K%d[m[K command interfaces. Expected 1.",
+[20.653s]       |                                                         [01;36m[K~^[m[K
+[20.653s]       |                                                          [01;36m[K|[m[K
+[20.653s]       |                                                          [01;36m[Kint[m[K
+[20.653s]       |                                                         [32m[K%ld[m[K
+[20.668s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn ros_phoenix::PhoenixSystem::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[20.668s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:240:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[20.668s]   240 | hardware_interface::CallbackReturn PhoenixSystem::on_activate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+[20.668s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[20.668s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn ros_phoenix::PhoenixSystem::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[20.668s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:250:97:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[20.668s]   250 | hardware_interface::CallbackReturn PhoenixSystem::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+[20.669s]       |                                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[20.669s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type ros_phoenix::PhoenixSystem::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[20.669s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:261:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[20.669s]   261 | hardware_interface::return_type PhoenixSystem::read([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[20.669s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[20.669s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:261:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[20.669s]   261 | hardware_interface::return_type PhoenixSystem::read(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[20.669s]       |                                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[20.669s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type ros_phoenix::PhoenixSystem::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[20.669s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:271:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[20.669s]   271 | hardware_interface::return_type PhoenixSystem::write([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[20.669s]       |                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[20.669s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:271:106:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[20.669s]   271 | hardware_interface::return_type PhoenixSystem::write(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[20.669s]       |                                                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[21.376s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[21.376s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[21.376s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[21.376s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[21.376s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[21.376s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[21.376s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[21.376s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[21.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[21.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[21.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[21.377s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7[m[K,
+[21.377s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_system.hpp:18[m[K,
+[21.377s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:19[m[K:
+[21.377s] /home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of ‘[01m[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::VictorSPX; Configuration = ctre::phoenix::motorcontrol::can::VictorSPXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::FeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::VictorSPXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >][m[K’:
+[21.377s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:[m[K   required from here
+[21.377s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kctre::phoenix::motorcontrol::VictorSPXControlMode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[21.377s]    75 |             RCLCPP_WARN(this->get_logger(), [01;35m[K"Invalid control mode: %d"[m[K, [32m[Kmode[m[K);
+[21.377s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~[m[K
+[21.377s]       |                                                                         [32m[K|[m[K
+[21.377s]       |                                                                         [32m[Kctre::phoenix::motorcontrol::VictorSPXControlMode[m[K
+[21.377s] In file included from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+[21.377s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:21[m[K:
+[21.377s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[21.377s]    75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: [01;36m[K%d[m[K", mode);
+[21.377s]       |                                                                    [01;36m[K~^[m[K
+[21.377s]       |                                                                     [01;36m[K|[m[K
+[21.377s]       |                                                                     [01;36m[Kint[m[K
+[21.381s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[21.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[21.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[21.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[21.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[21.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[21.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[21.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[21.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[21.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[21.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[21.381s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7[m[K,
+[21.381s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_system.hpp:18[m[K,
+[21.381s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:19[m[K:
+[21.381s] /home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of ‘[01m[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::TalonSRX; Configuration = ctre::phoenix::motorcontrol::can::TalonSRXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::TalonSRXFeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::TalonSRXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >][m[K’:
+[21.382s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:[m[K   required from here
+[21.382s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kctre::phoenix::motorcontrol::TalonSRXControlMode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[21.382s]    75 |             RCLCPP_WARN(this->get_logger(), [01;35m[K"Invalid control mode: %d"[m[K, [32m[Kmode[m[K);
+[21.382s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~[m[K
+[21.382s]       |                                                                         [32m[K|[m[K
+[21.382s]       |                                                                         [32m[Kctre::phoenix::motorcontrol::TalonSRXControlMode[m[K
+[21.382s] In file included from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+[21.382s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:21[m[K:
+[21.382s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[21.382s]    75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: [01;36m[K%d[m[K", mode);
+[21.382s]       |                                                                    [01;36m[K~^[m[K
+[21.382s]       |                                                                     [01;36m[K|[m[K
+[21.382s]       |                                                                     [01;36m[Kint[m[K
+[21.385s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[21.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[21.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[21.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[21.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[21.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[21.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[21.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[21.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[21.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[21.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[21.386s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7[m[K,
+[21.386s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_system.hpp:18[m[K,
+[21.386s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:19[m[K:
+[21.386s] /home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of ‘[01m[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::TalonFX; Configuration = ctre::phoenix::motorcontrol::can::TalonFXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::TalonFXFeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::TalonFXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >][m[K’:
+[21.386s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:[m[K   required from here
+[21.386s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kctre::phoenix::motorcontrol::TalonFXControlMode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[21.386s]    75 |             RCLCPP_WARN(this->get_logger(), [01;35m[K"Invalid control mode: %d"[m[K, [32m[Kmode[m[K);
+[21.386s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~[m[K
+[21.386s]       |                                                                         [32m[K|[m[K
+[21.386s]       |                                                                         [32m[Kctre::phoenix::motorcontrol::TalonFXControlMode[m[K
+[21.386s] In file included from [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+[21.386s]                  from [01m[K/home/luna/backup_ws2/src/ros_phoenix/src/phoenix_system.cpp:21[m[K:
+[21.386s] [01m[K/home/luna/backup_ws2/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[21.386s]    75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: [01;36m[K%d[m[K", mode);
+[21.386s]       |                                                                    [01;36m[K~^[m[K
+[21.386s]       |                                                                     [01;36m[K|[m[K
+[21.386s]       |                                                                     [01;36m[Kint[m[K
+[23.635s] [100%] [32m[1mLinking CXX shared library libros_phoenix_control.so[0m
+[24.106s] [100%] Built target ros_phoenix_control
+[24.114s] Invoked command in '/home/luna/backup_ws2/build/ros_phoenix' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/backup_ws2/build/ros_phoenix -- -j8 -l8
+[24.176s] Invoking command in '/home/luna/backup_ws2/build/ros_phoenix': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luna/backup_ws2/build/ros_phoenix
+[24.181s] -- Install configuration: ""
+[24.182s] -- Execute custom install script
+[24.182s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ament_index/resource_index/rosidl_interfaces/ros_phoenix
+[24.188s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__functions.h
+[24.194s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__struct.h
+[24.200s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__type_support.h
+[24.206s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__functions.h
+[24.212s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__struct.h
+[24.218s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__type_support.h
+[24.223s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/motor_control.h
+[24.229s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/motor_status.h
+[24.234s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/rosidl_generator_c__visibility_control.h
+[24.248s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/environment/library_path.sh
+[24.253s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/environment/library_path.dsv
+[24.259s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__rosidl_typesupport_fastrtps_c.h
+[24.265s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__rosidl_typesupport_fastrtps_c.h
+[24.270s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[24.276s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__builder.hpp
+[24.282s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__struct.hpp
+[24.288s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__traits.hpp
+[24.293s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__builder.hpp
+[24.300s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__struct.hpp
+[24.306s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__traits.hpp
+[24.311s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/motor_control.hpp
+[24.317s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/motor_status.hpp
+[24.324s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__rosidl_typesupport_fastrtps_cpp.hpp
+[24.329s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp
+[24.341s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[24.346s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__rosidl_typesupport_introspection_c.h
+[24.359s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__rosidl_typesupport_introspection_c.h
+[24.365s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[24.371s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__rosidl_typesupport_introspection_cpp.hpp
+[24.376s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__rosidl_typesupport_introspection_cpp.hpp
+[24.382s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/environment/pythonpath.sh
+[24.388s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/environment/pythonpath.dsv
+[24.394s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix-0.0.0-py3.10.egg-info/PKG-INFO
+[24.400s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix-0.0.0-py3.10.egg-info/SOURCES.txt
+[24.406s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix-0.0.0-py3.10.egg-info/dependency_links.txt
+[24.411s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix-0.0.0-py3.10.egg-info/top_level.txt
+[24.417s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/__init__.py
+[24.423s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/_ros_phoenix_s.ep.rosidl_typesupport_c.c
+[24.429s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/_ros_phoenix_s.ep.rosidl_typesupport_fastrtps_c.c
+[24.435s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/_ros_phoenix_s.ep.rosidl_typesupport_introspection_c.c
+[24.441s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/libros_phoenix__rosidl_generator_py.so
+[24.446s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg/__init__.py
+[24.452s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg/_motor_control.py
+[24.458s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg/_motor_control_s.c
+[24.464s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg/_motor_status.py
+[24.470s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg/_motor_status_s.c
+[24.475s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/ros_phoenix_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[24.481s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/ros_phoenix_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[24.488s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/ros_phoenix_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[24.494s] -- Up-to-date symlink: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/ros_phoenix_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[24.495s] -- Up-to-date symlink: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/ros_phoenix_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[24.495s] -- Up-to-date symlink: /home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/ros_phoenix_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[24.495s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/msg/MotorControl.idl
+[24.502s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/msg/MotorStatus.idl
+[24.508s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/msg/MotorControl.msg
+[24.514s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/msg/MotorStatus.msg
+[24.520s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/lib/libCTRE_Phoenix.so
+[24.525s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/lib/libCTRE_PhoenixCCI.so
+[24.531s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix//ros_phoenix_hardware.xml
+[24.537s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix_components.so
+[24.543s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/lib/ros_phoenix/phoenix_container
+[24.549s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix_control.so
+[24.555s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/base_node.hpp
+[24.561s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/phoenix_bridge.hpp
+[24.566s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/phoenix_components.hpp
+[24.572s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/phoenix_manager.hpp
+[24.577s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/phoenix_node.hpp
+[24.583s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp
+[24.589s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/include/ros_phoenix/phoenix_system.hpp
+[24.595s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/launch/view_robot.launch.py
+[24.602s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/ros2_control/diffbot.ros2_control.xacro
+[24.608s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/urdf/brackets.xacro
+[24.614s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/urdf/depth_camera.xacro
+[24.620s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/urdf/diffbot.materials.xacro
+[24.626s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/urdf/diffbot.urdf.xacro
+[24.632s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/urdf/diffbot_description.urdf.xacro
+[24.637s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/urdf/gazebo_control.xacro
+[24.643s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/urdf/inertial_macros.xacro
+[24.649s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/urdf/lidar.xacro
+[24.655s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/urdf/robot_core.urdf.xacro
+[24.660s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/urdf/robot_core.xacro
+[24.666s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/rviz/diffbot.rviz
+[24.672s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/rviz/diffbot_view.rviz
+[24.678s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/rviz/gz_simulation.rviz
+[24.684s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/rviz/nav2_slam_config.rviz
+[24.690s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/launch/diffbot.launch.py
+[24.696s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/config/diffbot_controllers.yaml
+[24.702s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/config/gaz_ros2_ctl_use_sim.yaml
+[24.708s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/config/gazebo_params.yaml
+[24.714s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/config/joystick.yaml
+[24.719s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/config/localization.yaml
+[24.725s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/config/mapper_params_online_async.yaml
+[24.730s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/config/twist_mux.yaml
+[24.737s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/launch/demo.launch.py
+[24.742s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/launch/joystick.launch.py
+[24.748s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/launch/launch_robot.launch.py
+[24.754s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/launch/launch_sim.launch.py
+[24.760s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/launch/rplidar.launch.py
+[24.766s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/launch/rsp.launch.py
+[24.775s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/launch/test_ekf.launch.py
+[24.781s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ament_index/resource_index/package_run_dependencies/ros_phoenix
+[24.787s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ament_index/resource_index/parent_prefix_path/ros_phoenix
+[24.792s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/environment/ament_prefix_path.sh
+[24.799s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/environment/ament_prefix_path.dsv
+[24.805s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/environment/path.sh
+[24.810s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/environment/path.dsv
+[24.816s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/local_setup.bash
+[24.822s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/local_setup.sh
+[24.828s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/local_setup.zsh
+[24.834s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/local_setup.dsv
+[24.840s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/package.dsv
+[24.846s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ament_index/resource_index/packages/ros_phoenix
+[24.852s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros_phoenix
+[24.857s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ament_index/resource_index/rclcpp_components/ros_phoenix
+[24.863s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/rosidl_cmake-extras.cmake
+[24.869s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.874s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ament_cmake_export_libraries-extras.cmake
+[24.880s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ament_cmake_export_targets-extras.cmake
+[24.886s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[24.892s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.898s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[24.904s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenixConfig.cmake
+[24.910s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenixConfig-version.cmake
+[24.916s] -- Symlinking: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/package.xml
+[24.922s] -- Installing: /home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_generator_c.so
+[24.922s] -- Set runtime path of "/home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_generator_c.so" to ""
+[24.922s] -- Installing: /home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_fastrtps_c.so
+[24.922s] -- Set runtime path of "/home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_fastrtps_c.so" to ""
+[24.922s] -- Installing: /home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_fastrtps_cpp.so
+[24.922s] -- Set runtime path of "/home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_fastrtps_cpp.so" to ""
+[24.922s] -- Installing: /home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_introspection_c.so
+[24.922s] -- Set runtime path of "/home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_introspection_c.so" to ""
+[24.922s] -- Installing: /home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_c.so
+[24.922s] -- Set runtime path of "/home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_c.so" to ""
+[24.923s] -- Installing: /home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_introspection_cpp.so
+[24.923s] -- Set runtime path of "/home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_introspection_cpp.so" to ""
+[24.923s] -- Installing: /home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_cpp.so
+[24.923s] -- Set runtime path of "/home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_cpp.so" to ""
+[24.946s] Listing '/home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix'...
+[24.946s] Compiling '/home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/__init__.py'...
+[24.946s] Listing '/home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg'...
+[24.946s] Compiling '/home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg/__init__.py'...
+[24.946s] Compiling '/home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg/_motor_control.py'...
+[24.946s] Compiling '/home/luna/backup_ws2/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg/_motor_status.py'...
+[24.949s] -- Installing: /home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_generator_py.so
+[24.949s] -- Set runtime path of "/home/luna/backup_ws2/install/ros_phoenix/lib/libros_phoenix__rosidl_generator_py.so" to ""
+[24.949s] -- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_generator_cExport.cmake
+[24.949s] -- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_generator_cExport-noconfig.cmake
+[24.949s] -- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_typesupport_fastrtps_cExport.cmake
+[24.949s] -- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[24.950s] -- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_generator_cppExport.cmake
+[24.950s] -- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_typesupport_fastrtps_cppExport.cmake
+[24.950s] -- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[24.950s] -- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_introspection_cExport.cmake
+[24.950s] -- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[24.950s] -- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_cExport.cmake
+[24.950s] -- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_cExport-noconfig.cmake
+[24.950s] -- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_introspection_cppExport.cmake
+[24.950s] -- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[24.950s] -- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_cppExport.cmake
+[24.950s] -- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_cppExport-noconfig.cmake
+[24.950s] -- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_generator_pyExport.cmake
+[24.950s] -- Installing: /home/luna/backup_ws2/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_generator_pyExport-noconfig.cmake
+[24.952s] Invoked command in '/home/luna/backup_ws2/build/ros_phoenix' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luna/backup_ws2/build/ros_phoenix
