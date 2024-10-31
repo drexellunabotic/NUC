@@ -1,0 +1,25 @@
+Author		Date 			Description
+K Nguyen	2/3/2024		- git clone https://github.com/kan-96/ros_phoenix.git
+					- followed the tutorial upgrade the package from ros2_foxy to ros2_humble
+					  https://control.ros.org/master/doc/ros2_control/hardware_interface/doc/					hardware_components_userdoc.html
+					- ctre/Phoenix.h ???? (whether import this library)
+					-  Rename configure to on_init and change return type to CallbackReturn. & Followed all the steps in tutorial for upgrading ros2_foxy to ros2_humble.
+						- modified phonenix_bridge.hpp
+						- modified phoenix_system.hpp
+						- modified phoenix_bridge.cpp
+						- modified phoenix_system.cpp
+					- Phoenix_bridge.cpp (Warning)
+						- line 68, change "Joint '%s' has %d command interfaces. Expected 1." to "...%ld."
+					- Phoenix_system.ccp
+						- updated the function call set_parameter
+						- change return type to CallbackReturn
+					- Change function call read/write() to read/write(const rclcpp::Time & time, const rclcpp::Duration & period)
+						- phoenix_system.hpp
+						- phoenix_bridge.hpp
+						- phoenix_bridge.cpp
+						- phoenix_system.cpp
+K-Nguyen	2/22/2024	-Need to remap the Velocity and percent_ouput, because the driver only take the percent_ouput
+						- updated phonenix_bridge.cpp, swap value of VELOCITY & PERCENT_OUTPUT at function str_to_interface for __HW_VELOCITY
+						- added lunabotic urdf(robot_core, inertial_macros, brackets) to folder
+K-Nguyen	3/9/2024	- Adjusted the set value by multiply by (-1)
+							(This is temporary solution to sync the rviz and real-life)
