@@ -1,0 +1,4 @@
+source;share/csm/local_setup.bash
+source;share/csm/local_setup.dsv
+source;share/csm/local_setup.sh
+source;share/csm/local_setup.zsh

@@ -1,0 +1,81 @@
+[0.011s] Invoking command in '/home/luna/ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/luna/ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luna/ws/install/serial
+[0.061s] -- The C compiler identification is GNU 11.4.0
+[0.125s] -- The CXX compiler identification is GNU 11.4.0
+[0.131s] -- Detecting C compiler ABI info
+[0.200s] -- Detecting C compiler ABI info - done
+[0.209s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.209s] -- Detecting C compile features
+[0.209s] -- Detecting C compile features - done
+[0.213s] -- Detecting CXX compiler ABI info
+[0.270s] -- Detecting CXX compiler ABI info - done
+[0.283s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.283s] -- Detecting CXX compile features
+[0.284s] -- Detecting CXX compile features - done
+[0.286s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.421s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.466s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.496s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.507s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[0.511s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.514s] -- Looking for pthread.h
+[0.576s] -- Looking for pthread.h - found
+[0.576s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.639s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.640s] -- Found Threads: TRUE  
+[0.692s] -- Configuring done
+[0.700s] -- Generating done
+[0.700s] -- Build files have been written to: /home/luna/ws/build/serial
+[0.704s] Invoked command in '/home/luna/ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/luna/ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luna/ws/install/serial
+[0.705s] Invoking command in '/home/luna/ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luna/ws/build/serial -- -j8 -l8
+[0.739s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.739s] [ 14%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[0.741s] [ 21%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[0.741s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.746s] [ 35%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[1.327s] [ 42%] [32m[1mLinking CXX static library libserial.a[0m
+[1.475s] [ 42%] Built target serial
+[1.631s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[2.131s] [ 57%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.279s] [ 57%] Built target gtest_main
+[2.482s] [ 64%] [32m[1mLinking CXX executable serial_example[0m
+[2.771s] [ 64%] Built target serial_example
+[5.098s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[5.219s] [ 71%] Built target gtest
+[5.353s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[5.361s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[6.615s] In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+[6.615s]                  from [01m[K/home/luna/ws/src/serial/tests/unix_serial_tests.cc:23[m[K:
+[6.616s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[6.616s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[6.616s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.664s] [ 92%] [32m[1mLinking CXX executable serial-test-timer[0m
+[6.767s] [ 92%] Built target serial-test-timer
+[6.858s] [100%] [32m[1mLinking CXX executable serial-test[0m
+[6.962s] [100%] Built target serial-test
+[6.971s] Invoked command in '/home/luna/ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luna/ws/build/serial -- -j8 -l8
+[7.002s] Invoking command in '/home/luna/ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luna/ws/build/serial
+[7.007s] -- Install configuration: ""
+[7.007s] -- Execute custom install script
+[7.007s] -- Symlinking: /home/luna/ws/install/serial/lib/libserial.a
+[7.014s] -- Symlinking: /home/luna/ws/install/serial/include/serial/serial.h
+[7.021s] -- Symlinking: /home/luna/ws/install/serial/include/serial/v8stdint.h
+[7.027s] -- Symlinking: /home/luna/ws/install/serial/share/serial/environment/library_path.sh
+[7.033s] -- Symlinking: /home/luna/ws/install/serial/share/serial/environment/library_path.dsv
+[7.040s] -- Symlinking: /home/luna/ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[7.046s] -- Symlinking: /home/luna/ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[7.053s] -- Symlinking: /home/luna/ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[7.059s] -- Symlinking: /home/luna/ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[7.065s] -- Symlinking: /home/luna/ws/install/serial/share/serial/environment/path.sh
+[7.072s] -- Symlinking: /home/luna/ws/install/serial/share/serial/environment/path.dsv
+[7.078s] -- Symlinking: /home/luna/ws/install/serial/share/serial/local_setup.bash
+[7.084s] -- Symlinking: /home/luna/ws/install/serial/share/serial/local_setup.sh
+[7.091s] -- Symlinking: /home/luna/ws/install/serial/share/serial/local_setup.zsh
+[7.097s] -- Symlinking: /home/luna/ws/install/serial/share/serial/local_setup.dsv
+[7.103s] -- Symlinking: /home/luna/ws/install/serial/share/serial/package.dsv
+[7.110s] -- Symlinking: /home/luna/ws/install/serial/share/ament_index/resource_index/packages/serial
+[7.116s] -- Symlinking: /home/luna/ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.122s] -- Symlinking: /home/luna/ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[7.129s] -- Symlinking: /home/luna/ws/install/serial/share/serial/cmake/serialConfig.cmake
+[7.135s] -- Symlinking: /home/luna/ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[7.142s] -- Symlinking: /home/luna/ws/install/serial/share/serial/package.xml
+[7.150s] Invoked command in '/home/luna/ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luna/ws/build/serial

@@ -1,0 +1,1 @@
+/home/luna/ws/build/ros2_laser_scan_matcher/ament_cmake_core/ros2_laser_scan_matcherConfig-version.cmake

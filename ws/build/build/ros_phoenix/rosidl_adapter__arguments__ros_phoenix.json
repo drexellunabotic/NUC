@@ -1,0 +1,7 @@
+{
+  "package_name": "ros_phoenix",
+  "non_idl_tuples": [
+    "/home/luna/ws/src/ros_phoenix:msg/MotorControl.msg",
+    "/home/luna/ws/src/ros_phoenix:msg/MotorStatus.msg"
+  ]
+}

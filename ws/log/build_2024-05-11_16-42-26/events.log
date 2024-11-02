@@ -1,0 +1,355 @@
+[0.000000] (-) TimerEvent: {}
+[0.000116] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000135] (-) JobUnselected: {'identifier': 'ros2_laser_scan_matcher'}
+[0.000147] (-) JobUnselected: {'identifier': 'ros_phoenix'}
+[0.000159] (csm) JobQueued: {'identifier': 'csm', 'dependencies': OrderedDict()}
+[0.000172] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.000183] (csm) JobStarted: {'identifier': 'csm'}
+[0.003992] (serial) JobStarted: {'identifier': 'serial'}
+[0.009885] (csm) JobProgress: {'identifier': 'csm', 'progress': 'cmake'}
+[0.010069] (csm) Command: {'cmd': ['/usr/bin/cmake', '/home/luna/ws/src/csm', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/luna/ws/install/csm'], 'cwd': '/home/luna/ws/build/csm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luna'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/luna/ws/install/ros_phoenix/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna/ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1340'), ('SYSTEMD_EXEC_PID', '1507'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2231'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/luna/ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('JOURNAL_STREAM', '8:33039'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luna'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotic:@/tmp/.ICE-unix/1484,unix/lunabotic:/tmp/.ICE-unix/1484'), ('INVOCATION_ID', 'd5d07b5d475c4017865a7e67a3b77597'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6QSDN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/luna/ws/install/ros_phoenix:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:99844b45-5a2c-4c37-810f-b727ef011985'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luna/ws/build/csm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/luna/ws/install/ros_phoenix:/opt/ros/humble')]), 'shell': False}
+[0.013702] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.014031] (serial) Command: {'cmd': ['/usr/bin/cmake', '/home/luna/ws/src/serial', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/luna/ws/install/serial'], 'cwd': '/home/luna/ws/build/serial', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luna'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/luna/ws/install/ros_phoenix/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna/ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1340'), ('SYSTEMD_EXEC_PID', '1507'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2231'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/luna/ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('JOURNAL_STREAM', '8:33039'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luna'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotic:@/tmp/.ICE-unix/1484,unix/lunabotic:/tmp/.ICE-unix/1484'), ('INVOCATION_ID', 'd5d07b5d475c4017865a7e67a3b77597'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6QSDN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/luna/ws/install/ros_phoenix:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:99844b45-5a2c-4c37-810f-b727ef011985'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luna/ws/build/serial'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/luna/ws/install/ros_phoenix:/opt/ros/humble')]), 'shell': False}
+[0.063627] (csm) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.064466] (serial) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099235] (-) TimerEvent: {}
+[0.100501] (csm) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.105429] (csm) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.128880] (serial) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.135363] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.159019] (csm) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.164109] (csm) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.164296] (csm) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.164447] (csm) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.166525] (csm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199346] (-) TimerEvent: {}
+[0.204377] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.212880] (serial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.213040] (serial) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.213464] (serial) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.216749] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.220287] (csm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.225584] (csm) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.225797] (csm) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.226216] (csm) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.228417] (csm) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.273731] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.286709] (serial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.286987] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.287553] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.290062] (serial) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299441] (-) TimerEvent: {}
+[0.378171] (csm) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.399543] (-) TimerEvent: {}
+[0.419980] (csm) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.424790] (serial) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.439934] (csm) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.469606] (serial) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.471386] (csm) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.474757] (csm) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.480856] (csm) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.490027] (csm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.499625] (serial) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[0.499738] (-) TimerEvent: {}
+[0.503865] (csm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.511251] (serial) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[0.514906] (serial) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.517617] (serial) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.553568] (csm) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.555466] (csm) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.579776] (serial) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.580291] (serial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.599860] (-) TimerEvent: {}
+[0.628598] (csm) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.642919] (serial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.643568] (serial) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.648989] (csm) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.685798] (csm) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.695229] (csm) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.696119] (serial) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.699982] (-) TimerEvent: {}
+[0.703395] (serial) StdoutLine: {'line': b'-- Generating done\n'}
+[0.704339] (serial) StdoutLine: {'line': b'-- Build files have been written to: /home/luna/ws/build/serial\n'}
+[0.707726] (serial) CommandEnded: {'returncode': 0}
+[0.708159] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[0.708734] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luna/ws/build/serial', '--', '-j8', '-l8'], 'cwd': '/home/luna/ws/build/serial', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luna'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/luna/ws/install/ros_phoenix/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna/ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1340'), ('SYSTEMD_EXEC_PID', '1507'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2231'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/luna/ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('JOURNAL_STREAM', '8:33039'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luna'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotic:@/tmp/.ICE-unix/1484,unix/lunabotic:/tmp/.ICE-unix/1484'), ('INVOCATION_ID', 'd5d07b5d475c4017865a7e67a3b77597'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6QSDN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/luna/ws/install/ros_phoenix:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:99844b45-5a2c-4c37-810f-b727ef011985'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luna/ws/build/serial'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/luna/ws/install/ros_phoenix:/opt/ros/humble')]), 'shell': False}
+[0.743061] (serial) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[0.743304] (serial) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o\x1b[0m\n'}
+[0.744808] (serial) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o\x1b[0m\n'}
+[0.745064] (serial) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[0.749569] (serial) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o\x1b[0m\n'}
+[0.783435] (csm) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.784483] (csm) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800078] (-) TimerEvent: {}
+[0.894041] (csm) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.895442] (csm) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.900185] (-) TimerEvent: {}
+[1.000525] (-) TimerEvent: {}
+[1.100857] (-) TimerEvent: {}
+[1.201354] (-) TimerEvent: {}
+[1.256436] (csm) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.266962] (csm) StdoutLine: {'line': b'-- Generating done\n'}
+[1.268801] (csm) StdoutLine: {'line': b'-- Build files have been written to: /home/luna/ws/build/csm\n'}
+[1.281084] (csm) CommandEnded: {'returncode': 0}
+[1.281673] (csm) JobProgress: {'identifier': 'csm', 'progress': 'build'}
+[1.282085] (csm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luna/ws/build/csm', '--', '-j8', '-l8'], 'cwd': '/home/luna/ws/build/csm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luna'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/luna/ws/install/ros_phoenix/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna/ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1340'), ('SYSTEMD_EXEC_PID', '1507'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2231'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/luna/ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('JOURNAL_STREAM', '8:33039'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luna'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotic:@/tmp/.ICE-unix/1484,unix/lunabotic:/tmp/.ICE-unix/1484'), ('INVOCATION_ID', 'd5d07b5d475c4017865a7e67a3b77597'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6QSDN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/luna/ws/install/ros_phoenix:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:99844b45-5a2c-4c37-810f-b727ef011985'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luna/ws/build/csm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/luna/ws/install/ros_phoenix:/opt/ros/humble')]), 'shell': False}
+[1.301474] (-) TimerEvent: {}
+[1.320006] (csm) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/laser_data.cpp.o\x1b[0m\n'}
+[1.320266] (csm) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/math_utils.cpp.o\x1b[0m\n'}
+[1.321261] (csm) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/math_utils_gsl.cpp.o\x1b[0m\n'}
+[1.321407] (csm) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/sm_options.cpp.o\x1b[0m\n'}
+[1.328966] (csm) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/utils.cpp.o\x1b[0m\n'}
+[1.330072] (csm) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/orientation.cpp.o\x1b[0m\n'}
+[1.330547] (serial) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX static library libserial.a\x1b[0m\n'}
+[1.332383] (csm) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/clustering.cpp.o\x1b[0m\n'}
+[1.334823] (csm) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/logging.cpp.o\x1b[0m\n'}
+[1.401583] (-) TimerEvent: {}
+[1.479045] (serial) StdoutLine: {'line': b'[ 42%] Built target serial\n'}
+[1.501693] (-) TimerEvent: {}
+[1.602096] (-) TimerEvent: {}
+[1.634718] (serial) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o\x1b[0m\n'}
+[1.702217] (-) TimerEvent: {}
+[1.802565] (-) TimerEvent: {}
+[1.902903] (-) TimerEvent: {}
+[2.003237] (-) TimerEvent: {}
+[2.103571] (-) TimerEvent: {}
+[2.134794] (serial) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[2.203681] (-) TimerEvent: {}
+[2.282832] (serial) StdoutLine: {'line': b'[ 57%] Built target gtest_main\n'}
+[2.303790] (-) TimerEvent: {}
+[2.404120] (-) TimerEvent: {}
+[2.486229] (serial) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable serial_example\x1b[0m\n'}
+[2.504237] (-) TimerEvent: {}
+[2.604573] (-) TimerEvent: {}
+[2.666326] (csm) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl.cpp.o\x1b[0m\n'}
+[2.704682] (-) TimerEvent: {}
+[2.746001] (csm) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_conversions.cpp.o\x1b[0m\n'}
+[2.774397] (serial) StdoutLine: {'line': b'[ 64%] Built target serial_example\n'}
+[2.804794] (-) TimerEvent: {}
+[2.905217] (-) TimerEvent: {}
+[2.969884] (csm) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_misc.cpp.o\x1b[0m\n'}
+[2.990454] (csm) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_ops.cpp.o\x1b[0m\n'}
+[3.005329] (-) TimerEvent: {}
+[3.105739] (-) TimerEvent: {}
+[3.206145] (-) TimerEvent: {}
+[3.247725] (csm) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/gpc/gpc.cpp.o\x1b[0m\n'}
+[3.306263] (-) TimerEvent: {}
+[3.406599] (-) TimerEvent: {}
+[3.506940] (-) TimerEvent: {}
+[3.602401] (csm) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/gpc/gpc_utils.cpp.o\x1b[0m\n'}
+[3.607048] (-) TimerEvent: {}
+[3.707399] (-) TimerEvent: {}
+[3.807805] (-) TimerEvent: {}
+[3.908197] (-) TimerEvent: {}
+[4.008608] (-) TimerEvent: {}
+[4.014549] (csm) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp.cpp.o\x1b[0m\n'}
+[4.108723] (-) TimerEvent: {}
+[4.209123] (-) TimerEvent: {}
+[4.225251] (csm) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_corr_dumb.cpp.o\x1b[0m\n'}
+[4.278517] (csm) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_corr_tricks.cpp.o\x1b[0m\n'}
+[4.309237] (-) TimerEvent: {}
+[4.334350] (csm) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_covariance.cpp.o\x1b[0m\n'}
+[4.409351] (-) TimerEvent: {}
+[4.509740] (-) TimerEvent: {}
+[4.610134] (-) TimerEvent: {}
+[4.710565] (-) TimerEvent: {}
+[4.798726] (csm) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_debug.cpp.o\x1b[0m\n'}
+[4.810690] (-) TimerEvent: {}
+[4.854757] (csm) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_loop.cpp.o\x1b[0m\n'}
+[4.910798] (-) TimerEvent: {}
+[5.011124] (-) TimerEvent: {}
+[5.101865] (serial) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[5.111232] (-) TimerEvent: {}
+[5.211563] (-) TimerEvent: {}
+[5.222423] (serial) StdoutLine: {'line': b'[ 71%] Built target gtest\n'}
+[5.311676] (-) TimerEvent: {}
+[5.356931] (serial) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o\x1b[0m\n'}
+[5.365194] (serial) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o\x1b[0m\n'}
+[5.411788] (-) TimerEvent: {}
+[5.512206] (-) TimerEvent: {}
+[5.577901] (csm) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_outliers.cpp.o\x1b[0m\n'}
+[5.612316] (-) TimerEvent: {}
+[5.631664] (csm) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/options/options.cpp.o\x1b[0m\n'}
+[5.710795] (csm) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/options/options_interface.cpp.o\x1b[0m\n'}
+[5.712416] (-) TimerEvent: {}
+[5.812738] (-) TimerEvent: {}
+[5.913081] (-) TimerEvent: {}
+[6.013422] (-) TimerEvent: {}
+[6.113761] (-) TimerEvent: {}
+[6.214111] (-) TimerEvent: {}
+[6.314424] (-) TimerEvent: {}
+[6.414810] (-) TimerEvent: {}
+[6.515105] (-) TimerEvent: {}
+[6.615377] (-) TimerEvent: {}
+[6.619193] (serial) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/bind.hpp:30\x1b[m\x1b[K,\n'}
+[6.619388] (serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luna/ws/src/serial/tests/unix_serial_tests.cc:23\x1b[m\x1b[K:\n'}
+[6.619454] (serial) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.619549] (serial) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[6.619605] (serial) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.667470] (serial) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable serial-test-timer\x1b[0m\n'}
+[6.715499] (-) TimerEvent: {}
+[6.770620] (serial) StdoutLine: {'line': b'[ 92%] Built target serial-test-timer\n'}
+[6.815601] (-) TimerEvent: {}
+[6.861573] (serial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable serial-test\x1b[0m\n'}
+[6.915713] (-) TimerEvent: {}
+[6.966380] (serial) StdoutLine: {'line': b'[100%] Built target serial-test\n'}
+[6.974965] (serial) CommandEnded: {'returncode': 0}
+[6.998788] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[7.005154] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/luna/ws/build/serial'], 'cwd': '/home/luna/ws/build/serial', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luna'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/luna/ws/install/ros_phoenix/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna/ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1340'), ('SYSTEMD_EXEC_PID', '1507'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2231'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/luna/ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('JOURNAL_STREAM', '8:33039'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luna'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotic:@/tmp/.ICE-unix/1484,unix/lunabotic:/tmp/.ICE-unix/1484'), ('INVOCATION_ID', 'd5d07b5d475c4017865a7e67a3b77597'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6QSDN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/luna/ws/install/ros_phoenix:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:99844b45-5a2c-4c37-810f-b727ef011985'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luna/ws/build/serial'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/luna/ws/install/ros_phoenix:/opt/ros/humble')]), 'shell': False}
+[7.010937] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.011205] (serial) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.011396] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/serial/lib/libserial.a\n'}
+[7.015812] (-) TimerEvent: {}
+[7.017968] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/serial/include/serial/serial.h\n'}
+[7.024614] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/serial/include/serial/v8stdint.h\n'}
+[7.031003] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/serial/share/serial/environment/library_path.sh\n'}
+[7.037189] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/serial/share/serial/environment/library_path.dsv\n'}
+[7.043974] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[7.050241] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[7.056654] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[7.062962] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[7.069300] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/serial/share/serial/environment/path.sh\n'}
+[7.075568] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/serial/share/serial/environment/path.dsv\n'}
+[7.081813] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/serial/share/serial/local_setup.bash\n'}
+[7.088027] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/serial/share/serial/local_setup.sh\n'}
+[7.094512] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/serial/share/serial/local_setup.zsh\n'}
+[7.100775] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/serial/share/serial/local_setup.dsv\n'}
+[7.107154] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/serial/share/serial/package.dsv\n'}
+[7.113449] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[7.115897] (-) TimerEvent: {}
+[7.119991] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.126196] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.132766] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[7.138981] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[7.145404] (serial) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/serial/share/serial/package.xml\n'}
+[7.153735] (serial) CommandEnded: {'returncode': 0}
+[7.194634] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[7.216001] (-) TimerEvent: {}
+[7.316329] (-) TimerEvent: {}
+[7.416701] (-) TimerEvent: {}
+[7.517046] (-) TimerEvent: {}
+[7.617386] (-) TimerEvent: {}
+[7.717730] (-) TimerEvent: {}
+[7.818060] (-) TimerEvent: {}
+[7.918407] (-) TimerEvent: {}
+[8.018672] (-) TimerEvent: {}
+[8.118951] (-) TimerEvent: {}
+[8.219303] (-) TimerEvent: {}
+[8.319631] (-) TimerEvent: {}
+[8.419964] (-) TimerEvent: {}
+[8.520302] (-) TimerEvent: {}
+[8.620547] (-) TimerEvent: {}
+[8.720844] (-) TimerEvent: {}
+[8.821151] (-) TimerEvent: {}
+[8.921464] (-) TimerEvent: {}
+[9.021786] (-) TimerEvent: {}
+[9.122109] (-) TimerEvent: {}
+[9.222421] (-) TimerEvent: {}
+[9.322718] (-) TimerEvent: {}
+[9.423063] (-) TimerEvent: {}
+[9.523376] (-) TimerEvent: {}
+[9.623682] (-) TimerEvent: {}
+[9.723972] (-) TimerEvent: {}
+[9.824277] (-) TimerEvent: {}
+[9.924583] (-) TimerEvent: {}
+[10.024888] (-) TimerEvent: {}
+[10.125225] (-) TimerEvent: {}
+[10.225548] (-) TimerEvent: {}
+[10.325872] (-) TimerEvent: {}
+[10.426211] (-) TimerEvent: {}
+[10.526528] (-) TimerEvent: {}
+[10.626843] (-) TimerEvent: {}
+[10.727160] (-) TimerEvent: {}
+[10.827492] (-) TimerEvent: {}
+[10.927848] (-) TimerEvent: {}
+[11.028158] (-) TimerEvent: {}
+[11.128501] (-) TimerEvent: {}
+[11.228825] (-) TimerEvent: {}
+[11.329145] (-) TimerEvent: {}
+[11.429449] (-) TimerEvent: {}
+[11.529771] (-) TimerEvent: {}
+[11.630096] (-) TimerEvent: {}
+[11.730409] (-) TimerEvent: {}
+[11.830764] (-) TimerEvent: {}
+[11.931178] (-) TimerEvent: {}
+[12.031490] (-) TimerEvent: {}
+[12.131816] (-) TimerEvent: {}
+[12.232147] (-) TimerEvent: {}
+[12.332470] (-) TimerEvent: {}
+[12.432799] (-) TimerEvent: {}
+[12.533110] (-) TimerEvent: {}
+[12.633436] (-) TimerEvent: {}
+[12.733771] (-) TimerEvent: {}
+[12.834132] (-) TimerEvent: {}
+[12.934454] (-) TimerEvent: {}
+[13.034778] (-) TimerEvent: {}
+[13.135078] (-) TimerEvent: {}
+[13.235390] (-) TimerEvent: {}
+[13.335704] (-) TimerEvent: {}
+[13.436004] (-) TimerEvent: {}
+[13.536292] (-) TimerEvent: {}
+[13.636617] (-) TimerEvent: {}
+[13.736925] (-) TimerEvent: {}
+[13.837240] (-) TimerEvent: {}
+[13.937566] (-) TimerEvent: {}
+[14.037863] (-) TimerEvent: {}
+[14.138178] (-) TimerEvent: {}
+[14.238497] (-) TimerEvent: {}
+[14.338817] (-) TimerEvent: {}
+[14.439136] (-) TimerEvent: {}
+[14.539442] (-) TimerEvent: {}
+[14.639747] (-) TimerEvent: {}
+[14.740070] (-) TimerEvent: {}
+[14.840366] (-) TimerEvent: {}
+[14.940667] (-) TimerEvent: {}
+[15.040964] (-) TimerEvent: {}
+[15.141272] (-) TimerEvent: {}
+[15.241647] (-) TimerEvent: {}
+[15.341976] (-) TimerEvent: {}
+[15.442316] (-) TimerEvent: {}
+[15.542688] (-) TimerEvent: {}
+[15.597731] (csm) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libcsm.so\x1b[0m\n'}
+[15.642801] (-) TimerEvent: {}
+[15.743110] (-) TimerEvent: {}
+[15.843421] (-) TimerEvent: {}
+[15.899090] (csm) StdoutLine: {'line': b'[100%] Built target csm\n'}
+[15.906427] (csm) CommandEnded: {'returncode': 0}
+[15.943501] (-) TimerEvent: {}
+[15.958600] (csm) JobProgress: {'identifier': 'csm', 'progress': 'install'}
+[15.959070] (csm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/luna/ws/build/csm'], 'cwd': '/home/luna/ws/build/csm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luna'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/luna/ws/install/ros_phoenix/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna/ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1340'), ('SYSTEMD_EXEC_PID', '1507'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2231'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/luna/ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('JOURNAL_STREAM', '8:33039'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luna'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotic:@/tmp/.ICE-unix/1484,unix/lunabotic:/tmp/.ICE-unix/1484'), ('INVOCATION_ID', 'd5d07b5d475c4017865a7e67a3b77597'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6QSDN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/luna/ws/install/ros_phoenix:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:99844b45-5a2c-4c37-810f-b727ef011985'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luna/ws/build/csm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/luna/ws/install/ros_phoenix:/opt/ros/humble')]), 'shell': False}
+[15.964424] (csm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.964771] (csm) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[15.965010] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/lib/libcsm.so\n'}
+[15.971694] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/include/..//include/csm/algos.h\n'}
+[15.980654] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/include/..//include/csm/csm.h\n'}
+[15.986331] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/include/..//include/csm/laser_data.h\n'}
+[15.992187] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/include/..//include/csm/laser_data_inline.h\n'}
+[15.997806] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/include/..//include/csm/restrict.h\n'}
+[16.003653] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/include/..//include/gsl_eigen/gsl_eigen.h\n'}
+[16.009806] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/share/csm/resource/csm\n'}
+[16.015949] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/include/../gsl_eigen/gsl_eigen.h\n'}
+[16.021598] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/share/csm/environment/library_path.sh\n'}
+[16.027395] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/share/csm/environment/library_path.dsv\n'}
+[16.033277] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/share/ament_index/resource_index/package_run_dependencies/csm\n'}
+[16.039165] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/share/ament_index/resource_index/parent_prefix_path/csm\n'}
+[16.043604] (-) TimerEvent: {}
+[16.045095] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/share/csm/environment/ament_prefix_path.sh\n'}
+[16.051595] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/share/csm/environment/ament_prefix_path.dsv\n'}
+[16.058357] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/share/csm/environment/path.sh\n'}
+[16.064531] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/share/csm/environment/path.dsv\n'}
+[16.070481] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/share/csm/local_setup.bash\n'}
+[16.076698] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/share/csm/local_setup.sh\n'}
+[16.083812] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/share/csm/local_setup.zsh\n'}
+[16.089665] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/share/csm/local_setup.dsv\n'}
+[16.095715] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/share/csm/package.dsv\n'}
+[16.102023] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/share/ament_index/resource_index/packages/csm\n'}
+[16.107908] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/share/csm/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[16.114191] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/share/csm/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[16.120951] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/share/csm/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[16.126974] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/share/csm/cmake/csmConfig.cmake\n'}
+[16.133117] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/share/csm/cmake/csmConfig-version.cmake\n'}
+[16.139060] (csm) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/csm/share/csm/package.xml\n'}
+[16.143700] (-) TimerEvent: {}
+[16.147463] (csm) CommandEnded: {'returncode': 0}
+[16.221629] (csm) JobEnded: {'identifier': 'csm', 'rc': 0}
+[16.222379] (-) EventReactorShutdown: {}

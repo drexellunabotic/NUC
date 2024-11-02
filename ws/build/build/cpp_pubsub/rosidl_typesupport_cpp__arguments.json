@@ -1,0 +1,23 @@
+{
+  "package_name": "cpp_pubsub",
+  "output_dir": "/home/luna/ws/build/cpp_pubsub/rosidl_typesupport_cpp/cpp_pubsub",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/luna/ws/build/cpp_pubsub/rosidl_adapter/cpp_pubsub:msg/PhoenixControl.idl"
+  ],
+  "ros_interface_dependencies": [
+    "ros_phoenix:/home/luna/ws/install/ros_phoenix/share/ros_phoenix/msg/MotorControl.idl",
+    "ros_phoenix:/home/luna/ws/install/ros_phoenix/share/ros_phoenix/msg/MotorStatus.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/luna/ws/build/cpp_pubsub/rosidl_adapter/cpp_pubsub/msg/PhoenixControl.idl",
+    "/home/luna/ws/install/ros_phoenix/share/ros_phoenix/msg/MotorControl.idl",
+    "/home/luna/ws/install/ros_phoenix/share/ros_phoenix/msg/MotorStatus.idl"
+  ]
+}

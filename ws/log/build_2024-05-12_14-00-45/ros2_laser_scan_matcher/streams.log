@@ -1,0 +1,25 @@
+[0.010s] Invoking command in '/home/luna/ws/build/ros2_laser_scan_matcher': CMAKE_PREFIX_PATH=/home/luna/ws/install/csm:/home/luna/ws/install/serial:/home/luna/ws/install/cpp_pubsub:/home/luna/ws/install/ros_phoenix:/home/luna/ws/install/ros2_laser_scan_matcher:/opt/ros/humble LD_LIBRARY_PATH=/home/luna/ws/install/csm/lib:/home/luna/ws/install/serial/lib:/home/luna/ws/install/cpp_pubsub/lib:/home/luna/ws/install/ros_phoenix/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/luna/ws/build/ros2_laser_scan_matcher -- -j8 -l8
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target laser_scan_matcher[0m
+[0.093s] [100%] Built target laser_scan_matcher
+[0.102s] Invoked command in '/home/luna/ws/build/ros2_laser_scan_matcher' returned '0': CMAKE_PREFIX_PATH=/home/luna/ws/install/csm:/home/luna/ws/install/serial:/home/luna/ws/install/cpp_pubsub:/home/luna/ws/install/ros_phoenix:/home/luna/ws/install/ros2_laser_scan_matcher:/opt/ros/humble LD_LIBRARY_PATH=/home/luna/ws/install/csm/lib:/home/luna/ws/install/serial/lib:/home/luna/ws/install/cpp_pubsub/lib:/home/luna/ws/install/ros_phoenix/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/luna/ws/build/ros2_laser_scan_matcher -- -j8 -l8
+[0.135s] Invoking command in '/home/luna/ws/build/ros2_laser_scan_matcher': CMAKE_PREFIX_PATH=/home/luna/ws/install/csm:/home/luna/ws/install/serial:/home/luna/ws/install/cpp_pubsub:/home/luna/ws/install/ros_phoenix:/home/luna/ws/install/ros2_laser_scan_matcher:/opt/ros/humble LD_LIBRARY_PATH=/home/luna/ws/install/csm/lib:/home/luna/ws/install/serial/lib:/home/luna/ws/install/cpp_pubsub/lib:/home/luna/ws/install/ros_phoenix/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/luna/ws/build/ros2_laser_scan_matcher
+[0.145s] -- Install configuration: ""
+[0.145s] -- Execute custom install script
+[0.146s] -- Up-to-date symlink: /home/luna/ws/install/ros2_laser_scan_matcher/lib/ros2_laser_scan_matcher/laser_scan_matcher
+[0.146s] -- Up-to-date symlink: /home/luna/ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher//launch/laser2odom.launch.py
+[0.146s] -- Up-to-date symlink: /home/luna/ws/install/ros2_laser_scan_matcher/share/ament_index/resource_index/package_run_dependencies/ros2_laser_scan_matcher
+[0.146s] -- Up-to-date symlink: /home/luna/ws/install/ros2_laser_scan_matcher/share/ament_index/resource_index/parent_prefix_path/ros2_laser_scan_matcher
+[0.146s] -- Up-to-date symlink: /home/luna/ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/ament_prefix_path.sh
+[0.146s] -- Up-to-date symlink: /home/luna/ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/ament_prefix_path.dsv
+[0.147s] -- Up-to-date symlink: /home/luna/ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/path.sh
+[0.147s] -- Up-to-date symlink: /home/luna/ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/path.dsv
+[0.147s] -- Up-to-date symlink: /home/luna/ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.bash
+[0.147s] -- Up-to-date symlink: /home/luna/ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.sh
+[0.147s] -- Up-to-date symlink: /home/luna/ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.zsh
+[0.147s] -- Up-to-date symlink: /home/luna/ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.dsv
+[0.147s] -- Symlinking: /home/luna/ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.dsv
+[0.163s] -- Up-to-date symlink: /home/luna/ws/install/ros2_laser_scan_matcher/share/ament_index/resource_index/packages/ros2_laser_scan_matcher
+[0.164s] -- Up-to-date symlink: /home/luna/ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/cmake/ros2_laser_scan_matcherConfig.cmake
+[0.164s] -- Up-to-date symlink: /home/luna/ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/cmake/ros2_laser_scan_matcherConfig-version.cmake
+[0.164s] -- Up-to-date symlink: /home/luna/ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.xml
+[0.166s] Invoked command in '/home/luna/ws/build/ros2_laser_scan_matcher' returned '0': CMAKE_PREFIX_PATH=/home/luna/ws/install/csm:/home/luna/ws/install/serial:/home/luna/ws/install/cpp_pubsub:/home/luna/ws/install/ros_phoenix:/home/luna/ws/install/ros2_laser_scan_matcher:/opt/ros/humble LD_LIBRARY_PATH=/home/luna/ws/install/csm/lib:/home/luna/ws/install/serial/lib:/home/luna/ws/install/cpp_pubsub/lib:/home/luna/ws/install/ros_phoenix/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/luna/ws/build/ros2_laser_scan_matcher

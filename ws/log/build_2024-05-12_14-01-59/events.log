@@ -1,0 +1,210 @@
+[0.000000] (-) TimerEvent: {}
+[0.000275] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000367] (-) JobUnselected: {'identifier': 'csm'}
+[0.000381] (-) JobUnselected: {'identifier': 'ros2_laser_scan_matcher'}
+[0.000392] (-) JobUnselected: {'identifier': 'serial'}
+[0.000405] (ros_phoenix) JobQueued: {'identifier': 'ros_phoenix', 'dependencies': OrderedDict()}
+[0.000419] (ros_phoenix) JobStarted: {'identifier': 'ros_phoenix'}
+[0.006192] (ros_phoenix) JobProgress: {'identifier': 'ros_phoenix', 'progress': 'cmake'}
+[0.007206] (ros_phoenix) JobProgress: {'identifier': 'ros_phoenix', 'progress': 'build'}
+[0.007247] (ros_phoenix) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luna/ws/build/ros_phoenix', '--', '-j8', '-l8'], 'cwd': '/home/luna/ws/build/ros_phoenix', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luna'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/luna/ws/install/serial/lib:/home/luna/ws/install/cpp_pubsub/lib:/home/luna/ws/install/ros_phoenix/lib:/home/luna/ws/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1363'), ('SYSTEMD_EXEC_PID', '1544'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3307'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/luna/ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('JOURNAL_STREAM', '8:31266'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luna'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotic:@/tmp/.ICE-unix/1511,unix/lunabotic:/tmp/.ICE-unix/1511'), ('INVOCATION_ID', 'f8aaeb2ab5f4430a9fa2c6787574333d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QKFXN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/luna/ws/install/serial:/home/luna/ws/install/cpp_pubsub:/home/luna/ws/install/ros_phoenix:/home/luna/ws/install/ros2_laser_scan_matcher:/home/luna/ws/install/csm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:dd06d436-b8b4-4069-adf2-e700250c192b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luna/ws/build/ros_phoenix'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luna/ws/install/cpp_pubsub/local/lib/python3.10/dist-packages:/home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/luna/ws/install/serial:/home/luna/ws/install/cpp_pubsub:/home/luna/ws/install/ros_phoenix:/home/luna/ws/install/ros2_laser_scan_matcher:/home/luna/ws/install/csm:/opt/ros/humble')]), 'shell': False}
+[0.047673] (ros_phoenix) StdoutLine: {'line': b'[  1%] Built target CTRE_PhoenixCCI-unzip\n'}
+[0.049180] (ros_phoenix) StdoutLine: {'line': b'[  9%] Built target ros_phoenix__rosidl_generator_c\n'}
+[0.051095] (ros_phoenix) StdoutLine: {'line': b'[ 11%] Built target CTRE_Phoenix-unzip\n'}
+[0.052513] (ros_phoenix) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_symlink_ros_phoenix\n'}
+[0.057569] (ros_phoenix) StdoutLine: {'line': b'[ 13%] Built target ros_phoenix__cpp\n'}
+[0.068156] (ros_phoenix) StdoutLine: {'line': b'[ 21%] Built target ros_phoenix__rosidl_typesupport_introspection_c\n'}
+[0.071741] (ros_phoenix) StdoutLine: {'line': b'[ 29%] Built target ros_phoenix__rosidl_typesupport_c\n'}
+[0.077775] (ros_phoenix) StdoutLine: {'line': b'[ 37%] Built target ros_phoenix__rosidl_typesupport_fastrtps_c\n'}
+[0.077950] (ros_phoenix) StdoutLine: {'line': b'[ 45%] Built target ros_phoenix__rosidl_typesupport_cpp\n'}
+[0.081027] (ros_phoenix) StdoutLine: {'line': b'[ 54%] Built target ros_phoenix__rosidl_typesupport_introspection_cpp\n'}
+[0.081194] (ros_phoenix) StdoutLine: {'line': b'[ 60%] Built target ros_phoenix__rosidl_typesupport_fastrtps_cpp\n'}
+[0.098979] (ros_phoenix) StdoutLine: {'line': b'[ 60%] Built target ros_phoenix\n'}
+[0.099793] (-) TimerEvent: {}
+[0.100873] (ros_phoenix) StdoutLine: {'line': b'[ 70%] Built target ros_phoenix_components\n'}
+[0.120078] (ros_phoenix) StdoutLine: {'line': b'[ 74%] Built target phoenix_container\n'}
+[0.121607] (ros_phoenix) StdoutLine: {'line': b'[ 80%] Built target ros_phoenix_control\n'}
+[0.127311] (ros_phoenix) StdoutLine: {'line': b'[ 82%] Built target ros_phoenix__py\n'}
+[0.146167] (ros_phoenix) StdoutLine: {'line': b'[ 88%] Built target ros_phoenix__rosidl_generator_py\n'}
+[0.162509] (ros_phoenix) StdoutLine: {'line': b'[ 92%] Built target ros_phoenix__rosidl_typesupport_introspection_c__pyext\n'}
+[0.162720] (ros_phoenix) StdoutLine: {'line': b'[ 96%] Built target ros_phoenix__rosidl_typesupport_c__pyext\n'}
+[0.173447] (ros_phoenix) StdoutLine: {'line': b'[100%] Built target ros_phoenix__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.199974] (-) TimerEvent: {}
+[0.226706] (ros_phoenix) StdoutLine: {'line': b'running egg_info\n'}
+[0.227191] (ros_phoenix) StdoutLine: {'line': b'writing ros_phoenix.egg-info/PKG-INFO\n'}
+[0.227308] (ros_phoenix) StdoutLine: {'line': b'writing dependency_links to ros_phoenix.egg-info/dependency_links.txt\n'}
+[0.227389] (ros_phoenix) StdoutLine: {'line': b'writing top-level names to ros_phoenix.egg-info/top_level.txt\n'}
+[0.229285] (ros_phoenix) StdoutLine: {'line': b"reading manifest file 'ros_phoenix.egg-info/SOURCES.txt'\n"}
+[0.229780] (ros_phoenix) StdoutLine: {'line': b"writing manifest file 'ros_phoenix.egg-info/SOURCES.txt'\n"}
+[0.248508] (ros_phoenix) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_ros_phoenix_egg\n'}
+[0.256606] (ros_phoenix) CommandEnded: {'returncode': 0}
+[0.300081] (-) TimerEvent: {}
+[0.334636] (ros_phoenix) JobProgress: {'identifier': 'ros_phoenix', 'progress': 'install'}
+[0.341210] (ros_phoenix) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/luna/ws/build/ros_phoenix'], 'cwd': '/home/luna/ws/build/ros_phoenix', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luna'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/luna/ws/install/serial/lib:/home/luna/ws/install/cpp_pubsub/lib:/home/luna/ws/install/ros_phoenix/lib:/home/luna/ws/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1363'), ('SYSTEMD_EXEC_PID', '1544'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3307'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/luna/ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('JOURNAL_STREAM', '8:31266'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luna'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotic:@/tmp/.ICE-unix/1511,unix/lunabotic:/tmp/.ICE-unix/1511'), ('INVOCATION_ID', 'f8aaeb2ab5f4430a9fa2c6787574333d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QKFXN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/luna/ws/install/serial:/home/luna/ws/install/cpp_pubsub:/home/luna/ws/install/ros_phoenix:/home/luna/ws/install/ros2_laser_scan_matcher:/home/luna/ws/install/csm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:dd06d436-b8b4-4069-adf2-e700250c192b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luna/ws/build/ros_phoenix'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luna/ws/install/cpp_pubsub/local/lib/python3.10/dist-packages:/home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/luna/ws/install/serial:/home/luna/ws/install/cpp_pubsub:/home/luna/ws/install/ros_phoenix:/home/luna/ws/install/ros2_laser_scan_matcher:/home/luna/ws/install/csm:/opt/ros/humble')]), 'shell': False}
+[0.346935] (ros_phoenix) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.347294] (ros_phoenix) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.347560] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ament_index/resource_index/rosidl_interfaces/ros_phoenix\n'}
+[0.347819] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__functions.h\n'}
+[0.347941] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__struct.h\n'}
+[0.347998] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__type_support.h\n'}
+[0.348057] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__functions.h\n'}
+[0.348099] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__struct.h\n'}
+[0.348163] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__type_support.h\n'}
+[0.348203] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/motor_control.h\n'}
+[0.348279] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/motor_status.h\n'}
+[0.348318] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.348393] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/environment/library_path.sh\n'}
+[0.348446] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/environment/library_path.dsv\n'}
+[0.348717] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__rosidl_typesupport_fastrtps_c.h\n'}
+[0.348778] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__rosidl_typesupport_fastrtps_c.h\n'}
+[0.348845] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.349050] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__builder.hpp\n'}
+[0.349166] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__struct.hpp\n'}
+[0.349223] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__traits.hpp\n'}
+[0.349262] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__builder.hpp\n'}
+[0.349309] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__struct.hpp\n'}
+[0.349363] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__traits.hpp\n'}
+[0.349426] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/motor_control.hpp\n'}
+[0.349509] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/motor_status.hpp\n'}
+[0.349729] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.349792] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.349849] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.350021] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__rosidl_typesupport_introspection_c.h\n'}
+[0.350079] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__rosidl_typesupport_introspection_c.h\n'}
+[0.350136] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.350310] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.350393] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.350460] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/environment/pythonpath.sh\n'}
+[0.350550] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/environment/pythonpath.dsv\n'}
+[0.350712] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.350768] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.350826] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.350884] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.351236] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/__init__.py\n'}
+[0.351289] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/_ros_phoenix_s.ep.rosidl_typesupport_c.c\n'}
+[0.351345] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/_ros_phoenix_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.351400] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/_ros_phoenix_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.351452] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/libros_phoenix__rosidl_generator_py.so\n'}
+[0.351526] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg/__init__.py\n'}
+[0.351578] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg/_motor_control.py\n'}
+[0.351630] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg/_motor_control_s.c\n'}
+[0.351682] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg/_motor_status.py\n'}
+[0.351734] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg/_motor_status_s.c\n'}
+[0.351795] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/ros_phoenix_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.351862] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/ros_phoenix_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.351921] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/ros_phoenix_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.352051] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/ros_phoenix_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.352213] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/ros_phoenix_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.352330] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/ros_phoenix_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.352422] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/msg/MotorControl.idl\n'}
+[0.352524] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/msg/MotorStatus.idl\n'}
+[0.352589] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/msg/MotorControl.msg\n'}
+[0.352696] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/msg/MotorStatus.msg\n'}
+[0.352771] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/lib/libCTRE_Phoenix.so\n'}
+[0.352861] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/lib/libCTRE_PhoenixCCI.so\n'}
+[0.352963] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix//ros_phoenix_hardware.xml\n'}
+[0.353075] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/lib/libros_phoenix_components.so\n'}
+[0.353173] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/lib/ros_phoenix/phoenix_container\n'}
+[0.353232] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/lib/libros_phoenix_control.so\n'}
+[0.353439] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/base_node.hpp\n'}
+[0.353491] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/phoenix_bridge.hpp\n'}
+[0.353546] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/phoenix_components.hpp\n'}
+[0.353596] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/phoenix_manager.hpp\n'}
+[0.353648] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/phoenix_node.hpp\n'}
+[0.353699] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp\n'}
+[0.353754] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/phoenix_system.hpp\n'}
+[0.353904] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/launch/view_robot.launch.py\n'}
+[0.354038] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/ros2_control/diffbot.ros2_control.xacro\n'}
+[0.354174] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/urdf/brackets.xacro\n'}
+[0.354232] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/urdf/depth_camera.xacro\n'}
+[0.354283] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/urdf/diffbot.materials.xacro\n'}
+[0.354338] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/urdf/diffbot.urdf.xacro\n'}
+[0.354390] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/urdf/diffbot_description.urdf.xacro\n'}
+[0.354443] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/urdf/gazebo_control.xacro\n'}
+[0.354495] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/urdf/inertial_macros.xacro\n'}
+[0.354548] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/urdf/lidar.xacro\n'}
+[0.354600] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/urdf/lidar_3d.xacro\n'}
+[0.354653] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/urdf/robot_core.urdf.xacro\n'}
+[0.354784] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/rviz/diffbot.rviz\n'}
+[0.354856] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/rviz/diffbot_view.rviz\n'}
+[0.354908] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/rviz/gz_simulation.rviz\n'}
+[0.354961] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/rviz/gz_slam_nav2_simulation.rviz\n'}
+[0.355081] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/meshes/VLP16_base_1.dae\n'}
+[0.355135] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/meshes/VLP16_base_1.stl\n'}
+[0.355187] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/meshes/VLP16_base_2.dae\n'}
+[0.355251] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/meshes/VLP16_base_2.stl\n'}
+[0.355305] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/meshes/VLP16_scan.dae\n'}
+[0.355361] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/meshes/VLP16_scan.stl\n'}
+[0.355519] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/launch/diffbot.launch.py\n'}
+[0.355671] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/config/diffbot_controllers.yaml\n'}
+[0.355728] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[0.355800] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/config/gazebo_params.yaml\n'}
+[0.355867] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/config/joystick.yaml\n'}
+[0.355906] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/config/localization.yaml\n'}
+[0.355985] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/config/mapper_params_online_async.yaml\n'}
+[0.356049] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/config/nav2_params_v2.yaml\n'}
+[0.356088] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/config/twist_mux.yaml\n'}
+[0.356198] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/launch/demo.launch.py\n'}
+[0.356253] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/launch/joystick.launch.py\n'}
+[0.356304] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/launch/launch_robot.launch.py\n'}
+[0.356357] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/launch/launch_sim.launch.py\n'}
+[0.356408] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/launch/rplidar.launch.py\n'}
+[0.356460] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/launch/rs_launch.py\n'}
+[0.356510] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/launch/rs_multi_camera_launch.py\n'}
+[0.356564] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/launch/rsp.launch.py\n'}
+[0.356616] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/launch/test_ekf.launch.py\n'}
+[0.356758] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ament_index/resource_index/package_run_dependencies/ros_phoenix\n'}
+[0.356914] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ament_index/resource_index/parent_prefix_path/ros_phoenix\n'}
+[0.357046] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/environment/ament_prefix_path.sh\n'}
+[0.357137] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/environment/ament_prefix_path.dsv\n'}
+[0.357235] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/environment/path.sh\n'}
+[0.357299] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/environment/path.dsv\n'}
+[0.357388] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/local_setup.bash\n'}
+[0.357462] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/local_setup.sh\n'}
+[0.357549] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/local_setup.zsh\n'}
+[0.357622] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/local_setup.dsv\n'}
+[0.357675] (ros_phoenix) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/package.dsv\n'}
+[0.364215] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ament_index/resource_index/packages/ros_phoenix\n'}
+[0.364275] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros_phoenix\n'}
+[0.364352] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ament_index/resource_index/rclcpp_components/ros_phoenix\n'}
+[0.364426] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/rosidl_cmake-extras.cmake\n'}
+[0.364539] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.364592] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.364691] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.364761] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.364856] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.364933] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.365022] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenixConfig.cmake\n'}
+[0.365071] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenixConfig-version.cmake\n'}
+[0.365146] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/package.xml\n'}
+[0.365285] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/ros_phoenix/lib/libros_phoenix__rosidl_generator_c.so\n'}
+[0.365421] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_fastrtps_c.so\n'}
+[0.365568] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.365688] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_introspection_c.so\n'}
+[0.365806] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_c.so\n'}
+[0.365916] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_introspection_cpp.so\n'}
+[0.366060] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_cpp.so\n'}
+[0.387374] (ros_phoenix) StdoutLine: {'line': b"Listing '/home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix'...\n"}
+[0.387492] (ros_phoenix) StdoutLine: {'line': b"Listing '/home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg'...\n"}
+[0.390200] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/ros_phoenix/lib/libros_phoenix__rosidl_generator_py.so\n'}
+[0.390314] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_generator_cExport.cmake\n'}
+[0.390364] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.390406] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.390509] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.390553] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_generator_cppExport.cmake\n'}
+[0.390621] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.390661] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.390700] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.390739] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.390779] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_cExport.cmake\n'}
+[0.390817] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.390855] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.390923] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.390992] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_cppExport.cmake\n'}
+[0.391031] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.391068] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_generator_pyExport.cmake\n'}
+[0.391106] (ros_phoenix) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.392263] (ros_phoenix) CommandEnded: {'returncode': 0}
+[0.400190] (-) TimerEvent: {}
+[0.485274] (ros_phoenix) JobEnded: {'identifier': 'ros_phoenix', 'rc': 0}
+[0.485669] (-) EventReactorShutdown: {}

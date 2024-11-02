@@ -1,0 +1,96 @@
+[0.011s] Invoking command in '/home/luna/ws/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/luna/ws/src/csm -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luna/ws/install/csm
+[0.064s] -- The C compiler identification is GNU 11.4.0
+[0.100s] -- The CXX compiler identification is GNU 11.4.0
+[0.105s] -- Detecting C compiler ABI info
+[0.159s] -- Detecting C compiler ABI info - done
+[0.164s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.164s] -- Detecting C compile features
+[0.164s] -- Detecting C compile features - done
+[0.166s] -- Detecting CXX compiler ABI info
+[0.220s] -- Detecting CXX compiler ABI info - done
+[0.225s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.226s] -- Detecting CXX compile features
+[0.226s] -- Detecting CXX compile features - done
+[0.228s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.378s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.420s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.440s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.471s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.475s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.481s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.490s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.504s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.554s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.555s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.629s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.649s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.686s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.695s] -- Looking for pthread.h
+[0.783s] -- Looking for pthread.h - found
+[0.784s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.894s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.895s] -- Found Threads: TRUE  
+[1.256s] -- Configuring done
+[1.267s] -- Generating done
+[1.269s] -- Build files have been written to: /home/luna/ws/build/csm
+[1.281s] Invoked command in '/home/luna/ws/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/luna/ws/src/csm -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luna/ws/install/csm
+[1.282s] Invoking command in '/home/luna/ws/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luna/ws/build/csm -- -j8 -l8
+[1.320s] [  8%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/laser_data.cpp.o[0m
+[1.320s] [  8%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/math_utils.cpp.o[0m
+[1.321s] [ 12%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/math_utils_gsl.cpp.o[0m
+[1.321s] [ 16%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/sm_options.cpp.o[0m
+[1.329s] [ 20%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/utils.cpp.o[0m
+[1.330s] [ 25%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/orientation.cpp.o[0m
+[1.332s] [ 29%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/clustering.cpp.o[0m
+[1.335s] [ 33%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/logging.cpp.o[0m
+[2.666s] [ 37%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl.cpp.o[0m
+[2.746s] [ 41%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_conversions.cpp.o[0m
+[2.970s] [ 45%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_misc.cpp.o[0m
+[2.990s] [ 50%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_ops.cpp.o[0m
+[3.248s] [ 54%] [32mBuilding CXX object CMakeFiles/csm.dir/src/gpc/gpc.cpp.o[0m
+[3.602s] [ 58%] [32mBuilding CXX object CMakeFiles/csm.dir/src/gpc/gpc_utils.cpp.o[0m
+[4.015s] [ 62%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp.cpp.o[0m
+[4.225s] [ 66%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_corr_dumb.cpp.o[0m
+[4.278s] [ 70%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_corr_tricks.cpp.o[0m
+[4.334s] [ 75%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_covariance.cpp.o[0m
+[4.799s] [ 79%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_debug.cpp.o[0m
+[4.855s] [ 83%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_loop.cpp.o[0m
+[5.578s] [ 87%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_outliers.cpp.o[0m
+[5.632s] [ 91%] [32mBuilding CXX object CMakeFiles/csm.dir/src/options/options.cpp.o[0m
+[5.711s] [ 95%] [32mBuilding CXX object CMakeFiles/csm.dir/src/options/options_interface.cpp.o[0m
+[15.598s] [100%] [32m[1mLinking CXX shared library libcsm.so[0m
+[15.899s] [100%] Built target csm
+[15.907s] Invoked command in '/home/luna/ws/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luna/ws/build/csm -- -j8 -l8
+[15.959s] Invoking command in '/home/luna/ws/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luna/ws/build/csm
+[15.964s] -- Install configuration: ""
+[15.965s] -- Execute custom install script
+[15.965s] -- Symlinking: /home/luna/ws/install/csm/lib/libcsm.so
+[15.972s] -- Symlinking: /home/luna/ws/install/csm/include/..//include/csm/algos.h
+[15.981s] -- Symlinking: /home/luna/ws/install/csm/include/..//include/csm/csm.h
+[15.986s] -- Symlinking: /home/luna/ws/install/csm/include/..//include/csm/laser_data.h
+[15.992s] -- Symlinking: /home/luna/ws/install/csm/include/..//include/csm/laser_data_inline.h
+[15.998s] -- Symlinking: /home/luna/ws/install/csm/include/..//include/csm/restrict.h
+[16.004s] -- Symlinking: /home/luna/ws/install/csm/include/..//include/gsl_eigen/gsl_eigen.h
+[16.010s] -- Symlinking: /home/luna/ws/install/csm/share/csm/resource/csm
+[16.016s] -- Symlinking: /home/luna/ws/install/csm/include/../gsl_eigen/gsl_eigen.h
+[16.021s] -- Symlinking: /home/luna/ws/install/csm/share/csm/environment/library_path.sh
+[16.027s] -- Symlinking: /home/luna/ws/install/csm/share/csm/environment/library_path.dsv
+[16.033s] -- Symlinking: /home/luna/ws/install/csm/share/ament_index/resource_index/package_run_dependencies/csm
+[16.039s] -- Symlinking: /home/luna/ws/install/csm/share/ament_index/resource_index/parent_prefix_path/csm
+[16.045s] -- Symlinking: /home/luna/ws/install/csm/share/csm/environment/ament_prefix_path.sh
+[16.051s] -- Symlinking: /home/luna/ws/install/csm/share/csm/environment/ament_prefix_path.dsv
+[16.058s] -- Symlinking: /home/luna/ws/install/csm/share/csm/environment/path.sh
+[16.064s] -- Symlinking: /home/luna/ws/install/csm/share/csm/environment/path.dsv
+[16.070s] -- Symlinking: /home/luna/ws/install/csm/share/csm/local_setup.bash
+[16.077s] -- Symlinking: /home/luna/ws/install/csm/share/csm/local_setup.sh
+[16.084s] -- Symlinking: /home/luna/ws/install/csm/share/csm/local_setup.zsh
+[16.090s] -- Symlinking: /home/luna/ws/install/csm/share/csm/local_setup.dsv
+[16.096s] -- Symlinking: /home/luna/ws/install/csm/share/csm/package.dsv
+[16.102s] -- Symlinking: /home/luna/ws/install/csm/share/ament_index/resource_index/packages/csm
+[16.108s] -- Symlinking: /home/luna/ws/install/csm/share/csm/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.114s] -- Symlinking: /home/luna/ws/install/csm/share/csm/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.121s] -- Symlinking: /home/luna/ws/install/csm/share/csm/cmake/ament_cmake_export_libraries-extras.cmake
+[16.127s] -- Symlinking: /home/luna/ws/install/csm/share/csm/cmake/csmConfig.cmake
+[16.133s] -- Symlinking: /home/luna/ws/install/csm/share/csm/cmake/csmConfig-version.cmake
+[16.139s] -- Symlinking: /home/luna/ws/install/csm/share/csm/package.xml
+[16.148s] Invoked command in '/home/luna/ws/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luna/ws/build/csm

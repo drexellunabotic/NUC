@@ -1,0 +1,8 @@
+setup.py
+cpp_pubsub/__init__.py
+cpp_pubsub.egg-info/PKG-INFO
+cpp_pubsub.egg-info/SOURCES.txt
+cpp_pubsub.egg-info/dependency_links.txt
+cpp_pubsub.egg-info/top_level.txt
+cpp_pubsub/msg/__init__.py
+cpp_pubsub/msg/_phoenix_control.py

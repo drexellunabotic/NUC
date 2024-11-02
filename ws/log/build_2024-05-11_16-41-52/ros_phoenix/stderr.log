@@ -1,0 +1,387 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_nodes.cpp:1[m[K:
+/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of ‘[01m[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::VictorSPX; Configuration = ctre::phoenix::motorcontrol::can::VictorSPXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::FeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::VictorSPXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >][m[K’:
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:[m[K   required from here
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kctre::phoenix::motorcontrol::VictorSPXControlMode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   75 |             RCLCPP_WARN(this->get_logger(), [01;35m[K"Invalid control mode: %d"[m[K, [32m[Kmode[m[K);
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~[m[K
+      |                                                                         [32m[K|[m[K
+      |                                                                         [32m[Kctre::phoenix::motorcontrol::VictorSPXControlMode[m[K
+In file included from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_nodes.cpp:1[m[K:
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: [01;36m[K%d[m[K", mode);
+      |                                                                    [01;36m[K~^[m[K
+      |                                                                     [01;36m[K|[m[K
+      |                                                                     [01;36m[Kint[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_nodes.cpp:1[m[K:
+/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of ‘[01m[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::TalonSRX; Configuration = ctre::phoenix::motorcontrol::can::TalonSRXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::TalonSRXFeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::TalonSRXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >][m[K’:
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:[m[K   required from here
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kctre::phoenix::motorcontrol::TalonSRXControlMode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   75 |             RCLCPP_WARN(this->get_logger(), [01;35m[K"Invalid control mode: %d"[m[K, [32m[Kmode[m[K);
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~[m[K
+      |                                                                         [32m[K|[m[K
+      |                                                                         [32m[Kctre::phoenix::motorcontrol::TalonSRXControlMode[m[K
+In file included from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_nodes.cpp:1[m[K:
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: [01;36m[K%d[m[K", mode);
+      |                                                                    [01;36m[K~^[m[K
+      |                                                                     [01;36m[K|[m[K
+      |                                                                     [01;36m[Kint[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_nodes.cpp:1[m[K:
+/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of ‘[01m[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::TalonFX; Configuration = ctre::phoenix::motorcontrol::can::TalonFXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::TalonFXFeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::TalonFXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >][m[K’:
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:[m[K   required from here
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kctre::phoenix::motorcontrol::TalonFXControlMode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   75 |             RCLCPP_WARN(this->get_logger(), [01;35m[K"Invalid control mode: %d"[m[K, [32m[Kmode[m[K);
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~[m[K
+      |                                                                         [32m[K|[m[K
+      |                                                                         [32m[Kctre::phoenix::motorcontrol::TalonFXControlMode[m[K
+In file included from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_nodes.cpp:1[m[K:
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: [01;36m[K%d[m[K", mode);
+      |                                                                    [01;36m[K~^[m[K
+      |                                                                     [01;36m[K|[m[K
+      |                                                                     [01;36m[Kint[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_components.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_components.cpp:1[m[K:
+/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of ‘[01m[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::VictorSPX; Configuration = ctre::phoenix::motorcontrol::can::VictorSPXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::FeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::VictorSPXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >][m[K’:
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:[m[K   required from here
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kctre::phoenix::motorcontrol::VictorSPXControlMode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   75 |             RCLCPP_WARN(this->get_logger(), [01;35m[K"Invalid control mode: %d"[m[K, [32m[Kmode[m[K);
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~[m[K
+      |                                                                         [32m[K|[m[K
+      |                                                                         [32m[Kctre::phoenix::motorcontrol::VictorSPXControlMode[m[K
+In file included from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_components.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_components.cpp:1[m[K:
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: [01;36m[K%d[m[K", mode);
+      |                                                                    [01;36m[K~^[m[K
+      |                                                                     [01;36m[K|[m[K
+      |                                                                     [01;36m[Kint[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_components.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_components.cpp:1[m[K:
+/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of ‘[01m[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::TalonSRX; Configuration = ctre::phoenix::motorcontrol::can::TalonSRXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::TalonSRXFeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::TalonSRXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >][m[K’:
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:[m[K   required from here
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kctre::phoenix::motorcontrol::TalonSRXControlMode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   75 |             RCLCPP_WARN(this->get_logger(), [01;35m[K"Invalid control mode: %d"[m[K, [32m[Kmode[m[K);
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~[m[K
+      |                                                                         [32m[K|[m[K
+      |                                                                         [32m[Kctre::phoenix::motorcontrol::TalonSRXControlMode[m[K
+In file included from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_components.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_components.cpp:1[m[K:
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: [01;36m[K%d[m[K", mode);
+      |                                                                    [01;36m[K~^[m[K
+      |                                                                     [01;36m[K|[m[K
+      |                                                                     [01;36m[Kint[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_components.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_components.cpp:1[m[K:
+/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of ‘[01m[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::TalonFX; Configuration = ctre::phoenix::motorcontrol::can::TalonFXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::TalonFXFeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::TalonFXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >][m[K’:
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:[m[K   required from here
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kctre::phoenix::motorcontrol::TalonFXControlMode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   75 |             RCLCPP_WARN(this->get_logger(), [01;35m[K"Invalid control mode: %d"[m[K, [32m[Kmode[m[K);
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~[m[K
+      |                                                                         [32m[K|[m[K
+      |                                                                         [32m[Kctre::phoenix::motorcontrol::TalonFXControlMode[m[K
+In file included from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_components.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_components.cpp:1[m[K:
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: [01;36m[K%d[m[K", mode);
+      |                                                                    [01;36m[K~^[m[K
+      |                                                                     [01;36m[K|[m[K
+      |                                                                     [01;36m[Kint[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_bridge.hpp:31[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_bridge.cpp:19[m[K:
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_bridge.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn ros_phoenix::PhoenixBridge::on_init(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_bridge.cpp:79:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 6 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   79 |             RCLCPP_FATAL(this->logger_, [01;35m[K"Joint '%s' has an invalid command interface: %s"[m[K,
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_bridge.cpp:79:88:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   79 | FATAL(this->logger_, "Joint '%s' has an invalid command interface: [01;36m[K%s[m[K",
+      |                                                                    [01;36m[K~^[m[K
+      |                                                                     [01;36m[K|[m[K
+      |                                                                     [01;36m[Kchar*[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_bridge.hpp:31[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_bridge.cpp:19[m[K:
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_bridge.cpp:88:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 6 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   88 |                 RCLCPP_FATAL(this->logger_, [01;35m[K"Joint '%s' has an invalid state interface: %s"[m[K,
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_bridge.cpp:88:90:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   88 | P_FATAL(this->logger_, "Joint '%s' has an invalid state interface: [01;36m[K%s[m[K",
+      |                                                                    [01;36m[K~^[m[K
+      |                                                                     [01;36m[K|[m[K
+      |                                                                     [01;36m[Kchar*[m[K
+
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_bridge.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn ros_phoenix::PhoenixBridge::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_bridge.cpp:137:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  137 |  PhoenixBridge::on_activate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_bridge.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn ros_phoenix::PhoenixBridge::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_bridge.cpp:163:97:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  163 | hoenixBridge::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_bridge.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type ros_phoenix::PhoenixBridge::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_bridge.cpp:178:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  178 | rface::return_type PhoenixBridge::read([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_bridge.cpp:178:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  178 | ridge::read(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_bridge.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type ros_phoenix::PhoenixBridge::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_bridge.cpp:186:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  186 | face::return_type PhoenixBridge::write([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_bridge.cpp:186:106:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  186 | idge::write(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_system.hpp:18[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_system.cpp:19[m[K:
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn ros_phoenix::PhoenixSystem::on_init(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_system.cpp:171:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::vector<hardware_interface::InterfaceInfo>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  171 |             RCLCPP_FATAL(this->logger_, [01;35m[K"Joint '%s' has %d command interfaces. Expected 1."[m[K,
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  172 |                 joint.name.c_str(), [32m[Kjoint.command_interfaces.size()[m[K);
+      |                                     [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                  [32m[K|[m[K
+      |                                                                  [32m[Kstd::vector<hardware_interface::InterfaceInfo>::size_type {aka long unsigned int}[m[K
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_system.cpp:171:58:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  171 |             RCLCPP_FATAL(this->logger_, "Joint '%s' has [01;36m[K%d[m[K command interfaces. Expected 1.",
+      |                                                         [01;36m[K~^[m[K
+      |                                                          [01;36m[K|[m[K
+      |                                                          [01;36m[Kint[m[K
+      |                                                         [32m[K%ld[m[K
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn ros_phoenix::PhoenixSystem::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_system.cpp:240:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  240 | hardware_interface::CallbackReturn PhoenixSystem::on_activate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+      |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn ros_phoenix::PhoenixSystem::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_system.cpp:250:97:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  250 | hardware_interface::CallbackReturn PhoenixSystem::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+      |                                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type ros_phoenix::PhoenixSystem::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_system.cpp:261:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  261 | hardware_interface::return_type PhoenixSystem::read([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+      |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_system.cpp:261:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  261 | hardware_interface::return_type PhoenixSystem::read(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+      |                                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type ros_phoenix::PhoenixSystem::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_system.cpp:271:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  271 | hardware_interface::return_type PhoenixSystem::write([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+      |                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_system.cpp:271:106:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  271 | hardware_interface::return_type PhoenixSystem::write(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+      |                                                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_system.hpp:18[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_system.cpp:19[m[K:
+/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of ‘[01m[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::VictorSPX; Configuration = ctre::phoenix::motorcontrol::can::VictorSPXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::FeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::VictorSPXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >][m[K’:
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:[m[K   required from here
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kctre::phoenix::motorcontrol::VictorSPXControlMode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   75 |             RCLCPP_WARN(this->get_logger(), [01;35m[K"Invalid control mode: %d"[m[K, [32m[Kmode[m[K);
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~[m[K
+      |                                                                         [32m[K|[m[K
+      |                                                                         [32m[Kctre::phoenix::motorcontrol::VictorSPXControlMode[m[K
+In file included from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_system.cpp:21[m[K:
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: [01;36m[K%d[m[K", mode);
+      |                                                                    [01;36m[K~^[m[K
+      |                                                                     [01;36m[K|[m[K
+      |                                                                     [01;36m[Kint[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_system.hpp:18[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_system.cpp:19[m[K:
+/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of ‘[01m[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::TalonSRX; Configuration = ctre::phoenix::motorcontrol::can::TalonSRXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::TalonSRXFeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::TalonSRXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >][m[K’:
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:[m[K   required from here
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kctre::phoenix::motorcontrol::TalonSRXControlMode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   75 |             RCLCPP_WARN(this->get_logger(), [01;35m[K"Invalid control mode: %d"[m[K, [32m[Kmode[m[K);
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~[m[K
+      |                                                                         [32m[K|[m[K
+      |                                                                         [32m[Kctre::phoenix::motorcontrol::TalonSRXControlMode[m[K
+In file included from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_system.cpp:21[m[K:
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: [01;36m[K%d[m[K", mode);
+      |                                                                    [01;36m[K~^[m[K
+      |                                                                     [01;36m[K|[m[K
+      |                                                                     [01;36m[Kint[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/base_node.hpp:7[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_system.hpp:18[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_system.cpp:19[m[K:
+/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp: In instantiation of ‘[01m[Kvoid ros_phoenix::PhoenixNode<MotorController, Configuration, FeedbackDevice, ControlMode>::set(ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr) [with MotorController = ctre::phoenix::motorcontrol::can::TalonFX; Configuration = ctre::phoenix::motorcontrol::can::TalonFXConfiguration; FeedbackDevice = ctre::phoenix::motorcontrol::TalonFXFeedbackDevice; ControlMode = ctre::phoenix::motorcontrol::TalonFXControlMode; ros_phoenix::msg::MotorControl_<std::allocator<void> >::SharedPtr = std::shared_ptr<ros_phoenix::msg::MotorControl_<std::allocator<void> > >][m[K’:
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:56:18:[m[K   required from here
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kctre::phoenix::motorcontrol::TalonFXControlMode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   75 |             RCLCPP_WARN(this->get_logger(), [01;35m[K"Invalid control mode: %d"[m[K, [32m[Kmode[m[K);
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~[m[K
+      |                                                                         [32m[K|[m[K
+      |                                                                         [32m[Kctre::phoenix::motorcontrol::TalonFXControlMode[m[K
+In file included from [01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp:4[m[K,
+                 from [01m[K/home/luna/ws/src/ros_phoenix/src/phoenix_system.cpp:21[m[K:
+[01m[K/home/luna/ws/src/ros_phoenix/include/ros_phoenix/phoenix_node.hpp:75:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   75 |             RCLCPP_WARN(this->get_logger(), "Invalid control mode: [01;36m[K%d[m[K", mode);
+      |                                                                    [01;36m[K~^[m[K
+      |                                                                     [01;36m[K|[m[K
+      |                                                                     [01;36m[Kint[m[K

@@ -1,0 +1,1 @@
+/home/luna/ws/build/ros_phoenix/ament_cmake_core/ros_phoenixConfig-version.cmake

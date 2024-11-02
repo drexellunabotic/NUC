@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros_phoenix/msg/MotorControl.msg
+// generated code does not contain a copyright notice
+
+
+module ros_phoenix {
+  module msg {
+    module MotorControl_Constants {
+      const int32 PERCENT_OUTPUT = 0;
+      const int32 POSITION = 1;
+      const int32 VELOCITY = 2;
+      const int32 CURRENT = 3;
+      const int32 FOLLOWER = 5;
+      const int32 MOTION_PROFILE = 6;
+      const int32 MOTION_MAGIC = 7;
+      const int32 MOTION_PROFILE_ARC = 10;
+      const int32 DISABLED = 15;
+    };
+    struct MotorControl {
+      @default (value=0)
+      int32 mode;
+
+      @default (value=0.0)
+      double value;
+    };
+  };
+};

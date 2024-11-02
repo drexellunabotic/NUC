@@ -1,0 +1,1 @@
+/home/luna/ws/build/cpp_pubsub/rosidl_typesupport_fastrtps_c/cpp_pubsub/msg/detail/phoenix_control__rosidl_typesupport_fastrtps_c.h

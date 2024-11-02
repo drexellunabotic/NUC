@@ -1,0 +1,1 @@
+/home/luna/ws/build/cpp_pubsub/rosidl_generator_py/cpp_pubsub/msg/_phoenix_control_s.c

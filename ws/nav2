@@ -1,0 +1,1 @@
+ros2 launch nav2_bringup navigation_launch.py params_file:=/home/luna/ws/src/ros_phoenix/bringup/config/nav2_params_v2.yaml use_sim_time:=false

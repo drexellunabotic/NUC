@@ -1,0 +1,233 @@
+[0.000000] (-) TimerEvent: {}
+[0.000259] (-) JobUnselected: {'identifier': 'csm'}
+[0.000290] (-) JobUnselected: {'identifier': 'ros2_laser_scan_matcher'}
+[0.000303] (-) JobUnselected: {'identifier': 'ros_phoenix'}
+[0.000314] (-) JobUnselected: {'identifier': 'serial'}
+[0.000327] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict([('ros_phoenix', '/home/luna/ws/install/ros_phoenix')])}
+[0.000342] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.007914] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.008804] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.008823] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luna/ws/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/luna/ws/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luna'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/luna/ws/install/ros_phoenix/lib:/home/luna/ws/install/cpp_pubsub/lib:/home/luna/ws/install/serial/lib:/home/luna/ws/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna/ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1340'), ('SYSTEMD_EXEC_PID', '1507'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2231'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/luna/ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('JOURNAL_STREAM', '8:33039'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luna'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotic:@/tmp/.ICE-unix/1484,unix/lunabotic:/tmp/.ICE-unix/1484'), ('INVOCATION_ID', 'd5d07b5d475c4017865a7e67a3b77597'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6QSDN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/luna/ws/install/cpp_pubsub:/home/luna/ws/install/serial:/home/luna/ws/install/csm:/home/luna/ws/install/ros_phoenix:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:99844b45-5a2c-4c37-810f-b727ef011985'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luna/ws/build/cpp_pubsub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luna/ws/install/cpp_pubsub/local/lib/python3.10/dist-packages:/home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/luna/ws/install/ros_phoenix:/home/luna/ws/install/cpp_pubsub:/home/luna/ws/install/serial:/home/luna/ws/install/csm:/opt/ros/humble')]), 'shell': False}
+[0.048868] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target commander\x1b[0m\n'}
+[0.053329] (cpp_pubsub) StdoutLine: {'line': b'[  2%] Built target cpp_pubsub__cpp\n'}
+[0.054156] (cpp_pubsub) StdoutLine: {'line': b'[  8%] Built target cpp_pubsub__rosidl_generator_c\n'}
+[0.058898] (cpp_pubsub) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/serial_com.dir/src/arduino.cpp.o\x1b[0m\n'}
+[0.059126] (cpp_pubsub) StdoutLine: {'line': b'[ 15%] Built target listener\n'}
+[0.059201] (cpp_pubsub) StdoutLine: {'line': b'[ 20%] Built target talker\n'}
+[0.061485] (cpp_pubsub) StdoutLine: {'line': b'[ 24%] Built target rover\n'}
+[0.070115] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target today\x1b[0m\n'}
+[0.077791] (cpp_pubsub) StdoutLine: {'line': b'[ 24%] Built target ament_cmake_python_symlink_cpp_pubsub\n'}
+[0.080086] (cpp_pubsub) StdoutLine: {'line': b'[ 28%] Built target motors\n'}
+[0.081833] (cpp_pubsub) StdoutLine: {'line': b'[ 35%] Built target cpp_pubsub__rosidl_typesupport_fastrtps_c\n'}
+[0.084906] (cpp_pubsub) StdoutLine: {'line': b'[ 42%] Built target cpp_pubsub__rosidl_typesupport_fastrtps_cpp\n'}
+[0.088925] (cpp_pubsub) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/today.dir/src/today.cpp.o\x1b[0m\n'}
+[0.089480] (cpp_pubsub) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/commander.dir/src/pubsub_node.cpp.o\x1b[0m\n'}
+[0.094464] (cpp_pubsub) StdoutLine: {'line': b'[ 53%] Built target cpp_pubsub__rosidl_typesupport_cpp\n'}
+[0.099540] (-) TimerEvent: {}
+[0.100190] (cpp_pubsub) StdoutLine: {'line': b'[ 60%] Built target cpp_pubsub__rosidl_typesupport_introspection_c\n'}
+[0.104719] (cpp_pubsub) StdoutLine: {'line': b'[ 66%] Built target cpp_pubsub__rosidl_typesupport_introspection_cpp\n'}
+[0.118244] (cpp_pubsub) StdoutLine: {'line': b'[ 73%] Built target cpp_pubsub__rosidl_typesupport_c\n'}
+[0.135178] (cpp_pubsub) StdoutLine: {'line': b'[ 73%] Built target cpp_pubsub\n'}
+[0.149903] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target cpp_pubsub__py\n'}
+[0.166029] (cpp_pubsub) StdoutLine: {'line': b'[ 80%] Built target cpp_pubsub__rosidl_generator_py\n'}
+[0.188928] (cpp_pubsub) StdoutLine: {'line': b'[ 88%] Built target cpp_pubsub__rosidl_typesupport_introspection_c__pyext\n'}
+[0.190763] (cpp_pubsub) StdoutLine: {'line': b'[ 88%] Built target cpp_pubsub__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.199635] (-) TimerEvent: {}
+[0.201079] (cpp_pubsub) StdoutLine: {'line': b'[ 93%] Built target cpp_pubsub__rosidl_typesupport_c__pyext\n'}
+[0.299740] (-) TimerEvent: {}
+[0.309563] (cpp_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[0.310071] (cpp_pubsub) StdoutLine: {'line': b'writing cpp_pubsub.egg-info/PKG-INFO\n'}
+[0.310259] (cpp_pubsub) StdoutLine: {'line': b'writing dependency_links to cpp_pubsub.egg-info/dependency_links.txt\n'}
+[0.310382] (cpp_pubsub) StdoutLine: {'line': b'writing top-level names to cpp_pubsub.egg-info/top_level.txt\n'}
+[0.311985] (cpp_pubsub) StdoutLine: {'line': b"reading manifest file 'cpp_pubsub.egg-info/SOURCES.txt'\n"}
+[0.312364] (cpp_pubsub) StdoutLine: {'line': b"writing manifest file 'cpp_pubsub.egg-info/SOURCES.txt'\n"}
+[0.333674] (cpp_pubsub) StdoutLine: {'line': b'[ 93%] Built target ament_cmake_python_build_cpp_pubsub_egg\n'}
+[0.399855] (-) TimerEvent: {}
+[0.500172] (-) TimerEvent: {}
+[0.600499] (-) TimerEvent: {}
+[0.700805] (-) TimerEvent: {}
+[0.801136] (-) TimerEvent: {}
+[0.901451] (-) TimerEvent: {}
+[1.001785] (-) TimerEvent: {}
+[1.102101] (-) TimerEvent: {}
+[1.202449] (-) TimerEvent: {}
+[1.302784] (-) TimerEvent: {}
+[1.403107] (-) TimerEvent: {}
+[1.503416] (-) TimerEvent: {}
+[1.603732] (-) TimerEvent: {}
+[1.704046] (-) TimerEvent: {}
+[1.804369] (-) TimerEvent: {}
+[1.904707] (-) TimerEvent: {}
+[2.005022] (-) TimerEvent: {}
+[2.105357] (-) TimerEvent: {}
+[2.205675] (-) TimerEvent: {}
+[2.236831] (cpp_pubsub) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable serial_com\x1b[0m\n'}
+[2.305795] (-) TimerEvent: {}
+[2.316247] (cpp_pubsub) StdoutLine: {'line': b'[ 95%] Built target serial_com\n'}
+[2.405909] (-) TimerEvent: {}
+[2.506232] (-) TimerEvent: {}
+[2.606569] (-) TimerEvent: {}
+[2.706994] (-) TimerEvent: {}
+[2.807461] (-) TimerEvent: {}
+[2.907694] (-) TimerEvent: {}
+[3.007946] (-) TimerEvent: {}
+[3.108203] (-) TimerEvent: {}
+[3.208457] (-) TimerEvent: {}
+[3.308782] (-) TimerEvent: {}
+[3.409150] (-) TimerEvent: {}
+[3.509460] (-) TimerEvent: {}
+[3.610040] (-) TimerEvent: {}
+[3.710300] (-) TimerEvent: {}
+[3.810555] (-) TimerEvent: {}
+[3.910822] (-) TimerEvent: {}
+[4.011172] (-) TimerEvent: {}
+[4.111513] (-) TimerEvent: {}
+[4.211862] (-) TimerEvent: {}
+[4.312199] (-) TimerEvent: {}
+[4.412526] (-) TimerEvent: {}
+[4.512804] (-) TimerEvent: {}
+[4.613113] (-) TimerEvent: {}
+[4.713338] (-) TimerEvent: {}
+[4.813667] (-) TimerEvent: {}
+[4.913933] (-) TimerEvent: {}
+[5.014245] (-) TimerEvent: {}
+[5.114561] (-) TimerEvent: {}
+[5.214924] (-) TimerEvent: {}
+[5.315239] (-) TimerEvent: {}
+[5.415462] (-) TimerEvent: {}
+[5.515696] (-) TimerEvent: {}
+[5.615937] (-) TimerEvent: {}
+[5.716163] (-) TimerEvent: {}
+[5.816396] (-) TimerEvent: {}
+[5.916737] (-) TimerEvent: {}
+[6.016988] (-) TimerEvent: {}
+[6.117233] (-) TimerEvent: {}
+[6.217472] (-) TimerEvent: {}
+[6.317756] (-) TimerEvent: {}
+[6.418039] (-) TimerEvent: {}
+[6.518320] (-) TimerEvent: {}
+[6.541245] (cpp_pubsub) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable commander\x1b[0m\n'}
+[6.618439] (-) TimerEvent: {}
+[6.718751] (-) TimerEvent: {}
+[6.819053] (-) TimerEvent: {}
+[6.855817] (cpp_pubsub) StdoutLine: {'line': b'[ 97%] Built target commander\n'}
+[6.919261] (-) TimerEvent: {}
+[7.019607] (-) TimerEvent: {}
+[7.119960] (-) TimerEvent: {}
+[7.220316] (-) TimerEvent: {}
+[7.241446] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable today\x1b[0m\n'}
+[7.320502] (-) TimerEvent: {}
+[7.420826] (-) TimerEvent: {}
+[7.521198] (-) TimerEvent: {}
+[7.621537] (-) TimerEvent: {}
+[7.721892] (-) TimerEvent: {}
+[7.771692] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target today\n'}
+[7.780102] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[7.821991] (-) TimerEvent: {}
+[7.840343] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[7.847255] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/luna/ws/build/cpp_pubsub'], 'cwd': '/home/luna/ws/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luna'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/luna/ws/install/ros_phoenix/lib:/home/luna/ws/install/cpp_pubsub/lib:/home/luna/ws/install/serial/lib:/home/luna/ws/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna/ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1340'), ('SYSTEMD_EXEC_PID', '1507'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2231'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/luna/ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('JOURNAL_STREAM', '8:33039'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luna'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotic:@/tmp/.ICE-unix/1484,unix/lunabotic:/tmp/.ICE-unix/1484'), ('INVOCATION_ID', 'd5d07b5d475c4017865a7e67a3b77597'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6QSDN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/luna/ws/install/cpp_pubsub:/home/luna/ws/install/serial:/home/luna/ws/install/csm:/home/luna/ws/install/ros_phoenix:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:99844b45-5a2c-4c37-810f-b727ef011985'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luna/ws/build/cpp_pubsub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luna/ws/install/cpp_pubsub/local/lib/python3.10/dist-packages:/home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/luna/ws/install/ros_phoenix:/home/luna/ws/install/cpp_pubsub:/home/luna/ws/install/serial:/home/luna/ws/install/csm:/opt/ros/humble')]), 'shell': False}
+[7.852505] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.852846] (cpp_pubsub) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.852951] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/ament_index/resource_index/rosidl_interfaces/cpp_pubsub\n'}
+[7.853261] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/phoenix_control__functions.h\n'}
+[7.853346] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/phoenix_control__struct.h\n'}
+[7.853477] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/phoenix_control__type_support.h\n'}
+[7.853552] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/phoenix_control.h\n'}
+[7.853599] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.853669] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/environment/library_path.sh\n'}
+[7.853717] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/environment/library_path.dsv\n'}
+[7.853930] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/phoenix_control__rosidl_typesupport_fastrtps_c.h\n'}
+[7.854041] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.854402] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/phoenix_control__builder.hpp\n'}
+[7.854476] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/phoenix_control__struct.hpp\n'}
+[7.854520] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/phoenix_control__traits.hpp\n'}
+[7.854560] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/phoenix_control.hpp\n'}
+[7.854624] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/phoenix_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.854699] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.854834] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/phoenix_control__rosidl_typesupport_introspection_c.h\n'}
+[7.854896] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.855065] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/phoenix_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.855162] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/environment/pythonpath.sh\n'}
+[7.855232] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/environment/pythonpath.dsv\n'}
+[7.855406] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub-0.0.3-py3.10.egg-info/PKG-INFO\n'}
+[7.855544] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub-0.0.3-py3.10.egg-info/SOURCES.txt\n'}
+[7.855652] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub-0.0.3-py3.10.egg-info/dependency_links.txt\n'}
+[7.855699] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub-0.0.3-py3.10.egg-info/top_level.txt\n'}
+[7.855925] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/__init__.py\n'}
+[7.855995] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/_cpp_pubsub_s.ep.rosidl_typesupport_c.c\n'}
+[7.856050] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/_cpp_pubsub_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.856106] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/_cpp_pubsub_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.856169] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/cpp_pubsub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.856221] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/cpp_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.856277] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/cpp_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.856333] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/libcpp_pubsub__rosidl_generator_py.so\n'}
+[7.856392] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/msg/__init__.py\n'}
+[7.856454] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/msg/_phoenix_control.py\n'}
+[7.856514] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/msg/_phoenix_control_s.c\n'}
+[7.856689] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/cpp_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.856841] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/cpp_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.856989] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/cpp_pubsub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.857105] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/msg/PhoenixControl.idl\n'}
+[7.857202] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/msg/PhoenixControl.msg\n'}
+[7.857317] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/lib/cpp_pubsub/serial_com\n'}
+[7.857443] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[7.857566] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[7.857687] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/lib/cpp_pubsub/commander\n'}
+[7.857811] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/lib/cpp_pubsub/rover\n'}
+[7.857936] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/lib/cpp_pubsub/motors\n'}
+[7.858067] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/lib/cpp_pubsub/today\n'}
+[7.858223] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub//launch/commander.launch.py\n'}
+[7.858307] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub//launch/motors.launch.py\n'}
+[7.858382] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[7.858479] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[7.858581] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[7.858648] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[7.858748] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[7.858828] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[7.858917] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[7.858974] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[7.859061] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[7.859147] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[7.859210] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[7.865522] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[7.865675] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/cmake/rosidl_cmake-extras.cmake\n'}
+[7.865744] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.865802] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.865881] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.865970] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.866060] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.866155] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.866249] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[7.866312] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[7.866409] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[7.866551] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_generator_c.so\n'}
+[7.866702] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_fastrtps_c.so\n'}
+[7.866847] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.866977] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_introspection_c.so\n'}
+[7.867103] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_c.so\n'}
+[7.867235] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_introspection_cpp.so\n'}
+[7.867388] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_cpp.so\n'}
+[7.889135] (cpp_pubsub) StdoutLine: {'line': b"Listing '/home/luna/ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub'...\n"}
+[7.889260] (cpp_pubsub) StdoutLine: {'line': b"Listing '/home/luna/ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/msg'...\n"}
+[7.892589] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_generator_py.so\n'}
+[7.892742] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_generator_cExport.cmake\n'}
+[7.892802] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.892872] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.892932] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.893023] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_generator_cppExport.cmake\n'}
+[7.893269] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.893380] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.893451] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.893512] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.893590] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_cExport.cmake\n'}
+[7.893647] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.893747] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.893800] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.893867] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_cppExport.cmake\n'}
+[7.893921] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.894021] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_generator_pyExport.cmake\n'}
+[7.894075] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/luna/ws/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.897100] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[7.922111] (-) TimerEvent: {}
+[8.014952] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[8.015411] (-) EventReactorShutdown: {}

@@ -1,0 +1,190 @@
+[  1%] Built target CTRE_PhoenixCCI-unzip
+[  3%] Built target CTRE_Phoenix-unzip
+[  5%] Built target ros_phoenix__cpp
+[ 13%] Built target ros_phoenix__rosidl_generator_c
+[ 13%] Built target ament_cmake_python_symlink_ros_phoenix
+[ 21%] Built target ros_phoenix__rosidl_typesupport_fastrtps_cpp
+[ 29%] Built target ros_phoenix__rosidl_typesupport_introspection_cpp
+[ 37%] Built target ros_phoenix__rosidl_typesupport_introspection_c
+[ 45%] Built target ros_phoenix__rosidl_typesupport_c
+[ 52%] Built target ros_phoenix__rosidl_typesupport_fastrtps_c
+[ 60%] Built target ros_phoenix__rosidl_typesupport_cpp
+[ 60%] Built target ros_phoenix
+[ 62%] Built target ros_phoenix__py
+[ 72%] Built target ros_phoenix_components
+[ 78%] Built target ros_phoenix__rosidl_generator_py
+[ 82%] Built target phoenix_container
+[ 88%] Built target ros_phoenix_control
+[ 92%] Built target ros_phoenix__rosidl_typesupport_c__pyext
+[ 96%] Built target ros_phoenix__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target ros_phoenix__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing ros_phoenix.egg-info/PKG-INFO
+writing dependency_links to ros_phoenix.egg-info/dependency_links.txt
+writing top-level names to ros_phoenix.egg-info/top_level.txt
+reading manifest file 'ros_phoenix.egg-info/SOURCES.txt'
+writing manifest file 'ros_phoenix.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_ros_phoenix_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ament_index/resource_index/rosidl_interfaces/ros_phoenix
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__functions.h
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__struct.h
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__type_support.h
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__functions.h
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__struct.h
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__type_support.h
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/motor_control.h
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/motor_status.h
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/environment/library_path.sh
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/environment/library_path.dsv
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__builder.hpp
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__struct.hpp
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__traits.hpp
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__builder.hpp
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__struct.hpp
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__traits.hpp
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/motor_control.hpp
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/motor_status.hpp
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_control__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/ros_phoenix/msg/detail/motor_status__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/environment/pythonpath.sh
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/__init__.py
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/_ros_phoenix_s.ep.rosidl_typesupport_c.c
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/_ros_phoenix_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/_ros_phoenix_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/libros_phoenix__rosidl_generator_py.so
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg/__init__.py
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg/_motor_control.py
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg/_motor_control_s.c
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg/_motor_status.py
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg/_motor_status_s.c
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/ros_phoenix_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/ros_phoenix_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/ros_phoenix_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/ros_phoenix_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/ros_phoenix_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/ros_phoenix_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/msg/MotorControl.idl
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/msg/MotorStatus.idl
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/msg/MotorControl.msg
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/msg/MotorStatus.msg
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/lib/libCTRE_Phoenix.so
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/lib/libCTRE_PhoenixCCI.so
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix//ros_phoenix_hardware.xml
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/lib/libros_phoenix_components.so
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/lib/ros_phoenix/phoenix_container
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/lib/libros_phoenix_control.so
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/base_node.hpp
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/phoenix_bridge.hpp
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/phoenix_components.hpp
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/phoenix_manager.hpp
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/phoenix_node.hpp
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/phoenix_nodes.hpp
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/include/ros_phoenix/phoenix_system.hpp
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/launch/view_robot.launch.py
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/ros2_control/diffbot.ros2_control.xacro
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/urdf/brackets.xacro
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/urdf/depth_camera.xacro
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/urdf/diffbot.materials.xacro
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/urdf/diffbot.urdf.xacro
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/urdf/diffbot_description.urdf.xacro
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/urdf/gazebo_control.xacro
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/urdf/inertial_macros.xacro
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/urdf/lidar.xacro
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/urdf/lidar_3d.xacro
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/urdf/robot_core.urdf.xacro
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/rviz/diffbot.rviz
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/rviz/diffbot_view.rviz
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/rviz/gz_simulation.rviz
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/rviz/gz_slam_nav2_simulation.rviz
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/meshes/VLP16_base_1.dae
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/meshes/VLP16_base_1.stl
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/meshes/VLP16_base_2.dae
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/meshes/VLP16_base_2.stl
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/meshes/VLP16_scan.dae
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/meshes/VLP16_scan.stl
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/launch/diffbot.launch.py
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/config/diffbot_controllers.yaml
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/config/gaz_ros2_ctl_use_sim.yaml
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/config/gazebo_params.yaml
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/config/joystick.yaml
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/config/localization.yaml
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/config/mapper_params_online_async.yaml
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/config/nav2_params_v2.yaml
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/config/twist_mux.yaml
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/launch/demo.launch.py
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/launch/joystick.launch.py
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/launch/launch_robot.launch.py
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/launch/launch_sim.launch.py
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/launch/rplidar.launch.py
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/launch/rs_launch.py
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/launch/rs_multi_camera_launch.py
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/launch/rsp.launch.py
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/launch/test_ekf.launch.py
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ament_index/resource_index/package_run_dependencies/ros_phoenix
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ament_index/resource_index/parent_prefix_path/ros_phoenix
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/environment/path.sh
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/environment/path.dsv
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/local_setup.bash
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/local_setup.sh
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/local_setup.zsh
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/local_setup.dsv
+-- Symlinking: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/package.dsv
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ament_index/resource_index/packages/ros_phoenix
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros_phoenix
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ament_index/resource_index/rclcpp_components/ros_phoenix
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenixConfig.cmake
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenixConfig-version.cmake
+-- Up-to-date symlink: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/package.xml
+-- Up-to-date: /home/luna/ws/install/ros_phoenix/lib/libros_phoenix__rosidl_generator_c.so
+-- Up-to-date: /home/luna/ws/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/luna/ws/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/luna/ws/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/luna/ws/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_c.so
+-- Up-to-date: /home/luna/ws/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/luna/ws/install/ros_phoenix/lib/libros_phoenix__rosidl_typesupport_cpp.so
+Listing '/home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix'...
+Listing '/home/luna/ws/install/ros_phoenix/local/lib/python3.10/dist-packages/ros_phoenix/msg'...
+-- Up-to-date: /home/luna/ws/install/ros_phoenix/lib/libros_phoenix__rosidl_generator_py.so
+-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/ros_phoenix__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/luna/ws/install/ros_phoenix/share/ros_phoenix/cmake/export_ros_phoenix__rosidl_generator_pyExport-noconfig.cmake

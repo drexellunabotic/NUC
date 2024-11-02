@@ -1,0 +1,1 @@
+/home/luna/ws/build/ros_phoenix/rosidl_typesupport_introspection_cpp/ros_phoenix/msg/detail/motor_control__rosidl_typesupport_introspection_cpp.hpp
